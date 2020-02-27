@@ -9,7 +9,7 @@ tags:
 - dei
 ---
 
-The <abbr title="Society of American Archivists">SAA</abbr> Council has issued a [call for comments](https://www2.archivists.org/news/2020/call-for-member-comments-saa-statement-on-diversity-equity-and-inclusion) on the SAA Statement on Diversity and Inclusion. As noted in the announcement, the revision includes changes to expand the statement to cover equity as well. Comments are open on the revisions until March 12, 2020, and what follows are the comments that I've submitted.
+The <abbr title="Society of American Archivists">SAA</abbr> Council has issued a [call for comments](https://www2.archivists.org/news/2020/call-for-member-comments-saa-statement-on-diversity-equity-and-inclusion) on the SAA Statement on Diversity and Inclusion. As noted in the announcement, the revision includes changes to expand the statement to cover equity as well. Comments are open on the revisions until March 12, 2020, and what follows are the comments that I've submitted. <!--more-->
 
 ***
 
@@ -21,4 +21,5 @@ My thanks go to SAA Council for reviewing and proposing revision to the SAA Stat
 * Finally, while I recognize that SAA is a membership organization, the statement overall could be made stronger by demonstrating a commitment to diversity, equity, and inclusion across the archival profession within the United States. This may open up SAA to further partnerships with other organizations, such as regional or specialized archival organizations.
 
 Mark A. Matienzo
+
 Unceded Ohlone Territory / San Mateo, CA
