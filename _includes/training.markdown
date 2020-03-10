@@ -1,3 +1,4 @@
+* *Introduction to Service Design*, Stanford University Department of Improvement, Analytics, and Innovation Services, Mar 2020.
 * *Strategy from the Edge: Building Inclusive, Adaptive, and Actionable Strategies for Your Organization*, Stanford University Continuing Studies, Jul 2019.
 * *Creating a Team Culture of Diversity, Equity and Inclusion*, Eagle's Flight, May 2019.
 * *Agile: Certified ScrumMaster*, Agile Learning Labs, Jul 2017 (certified Aug 2017, Scrum Alliance).
