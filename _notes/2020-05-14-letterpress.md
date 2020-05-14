@@ -12,5 +12,7 @@ bookmark-of:
     url: 'http://www.unovis.org/'
   - name: 'day moon press (not sure they actually do cassettes?)'
     url: 'http://daymoonpress.com/'
+  - name: 'in case of emergency press (silkscreening)'
+    url: 'https://www.incaseofemergencypress.com/quote/'
 ---
 a list of presses that produce letterpress printing
