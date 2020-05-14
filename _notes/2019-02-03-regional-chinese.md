@@ -5,7 +5,7 @@ bookmark-of:
   - name: Regional Chinese roundup 3.0 (SF Bay Area)
     url: >-
       https://www.hungryonion.org/t/regional-chinese-roundup-3-0-sf-bay-area/4640
-location: {}
+
 syndication:
   - {}
 ---
