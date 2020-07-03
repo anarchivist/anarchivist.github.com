@@ -1,0 +1,51 @@
+---
+comments: true
+date: "2009-10-19T23:24:08Z"
+published: true
+status: publish
+tags:
+- Code
+- BHL
+- Biodiversity Heritage Library
+- metadata
+- OpenURL
+- python
+title: 'pybhl: Accessing the Biodiversity Heritage Library''s Data Using OpenURL and
+  Python'
+---
+<p>Via Twitter, I heard about the <a href="http://www.biodiversitylibrary.org/">Biodiversity Heritage Library</a>'s relatively new OpenURL Resolver, <a href="http://biodiversitylibrary.blogspot.com/2009/09/openurl-resolver-available-for-testing.html">announced in their blog</a> about a month ago. More specifically, I head about Matt Yoder's new Ruby library, <a href="http://github.com/mjy/rubyBHL">rubyBHL</a>, which exploits the BHL OpenURL Resolver to provide metadata about items in their holdings and does some additional screenscraping to return things like links to the OCRed version of the text.</p>
+<p>In typical fashion, I've ported Matt's library to Python, and have released my code. <a href="https://github.com/anarchivist/pybhl">pybhl</a> is available from my site, <a href="http://pypi.python.org/pypi/pybhl">PyPI</a>, and <a href="http://github.com/anarchivist/pybhl">Github</a>. Use should be fairly straightforward, as seen below:</p>
+<pre lang="python">
+>>> import pybhl
+>>> import pprint
+>>> b = pybhl.BHLOpenURLRequest(genre='book',
+aulast='smith', aufirst='john', date='1900',
+spage='5', volume='4')
+>>> r = b.get_response()
+>>> len(r.data['citations'])
+3
+>>> pprint.pprint(r.data['citations'][1])
+{u'ATitle': u'',
+ u'Authors': [u'Smith, John Donnell,'],
+ u'Date': u'1895',
+ u'EPage': u'',
+ u'Edition': u'',
+ u'Genre': u'Journal',
+ u'Isbn': u'',
+ u'Issn': u'',
+ u'ItemUrl': u'http://www.biodiversitylibrary.org/item/15284',
+ u'Language': u'Latin',
+ u'Lccn': u'',
+ u'Oclc': u'10330096',
+ u'Pages': u'',
+ u'PublicationFrequency': u'',
+ u'PublisherName': u'H.N. Patterson,',
+ u'PublisherPlace': u'Oquawkae [Ill.] :',
+ u'SPage': u'Page 5',
+ u'STitle': u'',
+ u'Subjects': [u'Central America', u'Guatemala', u'Plants', u''],
+ u'Title': u'Enumeratio plantarum Guatemalensium imprimis a H. de Tuerckheim collectarum /quas edidit John Donnell Smith.',
+ u'TitleUrl': u'http://www.biodiversitylibrary.org/bibliography/827',
+ u'Url': u'http://www.biodiversitylibrary.org/page/707932',
+ u'Volume': u'4'}</pre>
+<p>Let me know if you find it useful - I'd appreciate any feedback!</p>

@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+# Exit if any subcommand fails.
+set -e
+
+# build _functions
+sed -i s/\${SUPERFEEDR_USERNAME}/$SUPERFEEDR_USERNAME/g _functions/deploy-succeeded.js
+npm run-script build
+
+# build site
+bundle
+bundle exec jekyll build
+
+echo "Built Successfully!"
+
+exit 0

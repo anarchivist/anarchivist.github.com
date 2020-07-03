@@ -1,0 +1,19 @@
+---
+comments: true
+date: "2009-01-08T01:01:12Z"
+published: true
+status: publish
+tags:
+- Code
+- Drupal
+- python
+- XML
+title: 'Lightening the load: Drupal and Python'
+---
+<p>{% include youtube.html id="Mv7j-ZYULas" %}</p>
+<p>Man, if this isn't a "you got your peanut butter in my chocolate thing" or what! As I wrote over on the <a href="http://labs.nypl.org/2008/12/30/going-off-the-rails-really-rapid-prototyping-with-drupal/">NYPL Labs blog</a>, we've been up to our necks in Drupal at MPOW, and I've found that one of the great advantages of using it is rapid prototyping without having to write a whole lot of code. Again, that's how I feel about Python, too, but you knew that already.</p>
+<p>Once you've got a prototype built, how do you start piping stuff into it? In Drupal 6, a lot of the contrib modules to do this need work - most notably, I'm thinking about <a href="http://drupal.org/project/node_import">node_import</a>, which as of yet still has no (official) CCK support for Drupal 6 and CCK 2. In addition, you could be stuck with having to write PHP code for the heavy lifting, but where's the joy in that?</p>
+<p>Well, it so happens that the <a href="http://www.myspace.com/47095797">glue becomes the solvent</a> in this slow, slow dance. Using Python becomes a breeze because of the batteries-included model it subscribes to. I've been playing around with the <a href="http://drupal.org/project/services">Services module</a> and its XMLRPC server a bit, and given that <a href="http://docs.python.org/library/xmlrpclib.html">xmlrpclib</a> was added in Python 2.2, there's pretty much no excuse not to use it. Say what you will about RESTful interfaces, but out of the other options, Services' XMLRPC server is the most robust out of the others with the possible exception of AMFPHP.</p>
+<p>Lately, I've been tinkering with it to figure out how to ingest metadata into Drupal that's stored either in other extremely complex databases or just as hunks of XML on a file system. I've been using <a href="http://codespeak.net/lxml/">lxml</a> because of its XPath support, but given the fact that a lot of this XML data is remarkably dirty, I'll probably take some time to look at <a href="http://www.crummy.com/software/BeautifulSoup/documentation.html#Customizing%20the%20Parser">BeautifulSoup</a>'s BeautifulStoneSoup parser. However, this will take some work as some of this data will need explicit handling by that parser (nestable tags and the like).</p>
+<p>It's also not completely unheard of to mix up Drupal and Python into a tasty delight. <a href="http://ashearer.com/software/server-administration/migraine/">Migraine</a> (unfortunately somewhat aptly named) is dev-to-production migration tool written in Python. <a href="http://www.developmentseed.org">DevelopmentSeed</a>, the folks behind <a href="http://managingnews.com/">Managing News</a>, wrote about <a href="http://www.developmentseed.org/blog/2007/nov/26/drupal-meet-python">using Python to lighten the load on Drupal when performing semantic analysis</a>, and Jeff Miccolis (the post's author), threw together a <a href="http://boston2008.drupalcon.org/session/python-and-drupal-really">BoF session at Drupalcon Boston 2008 on Python/Drupal integration</a>. Then there's the <a href="http://drupy.net/">Drupy</a> project, which, unfortunately, still sounds completely nutty to me. Someone else still <a href="http://trendwatcher.koan.net/drupal_python_background_server">hacked a module together to work with a Python daemon handing</a> some workflow related business. And last but not least there's <a href="http://www.freenet.org.nz/pybridge/">PyBridge</a>, a seemingly abandoned project to create page-generating modules for Drupal in Python.</p>
+<p>It's a relief to know I'm not alone in my good taste, finally...</p>

@@ -1,0 +1,63 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$accent-color: #039;
+$base-font-family: "Alegreya Sans", sans-serif;
+$monospace-font-family: "Space Mono", "Inconsolata", monospace;
+
+// Theme skin
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+
+@import "basically-basic";
+
+$btn-small-min:  ($base-font-size / $modular-scale-1 / $modular-scale-1 / $modular-scale-1 / $modular-scale-1);
+$btn-small-max:  ($base-font-size / $modular-scale-1 / $modular-scale-1 / $modular-scale-1 / $modular-scale-1);
+
+iframe#netlify-identity-widget { z-index: 999 !important; }
+
+.btn-small {
+  @include fluid-type($min-vw, $max-vw, $btn-small-min, $btn-small-max);
+  padding: 0.25em 0.25em;
+}
+
+.entry.entry-note, .entry-note .intro { padding-bottom: 1rem; }
+.intro-title a { color: tint($text-color, 25%) !important; text-decoration: none; }
+.intro-title .byline-item .icon, .p-name .icon { margin-right: 0.5em; }
+.entry-meta .h-card .icon:before, .intro-title .byline-item .icon:before, .icon .u-photo {
+  fill: none;
+  border-radius: 1 * $border-radius;
+}
+.layout--about .entry-sidebar .author-picture-wrap {
+  position: relative;
+  margin: 0 0 2rem;
+  border-radius: 2 * $border-radius;
+
+  @include breakpoint($medium) {
+    margin: 0 0 0 2rem;
+  }
+  .author-picture {
+    margin: 0;
+  }
+}
+.layout--about .entry-sidebar .author-picture-wrap:before {
+  border-radius: 2 * $border-radius
+}
+
+.icon > img { vertical-align: baseline; }
+
+.entry-meta .h-card .icon:before, .intro-title .byline-item .icon:before, .layout--about .entry-sidebar .author-picture-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,51,153,0.2);
+  transition: all .3s linear;
+}
+
+.entry-meta .h-card .icon:hover:before, .intro-title .byline-item .icon:hover:before, .layout--about .entry-sidebar .author-picture-wrap:hover:before { background: none; }

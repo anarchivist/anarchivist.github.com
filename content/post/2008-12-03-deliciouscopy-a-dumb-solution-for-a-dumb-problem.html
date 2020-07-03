@@ -1,0 +1,19 @@
+---
+comments: true
+date: "2008-12-03T03:01:27Z"
+published: true
+status: publish
+tags:
+- Code
+- bookmarks
+- Code
+- delicious
+- feedparser
+- python
+- simplejson
+- Web 2.0
+- work
+title: 'deliciouscopy: a dumb solution for a dumb problem'
+---
+<p>You'd think there was some sort of tried and true script for <a href="http://delicious.com/">Delicious</a> users to repost bookmarks from their inboxes into their accounts, especially given that there are often shared accounts where multiple people will tag things as "for:foo" to have them show up on foo's Delicious account. Well, there wasn't, until now (at least as far as I could tell).</p>
+<p>Enter <a href="https://github.com/anarchivist/deliciouscopy">deliciouscopy</a>. It uses <a href="http://code.google.com/p/pydelicious/">pydelicious</a>, as well as the <a href="http://feedparser.org">Universal Feed Parser</a> and <a href="http://code.google.com/p/simplejson/">simplejson</a>. It reads a user's inbox, checks to see if poster of the for:whomever tag was added to your network, and reposts accordingly, adding a via: tag for attribution. It even does some dead simple logging if you need that sort of thing. The code's all there, and GPL license blah blah blah. I hacked this together in about an hour for something at MPOW - namely to repost things to our <a href="http://delicious.com/nypldeg">shared account</a>. It's based on Michael Noll's <a href="http://www.michael-noll.com/wiki/Del.icio.us_Python_API#deliciousmonitor.py">deliciousmonitor.py</a> but diverges from it fairly quickly. Enjoy, and give any feedback if you must.</p>

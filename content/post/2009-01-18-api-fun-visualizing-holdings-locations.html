@@ -1,0 +1,24 @@
+---
+comments: true
+date: "2009-01-18T22:55:32Z"
+published: true
+status: publish
+tags:
+- Code
+- Conferences
+- API
+- Exhibit
+- OCLC
+- python
+- SIMILE
+- WorldCat
+title: 'API Fun: Visualizing Holdings Locations'
+---
+<p>In my previous post, I included a screenshot of a prototype, but glossed over what it actually does. Given an OCLC record number and a ZIP code, it plots the locations of the nearest holdings of that item on a Google Map. Pulled off in Python (as all good mashups should be), along with <a href="http://code.google.com/p/simile-widgets/">SIMILE Exhibit</a>, it uses the following modules:</p>
+<ul>
+<li><a href="http://exogen.case.edu/projects/geopy/">geopy</a></li>
+<li><a href="http://www.undefined.org/python/">simplejson</a></li>
+<li><a href="http://webpy.org/">web.py</a></li>
+<li>and, of course, <a href="https://github.com/anarchivist/worldcat">worldcat</a>.</li>
+</ul>
+<p>If you want to try it out, head on over <a href="http://test.matienzo.org/holdingsmap/">here</a>. The curent of the code will soon be able as part of the examples directory in the distribution for worldcat, which can be found in <a href="http://svn.matienzo.org/public/python/worldcat/trunk/examples/holdingsmap/">my Subversion repository</a>.</p>

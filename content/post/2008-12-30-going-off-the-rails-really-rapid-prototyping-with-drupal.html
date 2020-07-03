@@ -1,0 +1,12 @@
+---
+comments: true
+date: "2008-12-30T00:21:01Z"
+published: true
+status: publish
+tags:
+- Code
+title: 'Going off the Rails: Really Rapid Prototyping With Drupal'
+---
+<p><em>Previously posted on <a href="http://labs.nypl.org">http://labs.nypl.org/</a>.</em></p>
+<p>The other Labs denizens and I are <span style="text-decoration: line-through;">going off the rails on a crazy train</span> deeper down the rabbit hole of <a href="http://labs.nypl.org/2008/06/11/the-big-nyplorg-picture/">reimplementing the NYPL site in Drupal</a>. As I pile my work on the fire, I've found that building things in Drupal is easier than I'd ever thought it to be. It's a scary thought, in part because I'm no fan of PHP (the language of Drupal's codebase). Really, though, doing some things can be dead simple. It's a bit of a truism in the Drupal world at this point that you can build a heck of a lot just by using the CCK and Views modules. The important part is that you can build a heck of a lot without really having to know a whole lot of code. This is what threw me off for so long - I didn't realize that I was putting too much thought into building a model like I normally would with another application framework. CCK and Views = well and good for the simple stuff, but what about building out even more functionality?</p>
+<p>The major roadblock that I've found is that working with Drupal requires a little bit of a paradigm shift if you're used to using <abbr title="model-view-controller">MVC</abbr> frameworks like Rails, Django, or Zend. Instead, Drupal follows more of the <abbr title="presentation-abstraction-control">PAC</abbr> paradigm - a subtle difference, to be sure, but an important one. To me, the most important difference is the <a href="http://ctrl-shift-b.blogspot.com/2007/08/interactive-application-architecture.html#_Toc175317091">hierarchical structure of the paradigm</a>, which is well suited to representing hierarchical structures of information (n.b.: I'll be writing more on this elsewhere, as I have an external project to talk about at some point). Regardless, once you shift your thinking to doing a few things in Drupal, you may experience the burning desire to do everything in Drupal. Occasionally, it can be contagious!</p>

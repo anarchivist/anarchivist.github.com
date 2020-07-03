@@ -1,0 +1,37 @@
+---
+date: "2015-05-20T00:00:00Z"
+syndication:
+- https://dp.la/info/2015/05/20/developing-and-implementing-a-technical-framework-for-interoperable-rights-statements/
+tags:
+- DPLA
+title: Developing and implementing a technical framework for interoperable rights
+  statements
+---
+
+<p>Within the Technical Working Group of the <a href="http://dp.la/info/2014/03/03/promoting-<p>interoperability-working-on-rights/">International Rights Statements Working Group</a>, we have been focusing our efforts on identifying a set of requirements and a technically sound and sustainable plan to implement the rights statements under development. Now that two of the Working Group’s white papers have been released, we realized it was a good time to build on the <a href="http://dp.la/info/2015/05/11/the-principles-for-establishing-international-interoperable-rights-statements/">introductory blog post</a> by our Co-Chairs, Emily Gore and Paul Keller. Accordingly, we hope this post provides a good introduction to our technical white paper, <a href="http://bit.ly/1QtmmmT"><i>Recommendations for the Technical Infrastructure for Standardized International Rights Statements</i></a>, and more generally, how our thinking has changed throughout the activities of the working group.</p> <!--more-->
+
+
+<h2><b>The core requirements</b></h2>
+<p>The Working Group realized early on that there was the need for a <i>common namespace</i> for rights statements in the context of national and international projects that aggregate cultural heritage objects. We saw the success of the work undertaken to develop and implement the <a href="http://pro.europeana.eu/get-involved/europeana-ipr/europeana-licensing-framework">Europeana Licensing Framework</a>, but realized that a more general framework was necessary to be leveraged beyond the Europeana community.  In addition, we established that there was a clear need to develop <i>persistent, dereferenceable <abbr title="uniform resource indicator">URI</abbr>s to provide human- and machine-readable representations.</i></p>
+
+<p>In non-technical terms, this identifies a number of specific requirements. First, the persistence requirement means that the URIs need to remain the same over time, so we can ensure that they can be accessed consistently over the long term. The “dereferenceability” requirement states that when we request a rights statement by its URI, we need to get a representation back for it, either human-readable or machine-readable depending on how it's requested. For example, if a person enters a rights statement’s URI in their web browser’s address bar, they should get an HTML page in response that presents the rights statement’s text and more information. By comparison, if a piece of software or a metadata ingestion process requests the rights statement by its URI, it should get a machine-readable representation (say, using the linked data-compatible <a href="http://json-ld.org/">JSON-LD</a> format) that it can interpret and reuse in some predictable way.</p>
+
+<p>Beyond these requirements, we also identified the need for both the machine-readable representation to provide specific kinds of additional information where appropriate, such as the name of the statement, the version of the statement, and where applicable, the jurisdiction where the rights statement applies. Finally, and most importantly, we needed a consistent way to provide translations of these statements that met the above requirements for dereferenceability, since they are intended to be reused by a broad international community of implementers.</p>
+<p><h2><b>Data modeling and implementation</b></h2></p>
+<p>After some discussion, we decided the best implementation for these rights statements was to develop a vocabulary implemented using the <a href="http://www.w3.org/RDF/">Resource Description Framework</a> (RDF) and the <a href="http://www.w3.org/2001/sw/wiki/SKOS">Simple Knowledge Organization System</a> (SKOS) standards. These standards are broadly used throughout the Web, and are both used within the <a href="http://pro.europeana.eu/share-your-data/data-guidelines/edm-documentation">Europeana Data Model </a> and the <a href="http://dp.la/info/developers/map/">DPLA Metadata Application Profile</a>. We are also looking at the <a href="http://www.w3.org/Submission/ccREL/">Creative Commons Rights Expression Language</a> (ccREL) and <a href="https://www.w3.org/community/odrl/">Open Digital Rights Language</a> (ODRL) models to guide our development. At this stage, we have a number of modeling issues still open, such as which properties to use for representing various kinds of human-readable documentation or providing guidance on how to apply community-specific constraints and permissions. Deciding whether (and how) rights statements can be extended in the future is also an intriguing point. We are looking for feedback on all these topics!</p>
+
+<p>As part of the process, we have been managing our draft implementation of the RightsStatements.org data model in a <a href="https://github.com/rightsstatements/data-model">GitHub repository</a> to allow for ease of collaboration across the technical subgroup. As the proposed rights statements become finalized following the discussion period on the two white papers, we will be working to provide a web server to host the machine-readable and human-readable versions of the rights statements in accordance with our requirements. To guide our implementation, we are building on the <a href="http://www.w3.org/TR/swbp-vocab-pub/">Best Practice Recipes for Publishing RDF Vocabularies</a> with a slight modification to allow for better support for the multilingual requirements of the Working Group. Advice from the technical experts in our community is also highly welcome on this approach.</p>
+
+<p>The end of the public feedback period has been set to Friday 26th June 2015, but the Technical Working Group will try to answer comments on the <a href="http://bit.ly/1QtmmmT">white paper</a> on a regular basis, in the hope of setting up a continuous, healthy stream of discussion.</p>
+
+<h2><b>Acknowledgements</b></h2>
+The technical work on implementing the rights statements has been deeply collaborative, and would not have been possible by the dedicated efforts of the members of the Technical Working Group:
+<ul>
+    <li><i>Bibliothèque Nationale de Luxembourg:</i> Patrick Peiffer</li>
+    <li><i>Digital Public Library of America: </i>Tom Johnson and Mark Matienzo</li>
+    <li><i>Europeana Foundation:</i> Valentine Charles and Antoine Isaac</li>
+    <li><i>Kennisland: </i>Maarten Zeinstra</li>
+    <li><i>University of California San Diego:</i> Esmé Cowles</li>
+    <li><i>University of Oregon:</i> Karen Estlund</li>
+    <li><i>Florida State University:</i> Richard J. Urban</li>
+</ul>

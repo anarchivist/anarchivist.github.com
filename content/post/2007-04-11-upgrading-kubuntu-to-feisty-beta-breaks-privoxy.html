@@ -1,0 +1,10 @@
+---
+comments: true
+date: "2007-04-11T12:46:15Z"
+published: true
+status: publish
+tags:
+- Linux
+title: Upgrading Kubuntu to Feisty Beta Breaks Privoxy
+---
+<p>While I fully intend to go over my full experience upgrading to the latest development release of Kubuntu, one of the things that I first noticed was that Privoxy didn't seem to work or to be speaking with Tor, preventing me from that lovely "anonymous" browsing experience. I noticed that in the upgrade the ever important "<code>forward-socks4a / localhost:9050 .</code>" line in <code>/etc/privoxy/config</code> wasn't in the upgraded version (actually, it shouldn't be). Apparently during the upgrade, I told it to clobber my config file with the one distributed, saving my old version (luckily) to <code>/etc/privoxy/config.dpkg-old</code>. Once that I added that line back, I'm now able to surf a bit more safely.</p>
