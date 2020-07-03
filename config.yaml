@@ -9,15 +9,16 @@ taxonomies:
   tag: tags
 
 permalinks:
-  post: /:year/:slug/
+  posts: /:year/:slug/
+  notes: /:year/:yearday/:slug/
 
-maging:
+imaging:
   quality: 99
 
 params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  # description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
+  # homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  # footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
@@ -39,14 +40,26 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
-      url: /post/
+    - name: Posts
+      url: /posts/
       weight: 2
+    - name: Notes
+      url: /notes/
+      weight: 3
     - name: Tags
       url: /tags/
       weight: 3
-    - name: About
-      url: /about/
+    - name: Publications
+      url: /publications/
+      weight: 4
+    - name: Presentations
+      url: /presentations/
+      weight: 4
+    - name: Projects
+      url: /projects/
+      weight: 4
+    - name: music
+      url: /music/
       weight: 4
     - name: RSS
       url: /index.xml
