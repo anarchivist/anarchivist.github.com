@@ -1,11 +1,11 @@
 ---
 title: bannon-bardzell-bodker
 date: 2019-01-05T22:13:01.745Z
-bookmark-of:
-  - name: >-
+bookmark_of:
+  name: >-
       Liam Bannon, Jeffrey Bardzell, and Susann Bødker: "Reimagining
       participatory design", Interactions 26(1)
-    url: >-
+  url: >-
       http://interactions.acm.org/archive/view/january-february-2019/reimagining-participatory-design
 tags:
   - to read

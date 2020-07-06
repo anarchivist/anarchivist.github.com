@@ -7,4 +7,4 @@ syndication:
 ---
 ![webmention cupcakes](/images/5fdc0acd-6565-4f32-9754-ab71d14a89cc.jpeg){:.u-photo}
 
-webmention cupcakes with [tantek](http://tantek.com){:.h-card} in the background at [Homebrew Website Club SF](http://tantek.com/2018/024/e1/homebrew-website-club){:.h-event}
+webmention cupcakes with [tantek](http://tantek.com) in the background at [Homebrew Website Club SF](http://tantek.com/2018/024/e1/homebrew-website-club)

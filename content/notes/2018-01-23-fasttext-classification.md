@@ -1,9 +1,9 @@
 ---
 title: fasttext-classification
 date: 2018-01-23T19:03:28.760Z
-bookmark-of:
-  - name: 'Joulin et al.: "Bag of Tricks for Efficient Text Classification"'
-    url: 'https://arxiv.org/abs/1607.01759'
+bookmark_of:
+  name: 'Joulin et al.: "Bag of Tricks for Efficient Text Classification"'
+  url: 'https://arxiv.org/abs/1607.01759'
 tags:
   - to read
 ---

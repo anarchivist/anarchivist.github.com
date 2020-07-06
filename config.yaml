@@ -1,6 +1,6 @@
 baseURL: https://matienzo.org
 languageCode: en-us
-title: Mark A. Matienzo
+title: &name Mark A. Matienzo
 theme: cosy-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: matienzo
@@ -20,13 +20,16 @@ params:
   # homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
   # footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
+  dateFormat: January 2, 2006
   codePenUser: someUser
   katex: true
   darkThemeAsDefault: false
   hideHeaderLinks: false
   search: true
   displaySummariesInList: true
+  author:
+    name: *name
+    url: https://matienzo.org/
   # A list of custom css files can be provided, which must be placed inside
   # 'static/'.
   # This is useful to override just specific css classes, instead of copying

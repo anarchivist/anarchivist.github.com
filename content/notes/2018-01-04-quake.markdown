@@ -1,14 +1,14 @@
 ---
 title: quake
 date: "2018-01-04 15:22:00 -0800"
-bookmark-of:
-  - url: https://earthquake.usgs.gov/earthquakes/eventpage/nc72948801
-    name: "USGS Earthquake Hazards Program &middot; M 4.4 - 2km SE of Berkeley, CA"
+bookmark_of:
+  url:  https://earthquake.usgs.gov/earthquakes/eventpage/nc72948801
+  name: "USGS Earthquake Hazards Program &middot; M 4.4 - 2km SE of Berkeley, CA"
 location:
   name: home
   locality: Redwood City
   region: CA
-  country-name: USA
+  country_name: USA
 syndication:
   - https://chaos.social/@anarchivist/99294237499617350
   - https://twitter.com/anarchivist/status/949065781597298688

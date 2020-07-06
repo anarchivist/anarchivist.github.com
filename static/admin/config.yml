@@ -44,7 +44,7 @@ collections:
             widget: string
             required: false
       - label: Bookmark of
-        name: bookmark-of
+        name: bookmark_of
         widget: list
         required: false
         fields:
@@ -83,7 +83,7 @@ collections:
         name: date
         widget: datetime
       - label: Bookmark of
-        name: bookmark-of
+        name: bookmark_of
         widget: list
         required: false
         fields:

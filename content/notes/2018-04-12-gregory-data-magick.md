@@ -1,14 +1,13 @@
 ---
 title: gregory-data-magick
 date: '2018-04-12T14:36:12-07:00'
-bookmark-of:
-  - name: 'Karen Gregory - DATA AND MAGICK: ALEATORY TECHNOLOGIES'
-    url: >-
+bookmark_of:
+  name: 'Karen Gregory - DATA AND MAGICK: ALEATORY TECHNOLOGIES'
+  url: >-
       https://digitallabor.commons.gc.cuny.edu/2014/12/07/data-and-magick-aleatory-technologies/
 location:
   country-code: US
   locality: San Francisco
-  name: ''
   region: CA
 tags:
   - to read

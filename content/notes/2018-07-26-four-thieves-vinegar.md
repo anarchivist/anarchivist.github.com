@@ -1,9 +1,9 @@
 ---
 title: four-thieves-vinegar
 date: '2018-07-26T18:15:17-07:00'
-bookmark-of:
-  - name: Meet the Anarchists Making Their Own Medicine
-    url: >-
+bookmark_of:
+  name: Meet the Anarchists Making Their Own Medicine
+  url: >-
       https://motherboard.vice.com/en_us/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective
 ---
 > For instance, Laufer said that many of the medicines for orphan diseases are made of biological material, such as fungus. ... Since biological cells are self-replicating, this would simply require one user to grow a sufficient amount of cells for themselves before shipping some cells to another user who would repeat the process, similar to the way people ‘seed’ a media file on torrent sites.
