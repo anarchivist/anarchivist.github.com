@@ -12,6 +12,7 @@ permalinks:
   posts: /:year/:slug/
   projects: /:year/:filename/
   notes: /:year/:yearday/:slug/
+  years: /:year/
 
 imaging:
   quality: 99
@@ -19,7 +20,7 @@ imaging:
 params:
   # description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
   # homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  # footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Navigate by [years](/years) or [tags](/tags).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: January 2, 2006
   codePenUser: someUser
@@ -50,24 +51,25 @@ menu:
     - name: Notes
       url: /notes/
       weight: 3
-    - name: Tags
-      url: /tags/
-      weight: 3
     - name: Publications
       url: /publications/
       weight: 4
     - name: Presentations
       url: /presentations/
-      weight: 4
+      weight: 5
     - name: Projects
       url: /projects/
-      weight: 4
-    - name: music
+      weight: 6
+    - name: Music
       url: /music/
-      weight: 4
+      weight: 7
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 8
+    - name: Tags
+      url: /tags/
+      weight: 9
+
 
 markup:
   defaultMarkdownHandler: goldmark
