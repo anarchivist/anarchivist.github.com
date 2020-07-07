@@ -10,6 +10,7 @@ taxonomies:
 
 permalinks:
   posts: /:year/:slug/
+  projects: /:year/:filename/
   notes: /:year/:yearday/:slug/
 
 imaging:
