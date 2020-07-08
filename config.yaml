@@ -11,6 +11,7 @@ taxonomies:
 permalinks:
   notes: /:year/:yearday/:slug/
   posts: /:year/:slug/
+  publications: /:year/:slug/
   presentations: /:year/:slug/
   projects: /:year/:slug/
   years: /:year/
@@ -19,13 +20,13 @@ imaging:
   quality: 99
 
 params:
-  # description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  # homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  # description:
+  # homeMetaContent:
   footer: Navigate by [years](/years) or [tags](/tags).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: January 2, 2006
   codePenUser: someUser
-  katex: true
+  katex: false
   darkThemeAsDefault: false
   hideHeaderLinks: false
   search: true
