@@ -9,9 +9,10 @@ taxonomies:
   tag: tags
 
 permalinks:
-  posts: /:year/:slug/
-  projects: /:year/:filename/
   notes: /:year/:yearday/:slug/
+  posts: /:year/:slug/
+  presentations: /:year/:slug/
+  projects: /:year/:slug/
   years: /:year/
 
 imaging:
@@ -66,9 +67,6 @@ menu:
     - name: RSS
       url: /index.xml
       weight: 8
-    - name: Tags
-      url: /tags/
-      weight: 9
 
 
 markup:
