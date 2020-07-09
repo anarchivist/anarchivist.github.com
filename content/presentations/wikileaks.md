@@ -4,7 +4,7 @@ authors:
 - Mark A. Matienzo
 title: >-
   WikiLeaks & the Archives and Records Profession: A Panel Discussion
-url: /2011/wikileaks/
+slug: wikileaks
 syndication:
 - http://www.nycarchivists.org/?p=672
 location: Archivists' Roundtable of Metropolitan New York, New York, NY
