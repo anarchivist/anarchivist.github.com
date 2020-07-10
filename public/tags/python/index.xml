@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/python/</link>
+    <description>Recent content in python on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Oct 2009 23:24:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pybhl: Accessing the Biodiversity Heritage Library&#39;s Data Using OpenURL and Python</title>
+      <link>https://matienzo.org/2009/pybhl-accessing-the-biodiversity-heritage-librarys-data-using-openurl-and-python/</link>
+      <pubDate>Mon, 19 Oct 2009 23:24:08 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/pybhl-accessing-the-biodiversity-heritage-librarys-data-using-openurl-and-python/</guid>
+      <description>Via Twitter, I heard about the Biodiversity Heritage Library&#39;s relatively new OpenURL Resolver, announced in their blog about a month ago. More specifically, I head about Matt Yoder&#39;s new Ruby library, rubyBHL, which exploits the BHL OpenURL Resolver to provide metadata about items in their holdings and does some additional screenscraping to return things like links to the OCRed version of the text.
+In typical fashion, I&#39;ve ported Matt&#39;s library to Python, and have released my code.</description>
+    </item>
+    
+    <item>
+      <title>API Fun: Visualizing Holdings Locations</title>
+      <link>https://matienzo.org/2009/api-fun-visualizing-holdings-locations/</link>
+      <pubDate>Sun, 18 Jan 2009 22:55:32 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/api-fun-visualizing-holdings-locations/</guid>
+      <description>In my previous post, I included a screenshot of a prototype, but glossed over what it actually does. Given an OCLC record number and a ZIP code, it plots the locations of the nearest holdings of that item on a Google Map. Pulled off in Python (as all good mashups should be), along with SIMILE Exhibit, it uses the following modules:
+ geopy simplejson web.py and, of course, worldcat.  If you want to try it out, head on over here.</description>
+    </item>
+    
+    <item>
+      <title>Lightening the load: Drupal and Python</title>
+      <link>https://matienzo.org/2009/lightening-the-load-drupal-and-python/</link>
+      <pubDate>Thu, 08 Jan 2009 01:01:12 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/lightening-the-load-drupal-and-python/</guid>
+      <description>{% include youtube.html id=&#34;Mv7j-ZYULas&#34; %}
+Man, if this isn&#39;t a &#34;you got your peanut butter in my chocolate thing&#34; or what! As I wrote over on the NYPL Labs blog, we&#39;ve been up to our necks in Drupal at MPOW, and I&#39;ve found that one of the great advantages of using it is rapid prototyping without having to write a whole lot of code. Again, that&#39;s how I feel about Python, too, but you knew that already.</description>
+    </item>
+    
+    <item>
+      <title>deliciouscopy: a dumb solution for a dumb problem</title>
+      <link>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</link>
+      <pubDate>Wed, 03 Dec 2008 03:01:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</guid>
+      <description>You&#39;d think there was some sort of tried and true script for Delicious users to repost bookmarks from their inboxes into their accounts, especially given that there are often shared accounts where multiple people will tag things as &#34;for:foo&#34; to have them show up on foo&#39;s Delicious account. Well, there wasn&#39;t, until now (at least as far as I could tell).
+Enter deliciouscopy. It uses pydelicious, as well as the Universal Feed Parser and simplejson.</description>
+    </item>
+    
+    <item>
+      <title>Python WorldCat Module v0.1.2 Now Available</title>
+      <link>https://matienzo.org/2008/python-worldcat-module-v0.1.2-now-available/</link>
+      <pubDate>Thu, 06 Nov 2008 02:27:23 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/python-worldcat-module-v0.1.2-now-available/</guid>
+      <description>In preparation for the upcoming WorldCat Hackathon starting this Friday, I&#39;ve made a few changes to worldcat, my Python module for interacting with OCLC&#39;s APIs. Most notably, I&#39;ve added iterators for SRU and OpenSearch requests, which (like the rest of the module) painfully need documentation. It&#39;s available either via download from my site or via PyPI; please submit bug reports to the issue tracker as they arise.
+EDIT: I&#39;ve bumped up the version number another micro number to 0.</description>
+    </item>
+    
+    <item>
+      <title>Introducing djabberdjaw</title>
+      <link>https://matienzo.org/2008/introducing-djabberdjaw/</link>
+      <pubDate>Mon, 22 Sep 2008 23:17:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/introducing-djabberdjaw/</guid>
+      <description>{% include youtube.html id=&#34;ZFcxPjw2f-g&#34; %}
+djabberdjaw is an alpha-quality Jabber bot written in Python that uses Django as an administrative interface to manage bot and user profiles. I&#39;ve included a couple of plugins out of the box that will allow you to perform queries against Z39.50 targets and OCLC&#39;s xISBN API (assuming you have the requisite modules). djabberdjaw requires Django 1.0 or later, jabberbot, and xmpppy. It&#39;s available either from PyPI (including using easy_install) or via Subversion.</description>
+    </item>
+    
+    <item>
+      <title>Python WorldCat API module now available</title>
+      <link>https://matienzo.org/2008/python-worldcat-api-module-now-available/</link>
+      <pubDate>Tue, 19 Aug 2008 22:42:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/python-worldcat-api-module-now-available/</guid>
+      <description>I&#39;d like to humbly announce that I&#39;ve written a pre-pre-alpha Python module for working with the WorldCat Search API and the xID APIs. The code needs a fair amount of work, namely unit tests and documentation. I&#39;ve released the code under the GPL.
+The module, called &#34;worldcat&#34;, is available from the Python Package Index. You can also checkout a copy of the code from my Subversion repository.</description>
+    </item>
+    
+    <item>
+      <title>Easy Peasy: Using the Flickr API in Python</title>
+      <link>https://matienzo.org/2008/easy-peasy-using-the-flickr-api-in-python/</link>
+      <pubDate>Wed, 26 Mar 2008 17:27:13 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/easy-peasy-using-the-flickr-api-in-python/</guid>
+      <description>Since I&#39;m often required to hit the ground running at $MPOW on projects, I was a little concerned when I roped myself into assisting our photo archives with a Flickr project. The first goal was to get a subset of the photos uploaded, and quickly. Googling and poking around the Cheeseshop led me to Beej&#39;s FlickrAPI for Python. Little did I know that it would be dead simple to get this project going.</description>
+    </item>
+    
+  </channel>
+</rss>

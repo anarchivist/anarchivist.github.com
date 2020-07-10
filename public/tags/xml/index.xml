@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XML on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/xml/</link>
+    <description>Recent content in XML on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jan 2010 23:32:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Description Peddlers and Data.gov: Two Peas In a Pod</title>
+      <link>https://matienzo.org/2010/description-peddlers-and-data.gov-two-peas-in-a-pod/</link>
+      <pubDate>Thu, 28 Jan 2010 23:32:45 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/description-peddlers-and-data.gov-two-peas-in-a-pod/</guid>
+      <description>As you may have heard, the National Archives issued a press release today announcing the release of three data sets on Data.gov:
+The first milestone of the Open Government Directive was met on January 22 with the release of new datasets on Data.gov. Each major government agency has uploaded at least three datasets in this initial action. The National Archives released the 2007—2009 Code of Federal Regulations and two datasets from its Archival Research Catalog.</description>
+    </item>
+    
+    <item>
+      <title>dEAD Reckoning #2: Mixing/Matching With Namespaces and Application Profiles</title>
+      <link>https://matienzo.org/2009/dead-reckoning-#2-mixing/matching-with-namespaces-and-application-profiles/</link>
+      <pubDate>Sun, 15 Feb 2009 14:38:09 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/dead-reckoning-#2-mixing/matching-with-namespaces-and-application-profiles/</guid>
+      <description>{% include youtube.html id=&#34;DVbHYRgCtjY&#34; %}
+So, it&#39;s time for another rant about my issues with EAD. This one is a pretty straightforward and short one, and comes down to the issue that I should essentially be able to mix and match metadata schemas. This is not a new idea, and I&#39;m tired of the archives community treating it like it is one. Application profiles, as they are called, allow us to define a structured way to combine elements from different schemas, prevent addition of new and arbitrary elements, and tighten existing standards for particular use cases.</description>
+    </item>
+    
+    <item>
+      <title>Lightening the load: Drupal and Python</title>
+      <link>https://matienzo.org/2009/lightening-the-load-drupal-and-python/</link>
+      <pubDate>Thu, 08 Jan 2009 01:01:12 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/lightening-the-load-drupal-and-python/</guid>
+      <description>{% include youtube.html id=&#34;Mv7j-ZYULas&#34; %}
+Man, if this isn&#39;t a &#34;you got your peanut butter in my chocolate thing&#34; or what! As I wrote over on the NYPL Labs blog, we&#39;ve been up to our necks in Drupal at MPOW, and I&#39;ve found that one of the great advantages of using it is rapid prototyping without having to write a whole lot of code. Again, that&#39;s how I feel about Python, too, but you knew that already.</description>
+    </item>
+    
+  </channel>
+</rss>

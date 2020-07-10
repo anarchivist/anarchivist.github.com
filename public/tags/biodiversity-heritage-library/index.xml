@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biodiversity Heritage Library on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/biodiversity-heritage-library/</link>
+    <description>Recent content in Biodiversity Heritage Library on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Oct 2009 23:24:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/biodiversity-heritage-library/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pybhl: Accessing the Biodiversity Heritage Library&#39;s Data Using OpenURL and Python</title>
+      <link>https://matienzo.org/2009/pybhl-accessing-the-biodiversity-heritage-librarys-data-using-openurl-and-python/</link>
+      <pubDate>Mon, 19 Oct 2009 23:24:08 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/pybhl-accessing-the-biodiversity-heritage-librarys-data-using-openurl-and-python/</guid>
+      <description>Via Twitter, I heard about the Biodiversity Heritage Library&#39;s relatively new OpenURL Resolver, announced in their blog about a month ago. More specifically, I head about Matt Yoder&#39;s new Ruby library, rubyBHL, which exploits the BHL OpenURL Resolver to provide metadata about items in their holdings and does some additional screenscraping to return things like links to the OCRed version of the text.
+In typical fashion, I&#39;ve ported Matt&#39;s library to Python, and have released my code.</description>
+    </item>
+    
+  </channel>
+</rss>

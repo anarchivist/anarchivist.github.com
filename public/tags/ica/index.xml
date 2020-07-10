@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ica on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/ica/</link>
+    <description>Recent content in ica on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Apr 2008 15:35:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/ica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ICA Releases International Standard for Describing Functions</title>
+      <link>https://matienzo.org/2008/ica-releases-international-standard-for-describing-functions/</link>
+      <pubDate>Thu, 03 Apr 2008 15:35:02 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/ica-releases-international-standard-for-describing-functions/</guid>
+      <description>The ICA&#39;s Committee of Best Practices and Standards released the first edition of the International Standard for Describing Functions (ISDF). Like much of ICA&#39;s other work in descriptive standards for archives, ISDF is designed to be used in conjunction with established standards such as ISAD(G) and ISAAR(CPF), as well as standards in preparation such as ISIAH. ISDF will assist both archivists and users to understand the contextual aspects of the creation of records of corporate bodies.</description>
+    </item>
+    
+  </channel>
+</rss>

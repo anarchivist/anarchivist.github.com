@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Mark A. Matienzo</title>
+    <link>https://matienzo.org/publications/</link>
+    <description>Recent content in Publications on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building the National Radio Recordings Database: A Big Data Approach to Documenting Audio Heritage</title>
+      <link>https://matienzo.org/2019/rptf-database/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2019/rptf-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating a Linked Data-Friendly Metadata Application Profile for Archival Description</title>
+      <link>https://matienzo.org/2017/dcmi-linked-data-archives/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2017/dcmi-linked-data-archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Digital Public Library of America&#39;s Application Programming Interface and Metadata Ingestion Process</title>
+      <link>https://matienzo.org/2017/dpla-api-ingestion/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2017/dpla-api-ingestion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to the Digital Public Library of America API</title>
+      <link>https://matienzo.org/2016/jcdl-dpla-api/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2016/jcdl-dpla-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommendations for the Technical Infrastructure for Standardized International Rights Statements</title>
+      <link>https://matienzo.org/2015/rs-tech-recommendations/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/rs-tech-recommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Requirements for the Technical Infrastructure for Standardized International Rights Statements</title>
+      <link>https://matienzo.org/2015/rs-tech-white-paper/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/rs-tech-white-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roundtable: Radical Archives</title>
+      <link>https://matienzo.org/2015/radical-archives/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/radical-archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Digital Public Library of America Ingestion Ecosystem: Lessons Learned After One Year of Large-Scale Collaborative Metadata Aggregation</title>
+      <link>https://matienzo.org/2014/dcmi-dpla/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2014/dcmi-dpla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ArchivesSpace: A Next-Generation Archives Management System</title>
+      <link>https://matienzo.org/2013/mw-archivesspace/</link>
+      <pubDate>Tue, 09 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2013/mw-archivesspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crossing the Bitstreams: A Call for Collaborative Application of Forensics to Digital Curation Work</title>
+      <link>https://matienzo.org/2013/adpan/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2013/adpan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AIMS Born-Digital Collections: An Inter-Institutional Model for Stewardship.</title>
+      <link>https://matienzo.org/2012/aims-white-paper/</link>
+      <pubDate>Mon, 30 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2012/aims-white-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Curation: A How-To-Do-It Manual, by Ross Harvey, New York: Neal Schuman, 2010</title>
+      <link>https://matienzo.org/2012/harvey/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2012/harvey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;New Contexts of Permanent Change&#34; in Digital Archivy</title>
+      <link>https://matienzo.org/2011/archivaria-special-issue/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2011/archivaria-special-issue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ArchivesSpace Technical Design Meeting: Summary Report on Technical Architecture</title>
+      <link>https://matienzo.org/2010/archivesspace-technical-architecture/</link>
+      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/archivesspace-technical-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked Data and the Future of Archival Description</title>
+      <link>https://matienzo.org/2010/arc-linked-data/</link>
+      <pubDate>Tue, 01 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/arc-linked-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Over, Under, Around, and Through: Getting Around Barriers to EAD Implementation</title>
+      <link>https://matienzo.org/2010/over-under-around-and-through/</link>
+      <pubDate>Mon, 01 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/over-under-around-and-through/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using the OCLC WorldCat APIs</title>
+      <link>https://matienzo.org/2009/worldcat-api/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/worldcat-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory Practices in the Sciences by Geoffrey C. Bowker, Cambridge, Mass.: MIT Press, 2006</title>
+      <link>https://matienzo.org/2007/bowker/</link>
+      <pubDate>Thu, 01 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2007/bowker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The ethnology of nowhere, everywhere: Marc Augé’s *Non-places* as an analytical tool for supermodern ahistory and transience</title>
+      <link>https://matienzo.org/2004/auge/</link>
+      <pubDate>Mon, 01 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2004/auge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncovering our Tracks: Ideology and the Archival Enterprise.</title>
+      <link>https://matienzo.org/2004/uncovering-our-tracks/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2004/uncovering-our-tracks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On anarchivism: perpetuating the postmodern turn within archival thought.</title>
+      <link>https://matienzo.org/2002/on-anarchivism/</link>
+      <pubDate>Sun, 01 Dec 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2002/on-anarchivism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hopefully, my arguments are dancing in the petri dish with a deadly strain of a linguistic virus, or, on the very importance of the metaphoric as semantic to communication, understanding, and the philosophy of language [...]</title>
+      <link>https://matienzo.org/2001/thesis/</link>
+      <pubDate>Sun, 01 Apr 2001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2001/thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DPLA on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/dpla/</link>
+    <description>Recent content in DPLA on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/dpla/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How We Work: The DPLA Technology Team Core Values</title>
+      <link>https://matienzo.org/2016/how-we-work-the-dpla-technology-team-core-values/</link>
+      <pubDate>Tue, 05 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2016/how-we-work-the-dpla-technology-team-core-values/</guid>
+      <description>
+&lt;p&gt;One of the most important aspects of the work of the &lt;a href=&#34;https://digitalpubliclibraryofamerica.atlassian.net/wiki/display/TECH/&#34;&gt;DPLA Technology Team&lt;/a&gt; is ensuring that we maintain a common frame of reference for all of our efforts. This is situated in multiple aspects - in terms of our shared technical knowledge, the overall &lt;a href=&#34;https://dp.la/info/about/strategic-plan/&#34;&gt;DPLA strategic plan&lt;/a&gt;, and more. Overall, however, the guiding principles for our work are best understood through the core values that inform how we work together within our team, as well as with our colleagues at DPLA and across the network of our stakeholders and collaborators. These values are not only designed to be aspirational; instead, they also inform practical aspects of our day to day work, allowing us to work together effectively through their articulation of cultural norms and expectations. In addition, our values encourage us to be intentional about our work, even when faced with challenges from deadlines, staff capacity, and other external pressures.&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Open, Free, and Secure to All: DPLA Launches Full Support for HTTPS</title>
+      <link>https://matienzo.org/2016/open-free-and-secure-to-all-dpla-launches-full-support-for-https/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2016/open-free-and-secure-to-all-dpla-launches-full-support-for-https/</guid>
+      <description>
+&lt;p&gt;DPLA is pleased to announce that the entirety of our website, including our portal, exhibitions, Primary Source Sets, and our API, are now accessible using HTTPS by default. DPLA &lt;a href=&#34;https://dp.la/info/terms/privacy/&#34;&gt;takes user privacy seriously&lt;/a&gt;, and the infrastructural changes that we have made to support HTTPS allows us to extend this dedication further and become signatories of &lt;a href=&#34;https://libraryfreedomproject.org/ourwork/digitalprivacypledge/&#34;&gt;the Library Digital Privacy Pledge of 2015-2016&lt;/a&gt;, developed by our colleagues at the &lt;a href=&#34;https://libraryfreedomproject.org/&#34;&gt;Library Freedom Project&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>DPLA and the International Image Interoperability Framework</title>
+      <link>https://matienzo.org/2016/dpla-and-the-international-image-interoperability-framework/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2016/dpla-and-the-international-image-interoperability-framework/</guid>
+      <description>
+&lt;p&gt;DPLA, along with representatives of a number of institutions including Stanford University, the Yale Center for British Art, the Bibliothèque nationale de France, and more, is presenting at &lt;a href=&#34;http://iiif.io/event/2016/newyork/&#34;&gt;Access to the World’s Images&lt;/a&gt;, a series of events related to the &lt;a href=&#34;http://iiif.io/&#34;&gt;International Image Interoperability Framework (IIIF)&lt;/a&gt; in New York City, hosted by the Museum of Modern Art and the New York Academy of Medicine. The events will showcase how institutions are leveraging IIIF to reduce total cost and time to deploy image delivery solutions, while simultaneously improving end user experience with a new host of rich and dynamic features, and promote collaboration within the IIIF community through facilitated conversations and working group meetings.&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Developing and implementing a technical framework for interoperable rights statements</title>
+      <link>https://matienzo.org/2015/developing-and-implementing-a-technical-framework-for-interoperable-rights-statements/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/developing-and-implementing-a-technical-framework-for-interoperable-rights-statements/</guid>
+      <description>
+&lt;p&gt;Within the Technical Working Group of the &lt;a href=&#34;http://dp.la/info/2014/03/03/promoting-&lt;p&gt;interoperability-working-on-rights/&#34;&gt;International Rights Statements Working Group&lt;/a&gt;, we have been focusing our efforts on identifying a set of requirements and a technically sound and sustainable plan to implement the rights statements under development. Now that two of the Working Group’s white papers have been released, we realized it was a good time to build on the &lt;a href=&#34;http://dp.la/info/2015/05/11/the-principles-for-establishing-international-interoperable-rights-statements/&#34;&gt;introductory blog post&lt;/a&gt; by our Co-Chairs, Emily Gore and Paul Keller. Accordingly, we hope this post provides a good introduction to our technical white paper, &lt;a href=&#34;http://bit.ly/1QtmmmT&#34;&gt;&lt;i&gt;Recommendations for the Technical Infrastructure for Standardized International Rights Statements&lt;/i&gt;&lt;/a&gt;, and more generally, how our thinking has changed throughout the activities of the working group.&lt;/p&gt; </description>
+    </item>
+    
+    <item>
+      <title>DPLAFest Attendees: Support LGBTQ Youth in Indiana!</title>
+      <link>https://matienzo.org/2015/dplafest-attendees-support-lgbtq-youth-in-indiana/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/dplafest-attendees-support-lgbtq-youth-in-indiana/</guid>
+      <description>This is a joint blog post by DPLAFest attendees Benjamin Armintor and Christina Harlow, and DPLA staff members Mark Matienzo and Tom Johnson.
+After the passage of SEA 101 (the Indiana Religious Freedom Restoration Act), many scheduled attendees of DPLAFest were conflicted about its location in Indianapolis. Emily Gore, DPLA Director for Content, captured both this conflict and the opportunity the location provides when she wrote:
+We should want to support our hosts and the businesses in Indianapolis who are standing up against this law… At DPLAfest, we will also have visible ways to show that we are against this kind of discrimination, including enshrining our values in our Code of Conduct.</description>
+    </item>
+    
+    <item>
+      <title>Profit &amp;amp; Pleasure in Goat Keeping</title>
+      <link>https://matienzo.org/2015/profit-amp-pleasure-in-goat-keeping/</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/profit-amp-pleasure-in-goat-keeping/</guid>
+      <description>
+&lt;p&gt;Two weeks ago, we officially announced &lt;a href=&#34;http://dp.la/info/2015/02/11/dpla-releases-krikri-0-1-3/&#34;&gt;the initial release of Krikri&lt;/a&gt;, our new metadata aggregation, mapping, and enrichment toolkit.&lt;/p&gt;
+
+&lt;p&gt;In light of its importance, we would like to take a moment for a more informal introduction to the newest members of DPLA’s herd. Krikri and Heiðrún (a.k.a. Heidrun; &lt;a href=&#34;http://www.forvo.com/word/hei%C3%B0r%C3%BAn/&#34;&gt;pronounced like &lt;i&gt;hey-droon&lt;/i&gt;&lt;/a&gt;) are key to many of DPLA’s plans and serve as a critical piece of infrastructure for DPLA.&lt;/p&gt;
+
+&lt;p&gt;They are also names for, or types, of goats.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What DPLA and DLF Can Learn from Code4lib</title>
+      <link>https://matienzo.org/2015/what-dpla-and-dlf-can-learn-from-code4lib/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/what-dpla-and-dlf-can-learn-from-code4lib/</guid>
+      <description>
+&lt;p&gt;&lt;em&gt;This post has been crossposted to the &lt;a href=&#34;http://www.diglib.org/archives/7938&#34;&gt;Digital Library Federation blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://code4lib.org/conference/2015&#34;&gt;Code4lib 2015&lt;/a&gt; was held last week from February 9-12, 2015 in Portland, Oregon. The Code4lib conferences have grown in the last ten years, both in terms of size and scope of topics. This growth is particularly impressive when you consider that much of the work of organizing the conference falls upon a circulating group of volunteers, with additional organizational support from organizations like the &lt;a href=&#34;http://www.diglib.org/&#34;&gt;Digital Library Federation&lt;/a&gt;. It has become clear to me that the Code4lib community is interested in ensuring that it can develop and support compelling and useful conferences for everyone who chooses to participate.&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>A Helping Hand: Free Software and the DPLA</title>
+      <link>https://matienzo.org/2014/a-helping-hand-free-software-and-the-dpla/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2014/a-helping-hand-free-software-and-the-dpla/</guid>
+      <description>
+&lt;p&gt;As you probably know, DPLA is committed to making cultural heritage materials held in America&#39;s libraries, archives, and museums freely available to all, and we provide &lt;a href=&#34;http://dp.la/info/developers/&#34;&gt;maximally open data&lt;/a&gt; to encourage transformative uses of those materials by developers. In addition, DPLA is also proud to distribute the software we produce to support our mission to the wider community.</description>
+    </item>
+    
+  </channel>
+</rss>

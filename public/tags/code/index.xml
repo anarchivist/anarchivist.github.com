@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/code/</link>
+    <description>Recent content in Code on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Oct 2010 15:31:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disco-Powered pymarc</title>
+      <link>https://matienzo.org/2010/disco-powered-pymarc/</link>
+      <pubDate>Sun, 17 Oct 2010 15:31:14 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/disco-powered-pymarc/</guid>
+      <description>I&#39;d been long interested in starting to develop code using some sort of MapReduce implementation for distributed computing. I have never been able to get my head around Hadoop, so I gave up with that pretty quickly. I recently discovered Disco, a MapReduce framework with an Erlang-based core. Disco also allows you to to write your worker code in Python, which was a huge plus to me.
+After stumbling through the tutorial, I took the word count demo and put together some basic code using pymarc that gathered tag count statistics for a bunch of MARC files.</description>
+    </item>
+    
+    <item>
+      <title>pybhl: Accessing the Biodiversity Heritage Library&#39;s Data Using OpenURL and Python</title>
+      <link>https://matienzo.org/2009/pybhl-accessing-the-biodiversity-heritage-librarys-data-using-openurl-and-python/</link>
+      <pubDate>Mon, 19 Oct 2009 23:24:08 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/pybhl-accessing-the-biodiversity-heritage-librarys-data-using-openurl-and-python/</guid>
+      <description>Via Twitter, I heard about the Biodiversity Heritage Library&#39;s relatively new OpenURL Resolver, announced in their blog about a month ago. More specifically, I head about Matt Yoder&#39;s new Ruby library, rubyBHL, which exploits the BHL OpenURL Resolver to provide metadata about items in their holdings and does some additional screenscraping to return things like links to the OCRed version of the text.
+In typical fashion, I&#39;ve ported Matt&#39;s library to Python, and have released my code.</description>
+    </item>
+    
+    <item>
+      <title>&#34;Using the OCLC WorldCat APIs&#34; now available in Python Magazine</title>
+      <link>https://matienzo.org/2009/using-the-oclc-worldcat-apis-now-available-in-python-magazine/</link>
+      <pubDate>Tue, 14 Jul 2009 21:04:16 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/using-the-oclc-worldcat-apis-now-available-in-python-magazine/</guid>
+      <description>As of last Thursday, I have been inducted into the pantheon of published Python programmers (aye, abuse of alliteration is always acceptable). My article, &#34;Using the OCLC WorldCat APIs,&#34; appears in the latest issue (June 2009) of Python Magazine. I&#39;d like to thank my editor, Brandon Craig Rhodes, for helping me along in the process, not the least of which includes catching bugs that I&#39;d overlooked. The article includes a brief history lesson about OCLC, WorldCat, and the WorldCat Affiliate APIs, a detailed introduction to worldcat, my Python module to interact with OCLC&#39;s APIs, and a brief introduction to SIMILE Exhibit, which helps generate the holdings mashup referenced earlier on my blog.</description>
+    </item>
+    
+    <item>
+      <title>worldcat In The Wild at OCLC&#39;s WorldCat Mashathon in Amsterdam</title>
+      <link>https://matienzo.org/2009/worldcat-in-the-wild-at-oclcs-worldcat-mashathon-in-amsterdam/</link>
+      <pubDate>Fri, 22 May 2009 20:41:01 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/worldcat-in-the-wild-at-oclcs-worldcat-mashathon-in-amsterdam/</guid>
+      <description>It&#39;s good to see other people using your code. Thanks to the OCLC Devnet Blog, I found out that Etienne Posthumus used worldcat for a demo application he built during the WorldCat Mashathon in Amsterdam last week. Even more interesting is that Etienne&#39;s application was deployed on Google App Engine. Courtesy of OCLC&#39;s Alice Sneary, there is a brief video of Etienne presenting his application to the other Mashathon attendees:</description>
+    </item>
+    
+    <item>
+      <title>Batch Reindexing for Drupal &#43; Solr</title>
+      <link>https://matienzo.org/2009/batch-reindexing-for-drupal-solr/</link>
+      <pubDate>Thu, 14 May 2009 00:46:38 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/batch-reindexing-for-drupal-solr/</guid>
+      <description>Crossposted to NYPL Labs. Sorry for any duplication!
+Hey, do you use Drupal on a site with several thousand nodes? Do you also use the Apache Solr Integration module? If you&#39;re like me, you&#39;ve probably needed to reindex your site but couldn&#39;t be bothered to wait for those pesky cron runs to finish — in fact, that&#39;s what led me to file a feature request on the module to begin with.</description>
+    </item>
+    
+    <item>
+      <title>DigitalNZ and Brooklyn Museum API Modules for Python</title>
+      <link>https://matienzo.org/2009/digitalnz-and-brooklyn-museum-api-modules-for-python/</link>
+      <pubDate>Tue, 12 May 2009 23:45:20 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/digitalnz-and-brooklyn-museum-api-modules-for-python/</guid>
+      <description>I&#39;ve been busy the last few weeks, so I didn&#39;t even really announce this to begin with! I&#39;ve been playing around with some of the cultural heritage APIs that are available, some of which I learned about while I was at Museums and the Web 2009. While I was away I released code for a Python module for interacting with the Brooklyn Museum Collections API. After chatting with Virginia Gow from DigitalNZ, I also got motivated to write a Python module to interact with the DigitalNZ API.</description>
+    </item>
+    
+    <item>
+      <title>Brooklyn Museum Releases API</title>
+      <link>https://matienzo.org/2009/brooklyn-museum-releases-api/</link>
+      <pubDate>Thu, 05 Mar 2009 08:32:52 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/brooklyn-museum-releases-api/</guid>
+      <description>The always groundbreaking Brooklyn Museum has now released an API to allow the public to interact with their collections data. I can&#39;t even tell you how happy I am about this in terms of an open data perspective. Also, this is the direction that makes the whole &#34;detailed curation by passionate amateurs&#34; thing possible.
+There are only three simple methods for accessing the data. Ideally, it would be nice to see them put their collections metadata up as linked data, but now I&#39;m daring to dream a little.</description>
+    </item>
+    
+    <item>
+      <title>Moving worldcat to Mercurial and Bitbucket</title>
+      <link>https://matienzo.org/2009/moving-worldcat-to-mercurial-and-bitbucket/</link>
+      <pubDate>Sat, 28 Feb 2009 17:24:39 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/moving-worldcat-to-mercurial-and-bitbucket/</guid>
+      <description>It&#39;s official - I&#39;ve moved the codebase for worldcat, my Python module for working with the OCLC WorldCat APIs, to be hosted on Bitbucket, which uses the Mercurial distributed version control system. You can find the new codebase at http://bitbucket.org/anarchivist/worldcat/.</description>
+    </item>
+    
+    <item>
+      <title>API Fun: Visualizing Holdings Locations</title>
+      <link>https://matienzo.org/2009/api-fun-visualizing-holdings-locations/</link>
+      <pubDate>Sun, 18 Jan 2009 22:55:32 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/api-fun-visualizing-holdings-locations/</guid>
+      <description>In my previous post, I included a screenshot of a prototype, but glossed over what it actually does. Given an OCLC record number and a ZIP code, it plots the locations of the nearest holdings of that item on a Google Map. Pulled off in Python (as all good mashups should be), along with SIMILE Exhibit, it uses the following modules:
+ geopy simplejson web.py and, of course, worldcat.  If you want to try it out, head on over here.</description>
+    </item>
+    
+    <item>
+      <title>This Is All I&#39;m Going To Say On This Here Blogsite Concerning The Brouhaha About The Policy for Use and Transfer of WorldCat Records Because I Have Other, More Interesting And More Complex Problems To Solve (And So Do You)</title>
+      <link>https://matienzo.org/2009/this-is-all-im-going-to-say-on-this-here-blogsite-concerning-the-brouhaha-about-the-policy-for-use-and-transfer-of-worldcat-records-because-i-have-other-more-interesting-and-more-complex-problems-to-solve-and-so-do-you/</link>
+      <pubDate>Sat, 17 Jan 2009 03:45:04 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/this-is-all-im-going-to-say-on-this-here-blogsite-concerning-the-brouhaha-about-the-policy-for-use-and-transfer-of-worldcat-records-because-i-have-other-more-interesting-and-more-complex-problems-to-solve-and-so-do-you/</guid>
+      <description>The moderated discussion hosted and sponsored by Nylink went pretty well. Also, I don&#39;t need the records to have fun with the data &#34;” I just need robust APIs. (In fact, as I said today, I&#39;d prefer not to have to deal with the MARC records directly.) Robust APIs would help making prototypes like this one I hacked together in a few hours into a real, usable service.</description>
+    </item>
+    
+    <item>
+      <title>Lightening the load: Drupal and Python</title>
+      <link>https://matienzo.org/2009/lightening-the-load-drupal-and-python/</link>
+      <pubDate>Thu, 08 Jan 2009 01:01:12 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/lightening-the-load-drupal-and-python/</guid>
+      <description>{% include youtube.html id=&#34;Mv7j-ZYULas&#34; %}
+Man, if this isn&#39;t a &#34;you got your peanut butter in my chocolate thing&#34; or what! As I wrote over on the NYPL Labs blog, we&#39;ve been up to our necks in Drupal at MPOW, and I&#39;ve found that one of the great advantages of using it is rapid prototyping without having to write a whole lot of code. Again, that&#39;s how I feel about Python, too, but you knew that already.</description>
+    </item>
+    
+    <item>
+      <title>Going off the Rails: Really Rapid Prototyping With Drupal</title>
+      <link>https://matienzo.org/2008/going-off-the-rails-really-rapid-prototyping-with-drupal/</link>
+      <pubDate>Tue, 30 Dec 2008 00:21:01 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/going-off-the-rails-really-rapid-prototyping-with-drupal/</guid>
+      <description>Previously posted on http://labs.nypl.org/.
+The other Labs denizens and I are going off the rails on a crazy train deeper down the rabbit hole of reimplementing the NYPL site in Drupal. As I pile my work on the fire, I&#39;ve found that building things in Drupal is easier than I&#39;d ever thought it to be. It&#39;s a scary thought, in part because I&#39;m no fan of PHP (the language of Drupal&#39;s codebase).</description>
+    </item>
+    
+    <item>
+      <title>deliciouscopy: a dumb solution for a dumb problem</title>
+      <link>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</link>
+      <pubDate>Wed, 03 Dec 2008 03:01:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</guid>
+      <description>You&#39;d think there was some sort of tried and true script for Delicious users to repost bookmarks from their inboxes into their accounts, especially given that there are often shared accounts where multiple people will tag things as &#34;for:foo&#34; to have them show up on foo&#39;s Delicious account. Well, there wasn&#39;t, until now (at least as far as I could tell).
+Enter deliciouscopy. It uses pydelicious, as well as the Universal Feed Parser and simplejson.</description>
+    </item>
+    
+    <item>
+      <title>Developing Automated Repository Deposit Modules for Archivists&#39; Toolkit?</title>
+      <link>https://matienzo.org/2008/developing-automated-repository-deposit-modules-for-archivists-toolkit/</link>
+      <pubDate>Mon, 17 Nov 2008 19:43:59 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/developing-automated-repository-deposit-modules-for-archivists-toolkit/</guid>
+      <description>I&#39;d like to gauge interest for people to help add code to Archivists&#39; Toolkit to automate the deposit of digital objects into digital repositories. At first glance, the biggest issue is having to deal with differing deposit APIs for each repository, but using something like SWORD would make sense to bridge this gap. Any and all feedback is welcome!</description>
+    </item>
+    
+    <item>
+      <title>Python WorldCat Module v0.1.2 Now Available</title>
+      <link>https://matienzo.org/2008/python-worldcat-module-v0.1.2-now-available/</link>
+      <pubDate>Thu, 06 Nov 2008 02:27:23 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/python-worldcat-module-v0.1.2-now-available/</guid>
+      <description>In preparation for the upcoming WorldCat Hackathon starting this Friday, I&#39;ve made a few changes to worldcat, my Python module for interacting with OCLC&#39;s APIs. Most notably, I&#39;ve added iterators for SRU and OpenSearch requests, which (like the rest of the module) painfully need documentation. It&#39;s available either via download from my site or via PyPI; please submit bug reports to the issue tracker as they arise.
+EDIT: I&#39;ve bumped up the version number another micro number to 0.</description>
+    </item>
+    
+    <item>
+      <title>Introducing djabberdjaw</title>
+      <link>https://matienzo.org/2008/introducing-djabberdjaw/</link>
+      <pubDate>Mon, 22 Sep 2008 23:17:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/introducing-djabberdjaw/</guid>
+      <description>{% include youtube.html id=&#34;ZFcxPjw2f-g&#34; %}
+djabberdjaw is an alpha-quality Jabber bot written in Python that uses Django as an administrative interface to manage bot and user profiles. I&#39;ve included a couple of plugins out of the box that will allow you to perform queries against Z39.50 targets and OCLC&#39;s xISBN API (assuming you have the requisite modules). djabberdjaw requires Django 1.0 or later, jabberbot, and xmpppy. It&#39;s available either from PyPI (including using easy_install) or via Subversion.</description>
+    </item>
+    
+    <item>
+      <title>Slaying the Scary Monsters</title>
+      <link>https://matienzo.org/2008/slaying-the-scary-monsters/</link>
+      <pubDate>Mon, 08 Sep 2008 16:55:53 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/slaying-the-scary-monsters/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Previously posted on &lt;a href=&#34;http://labs.nypl.org/&#34;&gt;http://labs.nypl.org/&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;Drawings of monster and devil. Digital ID: 434322. New York Public Library&#34; href=&#34;http://digitalgallery.nypl.org/nypldigital/id?434322&#34;&gt;&lt;img src=&#34;https://matienzo.org/images/434322.jpg&#34; alt=&#34;Drawings of monster and devil. Digital ID: 434322. New York Public Library&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Getting up to speed is hard anywhere, and it&#39;s especially difficult in a large, complex institution like &lt;abbr title=&#34;The New York Public Library&#34;&gt;NYPL&lt;/abbr&gt;. Other than just understanding the projects that you&#39;re given, you also are thrown headfirst into making sense of the culture, the organization, and all the unspoken and occasionally unseen things that allow you to do your job. There&#39;s no clear place to start this, so a good portion of the time you have to keep on top of that while you start thrashing away at your work. The question remains, though, how do you organize this stuff? How do you enable sensemaking in yourself and your peers?&lt;/p&gt;
+&lt;p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Python WorldCat API module now available</title>
+      <link>https://matienzo.org/2008/python-worldcat-api-module-now-available/</link>
+      <pubDate>Tue, 19 Aug 2008 22:42:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/python-worldcat-api-module-now-available/</guid>
+      <description>I&#39;d like to humbly announce that I&#39;ve written a pre-pre-alpha Python module for working with the WorldCat Search API and the xID APIs. The code needs a fair amount of work, namely unit tests and documentation. I&#39;ve released the code under the GPL.
+The module, called &#34;worldcat&#34;, is available from the Python Package Index. You can also checkout a copy of the code from my Subversion repository.</description>
+    </item>
+    
+    <item>
+      <title>Easy Peasy: Using the Flickr API in Python</title>
+      <link>https://matienzo.org/2008/easy-peasy-using-the-flickr-api-in-python/</link>
+      <pubDate>Wed, 26 Mar 2008 17:27:13 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/easy-peasy-using-the-flickr-api-in-python/</guid>
+      <description>Since I&#39;m often required to hit the ground running at $MPOW on projects, I was a little concerned when I roped myself into assisting our photo archives with a Flickr project. The first goal was to get a subset of the photos uploaded, and quickly. Googling and poking around the Cheeseshop led me to Beej&#39;s FlickrAPI for Python. Little did I know that it would be dead simple to get this project going.</description>
+    </item>
+    
+    <item>
+      <title>Announcing zgw.py, or, how I stopped worrying and learned to love Z39.50</title>
+      <link>https://matienzo.org/2008/announcing-zgw.py-or-how-i-stopped-worrying-and-learned-to-love-z39.50/</link>
+      <pubDate>Sun, 27 Jan 2008 20:07:43 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/announcing-zgw.py-or-how-i-stopped-worrying-and-learned-to-love-z39.50/</guid>
+      <description>After more than a few late nights and long weekends, I&#39;m proud to announce that I&#39;ve completed my latest pet programming project. zgw.py is a lightweight Z39.50-Web gateway, written, naturally, in Python. None of this would be possible without the following Python modules: Aaron Lav&#39;s PyZ3950, the beast of burden; Ed Summers&#39; pymarc, the smooth-talking translator; and web.py, quite possibly the best and most straightforward Python web framework available. I initially undertook this project as an excuse to play with PyZ3950 and to teach myself the workings of web.</description>
+    </item>
+    
+    <item>
+      <title>No Excuses To The Power of Infinity</title>
+      <link>https://matienzo.org/2008/no-excuses-to-the-power-of-infinity/</link>
+      <pubDate>Mon, 21 Jan 2008 19:17:06 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/no-excuses-to-the-power-of-infinity/</guid>
+      <description>I have no excuses for not updating this blog. I thought about forcing myself to comply some sort of resolution - you know, given the new year and all - but everyone knows how those turn out. Regardless, I have a whole backlog of things to post about, most notably being the countless Python programming projects I&#39;ve been working on lately. Expect more posts to arise over the next few days as a result of this.</description>
+    </item>
+    
+    <item>
+      <title>When Life Hands You MARC, make pymarc</title>
+      <link>https://matienzo.org/2007/when-life-hands-you-marc-make-pymarc/</link>
+      <pubDate>Fri, 20 Jul 2007 18:13:39 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2007/when-life-hands-you-marc-make-pymarc/</guid>
+      <description>It&#39;s a bad pun, but what can you expect from someone who neglects his blogs as much as I do?
+I&#39;ve been busy, somewhat, and one of my latest forays has been getting a grip on Python, an absolutely wonderful programming language. I actually enjoy writing code again, which is more than a bit scary. I was sick of the mangled scripts and workflows I came up with at MPOW to handle converting MARC data to HTML and other such nonsense.</description>
+    </item>
+    
+    <item>
+      <title>An updated version of Nick Gerakines&#39; mail2rss.pl</title>
+      <link>https://matienzo.org/2006/an-updated-version-of-nick-gerakines-mail2rss.pl/</link>
+      <pubDate>Mon, 10 Apr 2006 10:39:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2006/an-updated-version-of-nick-gerakines-mail2rss.pl/</guid>
+      <description>A little over a month ago, Nick Gerakines posted a Perl script to be called from a Procmail configuration file. It seemed to work pretty well, but the anal-retentive cataloger/standards geek in me decided to pass the results through a feed validator. It failed in a few key areas: missing version attribute in the rss tag, improper guid and link tags, and a pubDate with a non-RFC822 date. These all seemed pretty easy to fix, so I went ahead and made some changes.</description>
+    </item>
+    
+  </channel>
+</rss>

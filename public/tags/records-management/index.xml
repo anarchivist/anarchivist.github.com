@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>records management on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/records-management/</link>
+    <description>Recent content in records management on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Aug 2009 22:53:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/records-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy, Censorship, and Good Records Management: Brooklyn Public Library in the Crosshairs</title>
+      <link>https://matienzo.org/2009/privacy-censorship-and-good-records-management-brooklyn-public-library-in-the-crosshairs/</link>
+      <pubDate>Wed, 19 Aug 2009 22:53:13 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/privacy-censorship-and-good-records-management-brooklyn-public-library-in-the-crosshairs/</guid>
+      <description>Over at librarian.net, Jessamyn West has a brief write up about a post on the New York Times&#39; City Room blog about placing access restrictions on offensive material (in this case, one of Hergé&#39;s early Tintin books at the Brooklyn Public Library). More interestingly, she notes, is that the Times was given access and accordingly republished challenges from BPL patrons and other community members. Quite astutely, Jessamyn recognizes that
+the patrons&#39; addresses are removed but their names and City/State information are published.</description>
+    </item>
+    
+    <item>
+      <title>Google Message Discovery</title>
+      <link>https://matienzo.org/2008/google-message-discovery/</link>
+      <pubDate>Thu, 03 Apr 2008 13:52:06 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/google-message-discovery/</guid>
+      <description>Amidst this week of notorious hoaxes, Google has launched Google Message Discovery as an enterprise-focused add on for its Google Apps platform. Google Message Discovery goes well beyond a simple and reliable e-mail backup system and provides three key features of interest to records managers:
+ Content-addressable storage for electronic mail stored immediately upon sending or retrieval Creating explicit retention policies based upon time Compliance with relevant laws and best practices Straightforward discovery for any use, regardless if internal or concerning litigation  Google Message Discovery, as well as other related offerings such as e-mail security, clearly has its origins in Google&#39;s acquisition of Postini last year.</description>
+    </item>
+    
+  </channel>
+</rss>

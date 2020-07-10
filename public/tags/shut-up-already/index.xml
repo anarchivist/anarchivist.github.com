@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shut Up Already on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/shut-up-already/</link>
+    <description>Recent content in Shut Up Already on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jan 2009 03:45:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/shut-up-already/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This Is All I&#39;m Going To Say On This Here Blogsite Concerning The Brouhaha About The Policy for Use and Transfer of WorldCat Records Because I Have Other, More Interesting And More Complex Problems To Solve (And So Do You)</title>
+      <link>https://matienzo.org/2009/this-is-all-im-going-to-say-on-this-here-blogsite-concerning-the-brouhaha-about-the-policy-for-use-and-transfer-of-worldcat-records-because-i-have-other-more-interesting-and-more-complex-problems-to-solve-and-so-do-you/</link>
+      <pubDate>Sat, 17 Jan 2009 03:45:04 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/this-is-all-im-going-to-say-on-this-here-blogsite-concerning-the-brouhaha-about-the-policy-for-use-and-transfer-of-worldcat-records-because-i-have-other-more-interesting-and-more-complex-problems-to-solve-and-so-do-you/</guid>
+      <description>The moderated discussion hosted and sponsored by Nylink went pretty well. Also, I don&#39;t need the records to have fun with the data &#34;” I just need robust APIs. (In fact, as I said today, I&#39;d prefer not to have to deal with the MARC records directly.) Robust APIs would help making prototypes like this one I hacked together in a few hours into a real, usable service.</description>
+    </item>
+    
+  </channel>
+</rss>

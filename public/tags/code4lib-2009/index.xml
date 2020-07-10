@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code4lib 2009 on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/code4lib-2009/</link>
+    <description>Recent content in code4lib 2009 on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Feb 2009 01:16:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/code4lib-2009/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go FOAF Yourself</title>
+      <link>https://matienzo.org/2009/go-foaf-yourself/</link>
+      <pubDate>Thu, 19 Feb 2009 01:16:05 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/go-foaf-yourself/</guid>
+      <description>I&#39;m really looking forward to next week&#39;s code4lib conference in Providence, despite my utter failure to complete or implement the project on which I am presenting. In particular, I&#39;m really looking forward to the linked data preconference. Like some of my other fellow attendees, I&#39;ve hammered out a FOAF file for the preconference already so that Ed Summers&#39; combo FOAF crawler and attendee info web app.
+
+This is what the sample output looks using my FOAF data.</description>
+    </item>
+    
+    <item>
+      <title>Idle Hands Are The Devil&#39;s Plaything</title>
+      <link>https://matienzo.org/2008/idle-hands-are-the-devils-plaything/</link>
+      <pubDate>Wed, 26 Nov 2008 01:44:21 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/idle-hands-are-the-devils-plaything/</guid>
+      <description>I&#39;ve had my hands full lately. Two weeks ago I was at the MCN conference (wherein, among other things, I have continued my dominion as Archduke of Archival Description by taking over the MCN Standards SIG chair position from The Bancroft Library&#39;s Mary Elings), and next week I&#39;m off to Philadelphia for the PACSCL Something New for Something Old conference. I hammered out the coherent, written version of my paper I gave at EAD@10.</description>
+    </item>
+    
+  </channel>
+</rss>

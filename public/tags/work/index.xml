@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/work/</link>
+    <description>Recent content in work on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Dec 2008 03:01:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>deliciouscopy: a dumb solution for a dumb problem</title>
+      <link>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</link>
+      <pubDate>Wed, 03 Dec 2008 03:01:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</guid>
+      <description>You&#39;d think there was some sort of tried and true script for Delicious users to repost bookmarks from their inboxes into their accounts, especially given that there are often shared accounts where multiple people will tag things as &#34;for:foo&#34; to have them show up on foo&#39;s Delicious account. Well, there wasn&#39;t, until now (at least as far as I could tell).
+Enter deliciouscopy. It uses pydelicious, as well as the Universal Feed Parser and simplejson.</description>
+    </item>
+    
+    <item>
+      <title>Easy Peasy: Using the Flickr API in Python</title>
+      <link>https://matienzo.org/2008/easy-peasy-using-the-flickr-api-in-python/</link>
+      <pubDate>Wed, 26 Mar 2008 17:27:13 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/easy-peasy-using-the-flickr-api-in-python/</guid>
+      <description>Since I&#39;m often required to hit the ground running at $MPOW on projects, I was a little concerned when I roped myself into assisting our photo archives with a Flickr project. The first goal was to get a subset of the photos uploaded, and quickly. Googling and poking around the Cheeseshop led me to Beej&#39;s FlickrAPI for Python. Little did I know that it would be dead simple to get this project going.</description>
+    </item>
+    
+  </channel>
+</rss>

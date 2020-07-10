@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brooklyn Museum on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/brooklyn-museum/</link>
+    <description>Recent content in Brooklyn Museum on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2009 08:32:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/brooklyn-museum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brooklyn Museum Releases API</title>
+      <link>https://matienzo.org/2009/brooklyn-museum-releases-api/</link>
+      <pubDate>Thu, 05 Mar 2009 08:32:52 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/brooklyn-museum-releases-api/</guid>
+      <description>The always groundbreaking Brooklyn Museum has now released an API to allow the public to interact with their collections data. I can&#39;t even tell you how happy I am about this in terms of an open data perspective. Also, this is the direction that makes the whole &#34;detailed curation by passionate amateurs&#34; thing possible.
+There are only three simple methods for accessing the data. Ideally, it would be nice to see them put their collections metadata up as linked data, but now I&#39;m daring to dream a little.</description>
+    </item>
+    
+  </channel>
+</rss>

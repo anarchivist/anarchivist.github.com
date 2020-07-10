@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal for Archivists on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/drupal-for-archivists/</link>
+    <description>Recent content in Drupal for Archivists on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jun 2009 21:28:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/drupal-for-archivists/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal For Archivists: Documenting the Asian/Pacific American Community with Drupal</title>
+      <link>https://matienzo.org/2009/drupal-for-archivists-documenting-the-asian/pacific-american-community-with-drupal/</link>
+      <pubDate>Sun, 14 Jun 2009 21:28:04 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/drupal-for-archivists-documenting-the-asian/pacific-american-community-with-drupal/</guid>
+      <description>Over the course of the last academic year, I have been part of a team working on survey project aimed at identifying and describing archival collections relating to the Asian and Pacific American community in the New York City metropolitan area. The results of the fifty-plus collections we surveyed have been posted on our Drupal-powered website, which has been an excellent fit for the needs of this project and has also enabled us to engage many of the challenges the project has presented.</description>
+    </item>
+    
+    <item>
+      <title>Drupal for Archivists: A Drupal-built Archives Reference Blog</title>
+      <link>https://matienzo.org/2009/drupal-for-archivists-a-drupal-built-archives-reference-blog/</link>
+      <pubDate>Sat, 02 May 2009 22:30:10 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/drupal-for-archivists-a-drupal-built-archives-reference-blog/</guid>
+      <description>When Mark asked me to write about our use of Drupal at the Dickinson College Archives and Special Collections, the first thing I thought about was when our Archives Reference Blog was initially launched in April 2007. I couldn&#39;t believe that it has been two years already. I am pleased to report that my colleagues at Dickinson and I are enormously happy with the results of those two years. I hope others may find this brief explanation of how and why we are using Drupal as a reference management tool to be helpful and instructive.</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon: Drupal for Archivists</title>
+      <link>https://matienzo.org/2009/coming-soon-drupal-for-archivists/</link>
+      <pubDate>Mon, 23 Mar 2009 22:09:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/coming-soon-drupal-for-archivists/</guid>
+      <description>I&#39;ve been fairly quiet lately as I&#39;ve been busy with this and that, but I thought I&#39;d let everyone know that I&#39;ve been beginning to put together a series of posts entitled &#34;Drupal for Archivists.&#34; Drupal, as you may or may not know, is a flexible and extensible open source content management system. There will be a general overview of some of the important concepts, but it&#39;ll focus less on the basics of getting people up and running — there are plenty of resources out there, such as the wonderful tutorials and articles available from Lullabot.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>django on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/django/</link>
+    <description>Recent content in django on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Sep 2008 23:17:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing djabberdjaw</title>
+      <link>https://matienzo.org/2008/introducing-djabberdjaw/</link>
+      <pubDate>Mon, 22 Sep 2008 23:17:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/introducing-djabberdjaw/</guid>
+      <description>{% include youtube.html id=&#34;ZFcxPjw2f-g&#34; %}
+djabberdjaw is an alpha-quality Jabber bot written in Python that uses Django as an administrative interface to manage bot and user profiles. I&#39;ve included a couple of plugins out of the box that will allow you to perform queries against Z39.50 targets and OCLC&#39;s xISBN API (assuming you have the requisite modules). djabberdjaw requires Django 1.0 or later, jabberbot, and xmpppy. It&#39;s available either from PyPI (including using easy_install) or via Subversion.</description>
+    </item>
+    
+  </channel>
+</rss>

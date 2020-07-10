@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/wordpress/</link>
+    <description>Recent content in WordPress on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2008 19:39:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Everything Old is New Again</title>
+      <link>https://matienzo.org/2008/everything-old-is-new-again/</link>
+      <pubDate>Fri, 05 Sep 2008 19:39:18 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/everything-old-is-new-again/</guid>
+      <description>Goodbye, WordPress - I&#39;ve been drinking more of the KoolAid. I rebuilt my personal/professional site (not this blog) in Drupal. Migrating the content was pretty easy (about 15 static pages, no posts). The functionality is astounding - I only started working on redoing it yesterday and I&#39;ve already got a great infrastructure. Expect a detailed post before too long, or at least a link to a colophon on said site.</description>
+    </item>
+    
+  </channel>
+</rss>

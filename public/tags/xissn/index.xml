@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xISSN on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/xissn/</link>
+    <description>Recent content in xISSN on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Aug 2008 22:42:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/xissn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python WorldCat API module now available</title>
+      <link>https://matienzo.org/2008/python-worldcat-api-module-now-available/</link>
+      <pubDate>Tue, 19 Aug 2008 22:42:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/python-worldcat-api-module-now-available/</guid>
+      <description>I&#39;d like to humbly announce that I&#39;ve written a pre-pre-alpha Python module for working with the WorldCat Search API and the xID APIs. The code needs a fair amount of work, namely unit tests and documentation. I&#39;ve released the code under the GPL.
+The module, called &#34;worldcat&#34;, is available from the Python Package Index. You can also checkout a copy of the code from my Subversion repository.</description>
+    </item>
+    
+  </channel>
+</rss>

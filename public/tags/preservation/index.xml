@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preservation on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/preservation/</link>
+    <description>Recent content in Preservation on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Dec 2010 23:59:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/preservation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delicious and the Preservation of &#34;Platforms&#34;</title>
+      <link>https://matienzo.org/2010/delicious-and-the-preservation-of-platforms/</link>
+      <pubDate>Wed, 22 Dec 2010 23:59:28 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/delicious-and-the-preservation-of-platforms/</guid>
+      <description>Just as plenty of others have, I recoiled in horror when I heard that Delicious (née del.icio.us) was being &#34;sunsetted&#34;. Regardless of the red flags that have been raised about its potentially imminent demise, I&#39;ve still been using it on a daily basis. I&#39;ve been an active user for over 6.5 years, which is longer than I can say for just about any other web platform or service. I deleted my Friendster and Myspace accounts quite a while ago; I&#39;ve been on Flickr almost as long as Delicious, but the bookmarking wins out by a good four months or so.</description>
+    </item>
+    
+    <item>
+      <title>Goodbye, Aus-Archivists: Listservs and the Commitment to Digital Preservation</title>
+      <link>https://matienzo.org/2010/goodbye-aus-archivists-listservs-and-the-commitment-to-digital-preservation/</link>
+      <pubDate>Thu, 18 Nov 2010 02:14:20 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/goodbye-aus-archivists-listservs-and-the-commitment-to-digital-preservation/</guid>
+      <description>&lt;p&gt;[&lt;strong&gt;Update:&lt;/strong&gt; Aus-Archivists might not be gone for good, as ASA intends to share the entire run of postings on its website. See &lt;a href=&#34;https://matienzo.org/2010/aus-archivists-listserv-update/&#34;&gt;this post&lt;/a&gt; for details.]&lt;/p&gt;
+&lt;p&gt;Despite my relative &lt;a href=&#34;https://matienzo.org/2010/giving-up-on-a-and-a/&#34;&gt;distaste for the A&amp;amp;A list&lt;/a&gt;, I have previously found it useful and &lt;a href=&#34;https://matienzo.org/2007/saa-listserv/&#34;&gt;argued for its retention&lt;/a&gt; when it was threatened in 2007. I still agree with most of what I wrote 3.5 years ago, although I might have toned things down in retrospect. In an effort to find other e-mail discussion lists on archives that engaged my interest, I joined &lt;a href=&#34;http://www.mailman.srv.ualberta.ca/mailman/listinfo/arcan-l&#34;&gt;Arcan-L&lt;/a&gt; (the Canadian archivists&#39; listserv) and Aus-Archivists (the Australian archivists&#39; listserv, maintained by the &lt;a href=&#34;http://www.archivists.org.au/&#34;&gt;Australian Society of Archivists&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Surprisingly, Aus-Archivists had been idle since around the end of October. I noticed &lt;a href=&#34;http://twitter.com/ausarchivists/status/29524056111&#34;&gt;this tweet&lt;/a&gt; from the Australian Society of Archivists only in passing at the beginning of November:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The ASA Office would just like everyone to know that our List Serv is still currently unavailable, we apologize for any inconvenience...&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I didn&#39;t hear anything else between then and earlier today. I should note that I&#39;m not a member of ASA, and so I can&#39;t speak to any communication they had with their membership. However, today a message was sent out by Pat Jackson, the ASA President, to all Aus-Archivists subscribers, announcing that the listserv was lost entirely. </description>
+    </item>
+    
+    <item>
+      <title>DataPortability.org and the Dream of a Web 2.0 Backup System</title>
+      <link>https://matienzo.org/2008/dataportability.org-and-the-dream-of-a-web-2.0-backup-system/</link>
+      <pubDate>Tue, 29 Jan 2008 20:13:22 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/dataportability.org-and-the-dream-of-a-web-2.0-backup-system/</guid>
+      <description>I just discovered DataPortability.org through Peter Van Garderen&#39;s blog post about it. I was entirely surprised that I&#39;d heard nary a peep about it. Some basic examination (running a WHOIS query on the domain) shows that it&#39;s still a fairly new project. I have to say, though, that I&#39;m entirely impressed. Those involved have given a whole lot of thought to how they&#39;re going to be doing things, as evidenced by those who have signed up to be involved and the DataPortability Charter.</description>
+    </item>
+    
+    <item>
+      <title>Web 2.0, Disaster, and Archives</title>
+      <link>https://matienzo.org/2007/web-2.0-disaster-and-archives/</link>
+      <pubDate>Thu, 25 Oct 2007 01:13:12 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2007/web-2.0-disaster-and-archives/</guid>
+      <description>Many of Web 2.0&#39;s detractors argue about it&#39;s real value, but given the wildfires in Southern California, I was happy to see it really put to good use. KPBS, a San Diego radio station, has been using Flickr and, even more shocking (at least for some), Twitter as ways to disseminate information and news quickly. The use of Twitter is particularly interesting as it can send out SMS messages. You might recall a few years ago when protesters in the Philippines used SMS to organize political rallies and warn of police retaliation.</description>
+    </item>
+    
+  </channel>
+</rss>

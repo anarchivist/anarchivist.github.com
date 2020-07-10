@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web 2.0 on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/web-2.0/</link>
+    <description>Recent content in Web 2.0 on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jan 2011 22:17:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/web-2.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s Your Delicious Story?</title>
+      <link>https://matienzo.org/2011/whats-your-delicious-story/</link>
+      <pubDate>Tue, 04 Jan 2011 22:17:43 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2011/whats-your-delicious-story/</guid>
+      <description>Update: I&#39;ve added a question on Quora about this too - feel free to contribute your story there.
+In my last post, I talked a bit about the notion of Delicious being a platform with a myriad of uses, and I&#39;ve been actively wondering about this since then. Upon further reflection, I&#39;ve realized that the best way to figure this out is actually to engage and ask people directly.
+Accordingly, I&#39;m asking for your help.</description>
+    </item>
+    
+    <item>
+      <title>Developing Metrics for Experimental Forms of Outreach</title>
+      <link>https://matienzo.org/2009/developing-metrics-for-experimental-forms-of-outreach/</link>
+      <pubDate>Mon, 16 Feb 2009 23:28:03 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/developing-metrics-for-experimental-forms-of-outreach/</guid>
+      <description>ArchivesNext recently inquired about how archivists measure success of 2.0 initiatives. It&#39;s hard to determine some 2.0-ish initiatives will really impact statistics when you don&#39;t really define what the results you&#39;re trying to see. I&#39;d like to open the question further — how do we begin developing metrics for things that sit on the cusp between forms of outreach? Furthermore, I&#39;m curious to see where this information is captured — do archivists wait until the end to gather survey data, or if they working towards something like we at NYPL Labs are doing with Infomaki, our new usability tool developed by Michael Lascarides, our user analyst.</description>
+    </item>
+    
+    <item>
+      <title>You&#39;re All Sheep</title>
+      <link>https://matienzo.org/2009/youre-all-sheep/</link>
+      <pubDate>Thu, 05 Feb 2009 00:16:54 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/youre-all-sheep/</guid>
+      <description>Made by Twittersheep, a new project made (in part) by my acquaintance Ted Roden, a creative technologist for New York Times Research &amp;amp; Development.</description>
+    </item>
+    
+    <item>
+      <title>deliciouscopy: a dumb solution for a dumb problem</title>
+      <link>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</link>
+      <pubDate>Wed, 03 Dec 2008 03:01:27 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/deliciouscopy-a-dumb-solution-for-a-dumb-problem/</guid>
+      <description>You&#39;d think there was some sort of tried and true script for Delicious users to repost bookmarks from their inboxes into their accounts, especially given that there are often shared accounts where multiple people will tag things as &#34;for:foo&#34; to have them show up on foo&#39;s Delicious account. Well, there wasn&#39;t, until now (at least as far as I could tell).
+Enter deliciouscopy. It uses pydelicious, as well as the Universal Feed Parser and simplejson.</description>
+    </item>
+    
+    <item>
+      <title>DataPortability.org and the Dream of a Web 2.0 Backup System</title>
+      <link>https://matienzo.org/2008/dataportability.org-and-the-dream-of-a-web-2.0-backup-system/</link>
+      <pubDate>Tue, 29 Jan 2008 20:13:22 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/dataportability.org-and-the-dream-of-a-web-2.0-backup-system/</guid>
+      <description>I just discovered DataPortability.org through Peter Van Garderen&#39;s blog post about it. I was entirely surprised that I&#39;d heard nary a peep about it. Some basic examination (running a WHOIS query on the domain) shows that it&#39;s still a fairly new project. I have to say, though, that I&#39;m entirely impressed. Those involved have given a whole lot of thought to how they&#39;re going to be doing things, as evidenced by those who have signed up to be involved and the DataPortability Charter.</description>
+    </item>
+    
+    <item>
+      <title>Web 2.0, Disaster, and Archives</title>
+      <link>https://matienzo.org/2007/web-2.0-disaster-and-archives/</link>
+      <pubDate>Thu, 25 Oct 2007 01:13:12 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2007/web-2.0-disaster-and-archives/</guid>
+      <description>Many of Web 2.0&#39;s detractors argue about it&#39;s real value, but given the wildfires in Southern California, I was happy to see it really put to good use. KPBS, a San Diego radio station, has been using Flickr and, even more shocking (at least for some), Twitter as ways to disseminate information and news quickly. The use of Twitter is particularly interesting as it can send out SMS messages. You might recall a few years ago when protesters in the Philippines used SMS to organize political rallies and warn of police retaliation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solr on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/solr/</link>
+    <description>Recent content in Solr on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 May 2009 00:46:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/solr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Batch Reindexing for Drupal &#43; Solr</title>
+      <link>https://matienzo.org/2009/batch-reindexing-for-drupal-solr/</link>
+      <pubDate>Thu, 14 May 2009 00:46:38 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/batch-reindexing-for-drupal-solr/</guid>
+      <description>Crossposted to NYPL Labs. Sorry for any duplication!
+Hey, do you use Drupal on a site with several thousand nodes? Do you also use the Apache Solr Integration module? If you&#39;re like me, you&#39;ve probably needed to reindex your site but couldn&#39;t be bothered to wait for those pesky cron runs to finish — in fact, that&#39;s what led me to file a feature request on the module to begin with.</description>
+    </item>
+    
+  </channel>
+</rss>

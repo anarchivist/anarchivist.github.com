@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rightsstatements.org on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/rightsstatements.org/</link>
+    <description>Recent content in rightsstatements.org on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/rightsstatements.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RightsStatements.org</title>
+      <link>https://matienzo.org/2020/rightsstatements.org/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2020/rightsstatements.org/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rightsstatements.org/&#34;&gt;RightsStatements.org&lt;/a&gt; is a consortial initiative that focuses on providing a set of interoperable rights statements that make it easier for people to engage and reuse digital cultural heritage, particularly when provided by metadata aggregators. Since 2014, I have served as the co-chair of the Consortium&amp;rsquo;s Technical Working Group, which is responsible for maintaining the initiative&amp;rsquo;s vocabulary and infrastructure. We maintain our projects on &lt;a href=&#34;https://github.com/rightsstatements&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Encouraging Use and Reuse of your Collections with RightsStatements.org: Interoperable Standardized Rights Statements for Cultural Heritage</title>
+      <link>https://matienzo.org/2016/mcn-rs-org/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2016/mcn-rs-org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommendations for the Technical Infrastructure for Standardized International Rights Statements</title>
+      <link>https://matienzo.org/2015/rs-tech-recommendations/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/rs-tech-recommendations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Requirements for the Technical Infrastructure for Standardized International Rights Statements</title>
+      <link>https://matienzo.org/2015/rs-tech-white-paper/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/rs-tech-white-paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

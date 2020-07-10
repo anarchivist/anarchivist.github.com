@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>museums on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/museums/</link>
+    <description>Recent content in museums on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2009 08:32:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/museums/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brooklyn Museum Releases API</title>
+      <link>https://matienzo.org/2009/brooklyn-museum-releases-api/</link>
+      <pubDate>Thu, 05 Mar 2009 08:32:52 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/brooklyn-museum-releases-api/</guid>
+      <description>The always groundbreaking Brooklyn Museum has now released an API to allow the public to interact with their collections data. I can&#39;t even tell you how happy I am about this in terms of an open data perspective. Also, this is the direction that makes the whole &#34;detailed curation by passionate amateurs&#34; thing possible.
+There are only three simple methods for accessing the data. Ideally, it would be nice to see them put their collections metadata up as linked data, but now I&#39;m daring to dream a little.</description>
+    </item>
+    
+    <item>
+      <title>Seriously, Follow Our Lead</title>
+      <link>https://matienzo.org/2008/seriously-follow-our-lead/</link>
+      <pubDate>Wed, 30 Apr 2008 15:52:15 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/seriously-follow-our-lead/</guid>
+      <description>OCLC&#39;s Lorcan Dempsey makes a great point as usual in his post &#34;Making tracks&#34;:
+In recent presentations, I have been suggesting that libraries will need to adopt more archival skills as they manage digital collections and think about provenance, evidential integrity, and context, and that they will also need to adopt more museum perspectives as they think about how their digital collections work as educational resources, and consider exhibitions and interpretive environments.</description>
+    </item>
+    
+  </channel>
+</rss>

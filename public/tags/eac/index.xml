@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EAC on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/eac/</link>
+    <description>Recent content in EAC on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jul 2009 17:03:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/eac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#34;Summer Camp for Archivists&#34; Sounds So Much Better</title>
+      <link>https://matienzo.org/2009/summer-camp-for-archivists-sounds-so-much-better/</link>
+      <pubDate>Sun, 19 Jul 2009 17:03:17 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/summer-camp-for-archivists-sounds-so-much-better/</guid>
+      <description>Crossposted to NYPL Labs.
+I&#39;m staying with colleagues and good friends during my week-long stint in Charlottesville, Virginia for Rare Book School. If you&#39;re here - particularly if you&#39;re in my class (Daniel Pitti&#39;s Designing Archival Description Systems) - let me know. I&#39;m looking forward to a heady week dealing with descriptive standards, knowledge representation, and as always, doing my best to sell the archives world on Linked Data. Notes and thoughts will follow, as always, on here.</description>
+    </item>
+    
+  </channel>
+</rss>

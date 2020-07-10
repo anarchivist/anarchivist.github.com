@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>indiewebcamp on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/indiewebcamp/</link>
+    <description>Recent content in indiewebcamp on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2016 17:24:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/indiewebcamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IndieWebCamp NYC 2016</title>
+      <link>https://matienzo.org/2016/indiewebcamp-nyc-2016/</link>
+      <pubDate>Sun, 24 Jan 2016 17:24:49 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2016/indiewebcamp-nyc-2016/</guid>
+      <description>I&amp;rsquo;m at IndieWebCamp NYC and I just added some microformats data to my site. Hurrah!
+Edit: And I&amp;rsquo;ve successfully sent a Webmention by hand from the command line. Time to add that to the Jekyll build process&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

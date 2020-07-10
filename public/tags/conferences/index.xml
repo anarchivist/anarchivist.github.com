@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conferences on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/conferences/</link>
+    <description>Recent content in Conferences on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jan 2011 22:20:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WikiLeaks &amp;amp; the Archives &amp;amp; Records Profession: a Panel Discussion</title>
+      <link>https://matienzo.org/2011/wikileaks-amp-the-archives-amp-records-profession-a-panel-discussion/</link>
+      <pubDate>Thu, 06 Jan 2011 22:20:03 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2011/wikileaks-amp-the-archives-amp-records-profession-a-panel-discussion/</guid>
+      <description>UPDATE: The text of my remarks can be now found online at https://matienzo.org/presentations/2011/wikileaks/.
+I am honored to be one of the speakers at &#34;WikiLeaks &amp;amp; the Archives &amp;amp; Records Profession,&#34; a panel discussion organized by the Archivists Roundtable of Metropolitan New York and the Metropolitan New York City Chapter of ARMA International. The panel will be on January 25, 2011 at the Center for Jewish History. From the announcement:
+Do WikiLeaks and its complex, attendant issues shift our conceptualization of our roles as information professionals?</description>
+    </item>
+    
+    <item>
+      <title>Code4lib 2010: Southern Hospitality</title>
+      <link>https://matienzo.org/2010/code4lib-2010-southern-hospitality/</link>
+      <pubDate>Mon, 01 Mar 2010 23:27:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2010/code4lib-2010-southern-hospitality/</guid>
+      <description>I recently returned from a trip to Asheville, North Carolina for this year&#39;s Code4lib conference. Despite the unavoidable hiccups that some attendees experienced as they tried to head home from the conference, I believe that this year&#39;s conference was the most successful one that I happened to attend. If I&#39;m right, I think this year had a record number of attendees, a record number of new attendees, and much tighter organization to make the new folks feel welcome.</description>
+    </item>
+    
+    <item>
+      <title>API Fun: Visualizing Holdings Locations</title>
+      <link>https://matienzo.org/2009/api-fun-visualizing-holdings-locations/</link>
+      <pubDate>Sun, 18 Jan 2009 22:55:32 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2009/api-fun-visualizing-holdings-locations/</guid>
+      <description>In my previous post, I included a screenshot of a prototype, but glossed over what it actually does. Given an OCLC record number and a ZIP code, it plots the locations of the nearest holdings of that item on a Google Map. Pulled off in Python (as all good mashups should be), along with SIMILE Exhibit, it uses the following modules:
+ geopy simplejson web.py and, of course, worldcat.  If you want to try it out, head on over here.</description>
+    </item>
+    
+    <item>
+      <title>Idle Hands Are The Devil&#39;s Plaything</title>
+      <link>https://matienzo.org/2008/idle-hands-are-the-devils-plaything/</link>
+      <pubDate>Wed, 26 Nov 2008 01:44:21 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/idle-hands-are-the-devils-plaything/</guid>
+      <description>I&#39;ve had my hands full lately. Two weeks ago I was at the MCN conference (wherein, among other things, I have continued my dominion as Archduke of Archival Description by taking over the MCN Standards SIG chair position from The Bancroft Library&#39;s Mary Elings), and next week I&#39;m off to Philadelphia for the PACSCL Something New for Something Old conference. I hammered out the coherent, written version of my paper I gave at EAD@10.</description>
+    </item>
+    
+    <item>
+      <title>An Open Letter to SAA Council and the 2009 Program Committee</title>
+      <link>https://matienzo.org/2008/an-open-letter-to-saa-council-and-the-2009-program-committee/</link>
+      <pubDate>Thu, 02 Oct 2008 12:36:13 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/an-open-letter-to-saa-council-and-the-2009-program-committee/</guid>
+      <description>I apologize for using my blog to soapbox, but I felt like this was a significant concern that I should share with my readers. If you wish to support my position, please consider sending an e-mail to SAA Council and the 2009 Program Committee Chairs.
+Dear 2009 Program Committee Members and SAA Council Members,
+I understand that we are nearing the deadlines for submission of proposals for sessions at the 2009 Annual Meeting of the Society of American Archivists.</description>
+    </item>
+    
+    <item>
+      <title>Matienzo, The San Francisco Treat</title>
+      <link>https://matienzo.org/2008/matienzo-the-san-francisco-treat/</link>
+      <pubDate>Tue, 26 Aug 2008 17:07:40 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/matienzo-the-san-francisco-treat/</guid>
+      <description>I&#39;m packing up and heading out to SFO this evening for SAA2008. Right now I&#39;m frantically backing up my Zotero repository, making sure I have a bunch of sources to peruse on the plane as I hack away on my slides for EAD@10. You might be surprised that my idea of me jumping out of a cake in the shape of an &amp;lt;archdesc&amp;gt; tag wearing a bathing suit was not even considered, so it looks like I&#39;ll actually have to put some coherent thoughts together.</description>
+    </item>
+    
+    <item>
+      <title>Behind The Times: Where I Finally Speak Of code4lib 2008</title>
+      <link>https://matienzo.org/2008/behind-the-times-where-i-finally-speak-of-code4lib-2008/</link>
+      <pubDate>Mon, 17 Mar 2008 22:24:16 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2008/behind-the-times-where-i-finally-speak-of-code4lib-2008/</guid>
+      <description>OK, OK. A post about code4libcon 2008 is long overdue. The minor details: the weather was nice, food was decent, good beer was abundant, and live music was enjoyable. Onto the real meat...
+This time around, I felt like I got a whole lot more out of attending; I&#39;m not sure if this is due to the changing nature of my job, increased attention, or some other factor, like neckferrets and dongles.</description>
+    </item>
+    
+    <item>
+      <title>Archives Camp: Talking About Archives 2.0</title>
+      <link>https://matienzo.org/2007/archives-camp-talking-about-archives-2.0/</link>
+      <pubDate>Wed, 06 Jun 2007 15:12:54 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2007/archives-camp-talking-about-archives-2.0/</guid>
+      <description>ArchivesNext recently discussed the possibility of having some &#34;Archives 2.0&#34;-themed events this summer, and I think it&#39;s a great idea. Now, we may not be able to throw something together in time for SAA, but it seems like the idea of at least meeting up informally is percolating. There&#39;s a wealth of opportunities available for archives and archivists to improve access to their holdings through social software and the like. My vision, as I said in a comment on the post, would be to end up with an unconference along the lines of a Library Camp (or more generally, a BarCamp), maybe with lightning talks if enough of us have something to show off or talk about.</description>
+    </item>
+    
+    <item>
+      <title>MARAC Friday Afternoon Report</title>
+      <link>https://matienzo.org/2006/marac-friday-afternoon-report/</link>
+      <pubDate>Fri, 27 Oct 2006 15:59:39 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2006/marac-friday-afternoon-report/</guid>
+      <description>The mid-Atlantic archivists are in a brief recess between now and the final session of the day, and it&#39;s been thoroughly interesting to say the least. I missed the caucus meetings this morning, unfortunately, but the plenary session was well worth it because it&#39;s got the gears turning about archival access systems even though it wasn&#39;t directly about them.
+Paul Israel of the Edison Papers Project spoke at length about Edison&#39;s legacy and collaboration with others.</description>
+    </item>
+    
+    <item>
+      <title>Morristown Calling: MARAC Fall Meeting</title>
+      <link>https://matienzo.org/2006/morristown-calling-marac-fall-meeting/</link>
+      <pubDate>Thu, 26 Oct 2006 17:41:24 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2006/morristown-calling-marac-fall-meeting/</guid>
+      <description>I&#39;m at the Westin Governor Morris in Morristown, New Jersey for the MARAC Fall Meeting. I just got back from visiting the Morris Museum with a few folks, and now I&#39;m enjoying the (expensive) wireless connection here. This time around I don&#39;t know so many folks here, so shoot me an e-mail or comment if you&#39;re in attendance. Expect a more detailed post soon; I&#39;m exhausted from being up early to catch Amtrak!</description>
+    </item>
+    
+    <item>
+      <title>Library Camp East post-mortem</title>
+      <link>https://matienzo.org/2006/library-camp-east-post-mortem/</link>
+      <pubDate>Fri, 13 Oct 2006 16:55:13 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2006/library-camp-east-post-mortem/</guid>
+      <description>I know this post is well overdue, but the last few weeks have kept me extremely busy. Library Camp East was amazing; fun, thought-provoking, and inspiring. John Blyberg and Alan Kirk Gray (as well as the rest of the Darien Library Staff) did a heck of a job preparing for all of us descending into the auditorium. They even gave me a cool mug that my co-workers envy. I also finally got to meet Dan Chudnov and Casey Bisson, whose blogs I&#39;ve followed for a while now.</description>
+    </item>
+    
+  </channel>
+</rss>

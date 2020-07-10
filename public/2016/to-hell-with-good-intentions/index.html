@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.73.0" />
+  <link rel="canonical" href="https://matienzo.org/2016/to-hell-with-good-intentions/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="https://matienzo.org/css/prism.css" media="none" onload="this.media='all';">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://matienzo.org/css/styles.css">
+
+  
+
+  <style id="inverter" media="none">
+    .intro-and-nav, .main-and-footer { filter: invert(100%) }
+    * { background-color: inherit }
+    img:not([src*=".svg"]), .colors, iframe, .demo-container { filter: invert(100%) }
+  </style>
+
+  
+  
+  <title>To Hell With Good Intentions: Linked Data, Community, and the Power to Name | Mark A. Matienzo</title>
+</head>
+
+  <body>
+    <a href="#main">skip to content</a>
+    <svg style="display: none">
+  <symbol id="bookmark" viewBox="0 0 40 50">
+   <g transform="translate(2266 3206.2)">
+    <path style="stroke:currentColor;stroke-width:3.2637;fill:none" d="m-2262.2-3203.4-.2331 42.195 16.319-16.318 16.318 16.318.2331-42.428z"/>
+   </g>
+  </symbol>
+
+  <symbol id="w3c" viewBox="0 0 127.09899 67.763">
+   <text font-size="83" style="font-size:83px;font-family:Trebuchet;letter-spacing:-12;fill-opacity:0" letter-spacing="-12" y="67.609352" x="-26.782778">W3C</text>
+   <text font-size="83" style="font-size:83px;font-weight:bold;font-family:Trebuchet;fill-opacity:0" y="67.609352" x="153.21722" font-weight="bold">SVG</text>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m33.695.377 12.062 41.016 12.067-41.016h8.731l-19.968 67.386h-.831l-12.48-41.759-12.479 41.759h-.832l-19.965-67.386h8.736l12.061 41.016 8.154-27.618-3.993-13.397h8.737z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m91.355 46.132c0 6.104-1.624 11.234-4.862 15.394-3.248 4.158-7.45 6.237-12.607 6.237-3.882 0-7.263-1.238-10.148-3.702-2.885-2.47-5.02-5.812-6.406-10.022l6.82-2.829c1.001 2.552 2.317 4.562 3.953 6.028 1.636 1.469 3.56 2.207 5.781 2.207 2.329 0 4.3-1.306 5.909-3.911 1.609-2.606 2.411-5.738 2.411-9.401 0-4.049-.861-7.179-2.582-9.399-1.995-2.604-5.129-3.912-9.397-3.912h-3.327v-3.991l11.646-20.133h-14.062l-3.911 6.655h-2.493v-14.976h32.441v4.075l-12.31 21.217c4.324 1.385 7.596 3.911 9.815 7.571 2.22 3.659 3.329 7.953 3.329 12.892z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.21 0 1.414 8.6-5.008 9.583s-1.924-4.064-5.117-6.314c-2.693-1.899-4.447-2.309-7.186-1.746-3.527.73-7.516 4.938-9.258 10.13-2.084 6.21-2.104 9.218-2.178 11.978-.115 4.428.58 7.043.58 7.043s-3.04-5.626-3.011-13.866c.018-5.882.947-11.218 3.666-16.479 2.404-4.627 5.954-7.404 9.114-7.728 3.264-.343 5.848 1.229 7.841 2.938 2.089 1.788 4.213 5.698 4.213 5.698l4.94-9.837z"/>
+   <path style="fill:currentColor;image-rendering:optimizeQuality;shape-rendering:geometricPrecision" d="m125.82 48.674s-2.208 3.957-3.589 5.48c-1.379 1.524-3.849 4.209-6.896 5.555-3.049 1.343-4.646 1.598-7.661 1.306-3.01-.29-5.807-2.032-6.786-2.764-.979-.722-3.486-2.864-4.897-4.854-1.42-2-3.634-5.995-3.634-5.995s1.233 4.001 2.007 5.699c.442.977 1.81 3.965 3.749 6.572 1.805 2.425 5.315 6.604 10.652 7.545 5.336.945 9.002-1.449 9.907-2.031.907-.578 2.819-2.178 4.032-3.475 1.264-1.351 2.459-3.079 3.116-4.108.487-.758 1.276-2.286 1.276-2.286l-1.276-6.644z"/>
+  </symbol>
+
+  <symbol id="tag" viewBox="0 0 177.16535 177.16535">
+    <g transform="translate(0 -875.2)">
+     <path style="fill-rule:evenodd;stroke-width:0;fill:currentColor" d="m159.9 894.3-68.79 8.5872-75.42 77.336 61.931 60.397 75.429-76.565 6.8495-69.755zm-31.412 31.835a10.813 10.813 0 0 1 1.8443 2.247 10.813 10.813 0 0 1 -3.5174 14.872l-.0445.0275a10.813 10.813 0 0 1 -14.86 -3.5714 10.813 10.813 0 0 1 3.5563 -14.863 10.813 10.813 0 0 1 13.022 1.2884z"/>
+    </g>
+  </symbol>
+
+  <symbol id="balloon" viewBox="0 0 141.73228 177.16535">
+   <g transform="translate(0 -875.2)">
+    <g>
+     <path style="fill:currentColor" d="m68.156 882.83-.88753 1.4269c-4.9564 7.9666-6.3764 17.321-5.6731 37.378.36584 10.437 1.1246 23.51 1.6874 29.062.38895 3.8372 3.8278 32.454 4.6105 38.459 4.6694-.24176 9.2946.2879 14.377 1.481 1.2359-3.2937 5.2496-13.088 8.886-21.623 6.249-14.668 8.4128-21.264 10.253-31.252 1.2464-6.7626 1.6341-12.156 1.4204-19.764-.36325-12.93-2.1234-19.487-6.9377-25.843-2.0833-2.7507-6.9865-7.6112-7.9127-7.8436-.79716-.20019-6.6946-1.0922-6.7755-1.0248-.02213.0182-5.0006-.41858-7.5248-.22808l-2.149-.22808h-3.3738z"/>
+     <path style="fill:currentColor" d="m61.915 883.28-3.2484.4497c-1.7863.24724-3.5182.53481-3.8494.63994-2.4751.33811-4.7267.86957-6.7777 1.5696-.28598 0-1.0254.20146-2.3695.58589-5.0418 1.4418-6.6374 2.2604-8.2567 4.2364-6.281 7.6657-11.457 18.43-12.932 26.891-1.4667 8.4111.71353 22.583 5.0764 32.996 3.8064 9.0852 13.569 25.149 22.801 37.517 1.3741 1.841 2.1708 2.9286 2.4712 3.5792 3.5437-1.1699 6.8496-1.9336 10.082-2.3263-1.3569-5.7831-4.6968-21.86-6.8361-33.002-.92884-4.8368-2.4692-14.322-3.2452-19.991-.68557-5.0083-.77707-6.9534-.74159-15.791.04316-10.803.41822-16.162 1.5026-21.503 1.4593-5.9026 3.3494-11.077 6.3247-15.852z"/>
+     <path style="fill:currentColor" d="m94.499 885.78c-.10214-.0109-.13691 0-.0907.0409.16033.13489 1.329 1.0675 2.5976 2.0723 6.7003 5.307 11.273 14.568 12.658 25.638.52519 4.1949.24765 14.361-.5059 18.523-2.4775 13.684-9.7807 32.345-20.944 53.519l-3.0559 5.7971c2.8082.76579 5.7915 1.727 8.9926 2.8441 11.562-11.691 18.349-19.678 24.129-28.394 7.8992-11.913 11.132-20.234 12.24-31.518.98442-10.02-1.5579-20.876-6.7799-28.959-.2758-.4269-.57803-.86856-.89617-1.3166-3.247-6.13-9.752-12.053-21.264-16.131-2.3687-.86369-6.3657-2.0433-7.0802-2.1166z"/>
+     <path style="fill:currentColor" d="m32.52 892.22c-.20090-.13016-1.4606.81389-3.9132 2.7457-11.486 9.0476-17.632 24.186-16.078 39.61.79699 7.9138 2.4066 13.505 5.9184 20.562 5.8577 11.77 14.749 23.219 30.087 38.74.05838.059.12188.1244.18052.1838 1.3166-.5556 2.5965-1.0618 3.8429-1.5199-.66408-.32448-1.4608-1.3297-3.8116-4.4602-5.0951-6.785-8.7512-11.962-13.051-18.486-5.1379-7.7948-5.0097-7.5894-8.0586-13.054-6.2097-11.13-8.2674-17.725-8.6014-27.563-.21552-6.3494.13041-9.2733 1.775-14.987 2.1832-7.5849 3.9273-10.986 9.2693-18.07 1.7839-2.3656 2.6418-3.57 2.4409-3.7003z"/>
+     <path style="fill:currentColor" d="m69.133 992.37c-6.2405.0309-12.635.76718-19.554 2.5706 4.6956 4.7759 9.935 10.258 12.05 12.625l4.1272 4.6202h11.493l3.964-4.4516c2.0962-2.3541 7.4804-7.9845 12.201-12.768-8.378-1.4975-16.207-2.6353-24.281-2.5955z"/>
+     <rect style="stroke-width:0;fill:currentColor" ry="2.0328" height="27.746" width="22.766" y="1017.7" x="60.201"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="info" viewBox="0 0 41.667 41.667">
+   <g transform="translate(-37.035 -1004.6)">
+    <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m76.25 1030.2a18.968 18.968 0 0 1 -23.037 13.709 18.968 18.968 0 0 1 -13.738 -23.019 18.968 18.968 0 0 1 23.001 -13.768 18.968 18.968 0 0 1 13.798 22.984"/>
+    <g transform="matrix(1.1146 0 0 1.1146 -26.276 -124.92)">
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:3.728;fill:none" d="m75.491 1039.5v-8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" transform="scale(-1)" d="m-73.193-1024.5a2.3719 2.3719 0 0 1 -2.8807 1.7142 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+   </g>
+  </symbol>
+
+  <symbol id="warning" viewBox="0 0 48.430474 41.646302">
+    <g transform="translate(-1.1273 -1010.2)">
+     <path style="stroke-linejoin:round;stroke:currentColor;stroke-linecap:round;stroke-width:4.151;fill:none" d="m25.343 1012.3-22.14 37.496h44.28z"/>
+     <path style="stroke:currentColor;stroke-linecap:round;stroke-width:4.1512;fill:none" d="m25.54 1027.7v8.7472"/>
+     <path style="stroke-width:0;fill:currentColor" d="m27.839 1042.8a2.3719 2.3719 0 0 1 -2.8807 1.7143 2.3719 2.3719 0 0 1 -1.718 -2.8785 2.3719 2.3719 0 0 1 2.8763 -1.7217 2.3719 2.3719 0 0 1 1.7254 2.8741"/>
+    </g>
+  </symbol>
+
+  <symbol id="menu" viewBox="0 0 50 50">
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="0" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="20" x="0"/>
+     <rect style="stroke-width:0;fill:currentColor" height="10" width="50" y="40" x="0"/>
+   </symbol>
+
+   <symbol id="link" viewBox="0 0 50 50">
+    <g transform="translate(0 -1002.4)">
+     <g transform="matrix(.095670 0 0 .095670 2.3233 1004.9)">
+      <g>
+       <path style="stroke-width:0;fill:currentColor" d="m452.84 192.9-128.65 128.65c-35.535 35.54-93.108 35.54-128.65 0l-42.881-42.886 42.881-42.876 42.884 42.876c11.845 11.822 31.064 11.846 42.886 0l128.64-128.64c11.816-11.831 11.816-31.066 0-42.9l-42.881-42.881c-11.822-11.814-31.064-11.814-42.887 0l-45.928 45.936c-21.292-12.531-45.491-17.905-69.449-16.291l72.501-72.526c35.535-35.521 93.136-35.521 128.64 0l42.886 42.881c35.535 35.523 35.535 93.141-.001 128.66zm-254.28 168.51-45.903 45.9c-11.845 11.846-31.064 11.817-42.881 0l-42.884-42.881c-11.845-11.821-11.845-31.041 0-42.886l128.65-128.65c11.819-11.814 31.069-11.814 42.884 0l42.886 42.886 42.876-42.886-42.876-42.881c-35.54-35.521-93.113-35.521-128.65 0l-128.65 128.64c-35.538 35.545-35.538 93.146 0 128.65l42.883 42.882c35.51 35.54 93.11 35.54 128.65 0l72.496-72.499c-23.956 1.597-48.092-3.784-69.474-16.283z"/>
+      </g>
+     </g>
+    </g>
+  </symbol>
+
+  <symbol id="doc" viewBox="0 0 35 45">
+   <g transform="translate(-147.53 -539.83)">
+    <path style="stroke:currentColor;stroke-width:2.4501;fill:none" d="m149.38 542.67v39.194h31.354v-39.194z"/>
+    <g style="stroke-width:25" transform="matrix(.098003 0 0 .098003 133.69 525.96)">
+     <path d="m220 252.36h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path style="stroke:currentColor;stroke-width:25;fill:none" d="m220 409.95h200"/>
+     <path d="m220 488.74h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+     <path d="m220 331.15h200" style="stroke:currentColor;stroke-width:25;fill:none"/>
+    </g>
+   </g>
+ </symbol>
+ <symbol id="tick" viewBox="0 0 177.16535 177.16535">
+  <g transform="translate(0 -875.2)">
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="155" width="40" y="702.99" x="556.82"/>
+   <rect style="stroke-width:0;fill:currentColor" transform="rotate(30)" height="40" width="90.404" y="817.99" x="506.42"/>
+  </g>
+ </symbol>
+ <symbol id="play" viewBox="0 0 16 16">
+  <path d="M15.331 2.502c-2.244-0.323-4.724-0.502-7.331-0.502s-5.087 0.179-7.331 0.502c-0.43 1.683-0.669 3.543-0.669 5.498s0.239 3.815 0.669 5.498c2.244 0.323 4.724 0.502 7.331 0.502s5.087-0.179 7.331-0.502c0.43-1.683 0.669-3.543 0.669-5.498s-0.239-3.815-0.669-5.498zM6 11v-6l5 3-5 3z"></path>
+ </symbol>
+ <symbol id="syndication" viewBox="0 0 16 16">
+  <path d="M16 6.707c0-3.139-0.919-5.687-2.054-5.707 0.005-0 0.009-0 0.014-0h-1.296c0 0-3.044 2.287-7.425 3.184-0.134 0.708-0.219 1.551-0.219 2.523s0.085 1.816 0.219 2.523c4.382 0.897 7.425 3.184 7.425 3.184h1.296c-0.005 0-0.009-0-0.014-0.001 1.136-0.020 2.054-2.567 2.054-5.707zM13.513 11.551c-0.147 0-0.305-0.152-0.387-0.243-0.197-0.22-0.387-0.562-0.55-0.989-0.363-0.957-0.564-2.239-0.564-3.611s0.2-2.655 0.564-3.611c0.162-0.428 0.353-0.77 0.55-0.99 0.081-0.091 0.24-0.243 0.387-0.243s0.305 0.152 0.387 0.243c0.197 0.22 0.387 0.562 0.55 0.99 0.363 0.957 0.564 2.239 0.564 3.611s-0.2 2.655-0.564 3.611c-0.162 0.428-0.353 0.77-0.55 0.989-0.081 0.091-0.24 0.243-0.387 0.243zM3.935 6.707c0-0.812 0.060-1.6 0.173-2.33-0.74 0.102-1.39 0.161-2.193 0.161-1.048 0-1.048 0-1.048 0l-0.867 1.479v1.378l0.867 1.479c0 0 0 0 1.048 0 0.803 0 1.453 0.059 2.193 0.161-0.113-0.729-0.173-1.518-0.173-2.33zM5.752 10.034l-2-0.383 1.279 5.024c0.066 0.26 0.324 0.391 0.573 0.291l1.852-0.741c0.249-0.1 0.349-0.374 0.222-0.611l-1.926-3.581zM13.513 8.574c-0.057 0-0.118-0.059-0.149-0.094-0.076-0.085-0.149-0.217-0.212-0.381-0.14-0.369-0.217-0.863-0.217-1.392s0.077-1.023 0.217-1.392c0.063-0.165 0.136-0.297 0.212-0.381 0.031-0.035 0.092-0.094 0.149-0.094s0.118 0.059 0.149 0.094c0.076 0.085 0.149 0.217 0.212 0.381 0.14 0.369 0.217 0.863 0.217 1.392s-0.077 1.023-0.217 1.392c-0.063 0.165-0.136 0.297-0.212 0.381-0.031 0.035-0.092 0.094-0.149 0.094z"></path>
+  </symbol>
+  <symbol id="location" viewBox="0 0 16 16"><path d="M8 0c-2.761 0-5 2.239-5 5 0 5 5 11 5 11s5-6 5-11c0-2.761-2.239-5-5-5zM8 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"></path></symbol>
+</svg>
+
+    <div class="wrapper">
+      <header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a
+        class="logo"
+        href="https://matienzo.org"
+        aria-label="Mark A. Matienzo home page"
+      >
+        <img src="https://matienzo.org/images/logo.svg" alt="">
+      </a>
+      <p class="library-desc">
+        
+      </p>
+    </div>
+    <nav id="patterns-nav" class="patterns" role="navigation">
+  <h2 class="vh">Main navigation</h2>
+  <button id="menu-button" aria-expanded="false">
+    <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
+      <use xlink:href="#menu"></use>
+    </svg>
+    Menu
+  </button>
+  
+  <ul id="patterns-list">
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Home</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/posts/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Posts</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/notes/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Notes</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/publications/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Publications</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/presentations/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Presentations</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/projects/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Projects</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/music/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Music</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
+      
+      <a href="/index.xml" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">RSS</span>
+      </a>
+    </li>
+  
+  </ul>
+</nav>
+
+  </div>
+</header>
+
+      <div class="main-and-footer">
+        <div>
+          
+  <main id="main">
+    <h1>To Hell With Good Intentions: Linked Data, Community, and the Power to Name</h1>
+    <p><em>This is the written version of my keynote presentation from the <a href="http://litaforum.org/">2015 <abbr title="Library Information Technology Association">LITA</abbr> Forum</a> in Minneapolis, Minnesota, on November 14, 2015. I am grateful for the thoughtful and critical feedback from my friends and colleagues Maureen Callahan, Jarrett M. Drake, Hillel Arnold, Ben Armintor, Christina Harlow, and Chela Weber in their review of earlier drafts of this text.</em></p>
+<p>Good morning. I am honored to be here in Minneapolis, and I have to admit it&rsquo;s the first time that I&rsquo;ve been able to attend the LITA Forum. Today I&rsquo;ll be trying to provide some structure to a few longstanding thoughts that have been percolating about the work that we do with metadata, which I see as being at the intersection of libraries and technology, and the rhetoric around linked data in particular. My hope is that we can start to examine linked data, particularly within the context of cultural heritage, and how it is decidedly not neutral, nor an intrinsic good, but instead as another space in which ideology and systematic oppression are likely to be reproduced. It is my belief that we have the power and the obligation to intervene in this, and that part of that intervention can involve both an intercession into our professional norms and practices and getting out of the way enough for communities to determine how they want to best document themselves.</p>
+<p>I want to start my talk by defining my own &ldquo;personal graph&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> in relation to this presentation by acknowledging two things: the work and thought of others who inspire me and have helped me understand the provocation behind this presentation, and the context that I bring to this presentation. I am lucky to have a group of thoughtful colleagues who have helped me form my thoughts, whether they realize it or not. This is certainly not a list of everyone whom has ever inspired me to be an effective archivist and technologist willing to engage critically with the work that I do &ndash; it&rsquo;s just the tip of the iceberg. Nonetheless, I would like to acknowledge the following people because of their profound impact on how this presentation has come into being. To <a href="https://medium.com/@JarrettMDrake">Jarrett Drake</a>, <a href="http://christinaharlow.com/">Christina Harlow</a>, Benjamin Armintor, <a href="https://medium.com/@BergisJules">Bergis Jules</a>, <a href="http://inkdroid.org/">Ed Summers</a>, <a href="http://tararobertson.ca/">Tara Robertson</a>, Shirley Lew, Baharak Yousefi, <a href="https://twitter.com/flexlibris">Alison Macrina</a>, <a href="http://ameliaabreu.com/">Amelia Abreu</a>, Maureen Callahan, and Hillel Arnold &ndash; thank you. And, if you&rsquo;re a conference organizer, please consider one of them as a potential keynote speaker in place of someone who looks like me or talks like me. We might speak about similar things but we don&rsquo;t always agree with each other, which makes it more interesting.</p>
+<p>So, let&rsquo;s talk about context. This is <em>not</em> to acknowledge my degrees and professional accolades, but rather to lay bare who I am and how some of the topics I&rsquo;ll be navigating speak to me. I am called to do this in part because of my recent experience at the <a href="https://www.diglib.org/forums/2015forum/">Digital Library Federation Forum</a> in Vancouver. From the opening session and keynote presentation by Safiya Umoja Noble, to the concluding plenary panel, <a href="https://open.library.ubc.ca/cIRcle/collections/55474/items/1.0220817">&ldquo;Capacity and Community: Setting Agendas for #ourDLF,&quot;</a> the discussion of acknowledging the context that people, as well as institutions, bring to their professional lives and projects percolated throughout the conference. This in part relates to the need to acknowledge the potential bias that we bring to our professional projects, and to allow our potential audiences to identify points of commonality or discord.</p>
+<p>So, who am I? Professionally speaking, I have worked in a variety of institutions, with an overwhelming focus on archives, metadata, and technology; the overwhelming majority of those institutions have been well-resourced and well-respected by people who find that important. I have been a project archivist, an assistant archivist, an application developer, an adjunct professor, a contractor, a digital archivist, and now a director of technology. I have worked with lots of metadata and have had lots of experience thinking about, implementing, and maintaining linked data and RDF over last couple of years. Generally, I think that unfettered access to information is a good thing. Nonetheless, my professional experience is an odd one, because I&rsquo;ve found myself between worlds, dwelling in a liminal space between archives and technology. At least in the past, the relationships between archivists and technologists in my experience have never been smooth, and throughout my career, I have been given the message by one group that I didn&rsquo;t really belong there since I was perceived to be part of the other one. IT folk have seen me as the demanding archivist who probably, in their mind, understand the complexity of their work. Archivists have labeled me as decidedly not an archivist, a data peddler, the resident geek, and someone unqualified to work in archives. In all fairness, this has gotten a lot better over the last few years &ndash; both for myself and the professions in general. Regardless, this is part of the reason why I say that I&rsquo;m both an archivist and a technologist, even if at times I’m one moreso than the other.</p>
+<p>This is a feeling I have to acknowledge, because it is so familiar in a personal context as well. It starts with my family. I am a child of two lovely people, an American and a first-generation immigrant who came to the US to further his education. My father, who&rsquo;s now been in the states for most of his life, seemed intent on minimizing difference between my family and everyone else around us. So what? Assimilation is common. Throughout my life, however, this difference seemed to be unavoidable. My skin is relatively pale, and I am deeply aware that on a daily basis that I benefit from and am expected to contribute to the economy of white privilege. Nonetheless, I can&rsquo;t shake that liminality. By some people&rsquo;s read, I&rsquo;m White; by others, I&rsquo;m Latino. I don&rsquo;t know what I am supposed to be, but I know I&rsquo;m both. I also know that the way that people look at me in public changes when I&rsquo;m by myself versus when I am with my father in the US, or when my mother and I are with him and his family when we visit them in Peru.</p>
+<p>And such it is with other aspects of my identity. In the interest of time and perceived vanity I&rsquo;m not going to itemize this for you further, but if you want to know, you can ask. Regardless, just look at me. I&rsquo;ve got this white skin, and this masculine body and presentation. I have a reasonably secure income with a job I love that compensates me fairly. I am in a committed heterosexual partnership. I am not here to whine about myself precisely because I have a ton of privilege. Nonetheless, the context you should take with you is that identity - or your story - is a hard thing to assert when you have no control of how you will be read. People see what they want to, and elide or emphasize that difference. It is no surprise that this is painful and tiring. Sometimes the world drowns your voice, and more often than not, the voices in your head can do that too.</p>
+<p>The other thing that weighs heavy on my mind, and adds to the context of my presentation today, is the stark reality that students of color are facing at University of Missouri, and other campuses across the country. It is an unfortunate truth that systemic racism and disenfranchisement are not news, but specific incidents are what draw attention. And such it is with what&rsquo;s been playing out on the Mizzou campus. The racism experienced by people in Columbia, Missouri - itself less than five hundred miles from Minneapolis - is <strong>not</strong> new. These are all part of a broader series of events and historical realities, with a campus that was likely built on the labor of slaves. And even more recently, the opposition is nothing new; it&rsquo;s part of a larger context.</p>
+<p>I want to acknowledge these larger struggles even from the last three months at University of Missouri. Graduate students at MU organized, participated in a walkout, and begin unionizing in response to cuts to health care coverage for domestic and international students and to address other aspects of their working conditions, including better wages, tuition and fee waivers, and access to housing and childcare. There were three &ldquo;Racism Lives Here&rdquo; rallies this fall on the Mizzou campus even <em>before</em> the campus discovered the hateful graffiti in a residence hall bathroom. In October, three immigrant students filed separate lawsuits against the University of Missouri, St. Louis Community College, and the Metropolitan Community College in Kansas City. The suits were filed in reaction to the recent rewording of Missouri House Bill 3 from the 2014 version, which prohibited students with an &ldquo;unlawful presence&rdquo; from receiving in-state tuition rates, to students having an “unlawful status.” Two undocumented MU students that were not publicly identified would have seen a $15,000 per year tuition increase based upon this change. The University of Missouri Health System drastically reduced access to women&rsquo;s healthcare through the ending of &ldquo;refer and follow&rdquo; privileges and the cancellation of agreements that allowed graduate students to receive training at Planned Parenthood of Kansas and Mid-Missouri&rsquo;s clinic in Columbia. I recommend looking at <a href="http://www.themaneater.com/special-sections/mu-fall-2015/">this timeline</a> published by <a href="http://www.themaneater.com/"><em>The Maneater</em></a>, a student newspaper at University of Missouri, which allows you to start to see this greater trajectory.</p>
+<p>Across all these aspects we see the interplay of issues of justice related to race, ethnicity and immigration status; to access to education and healthcare and the economic issues entangled within; and to gender. What speaks to me the most about this is the consciousness of the activists involved to want to ensure they are represented accurately and fairly. Specifically, I&rsquo;m talking about the conscious decision to develop a &ldquo;no media&rdquo; safe space in an encampment set up on a campus quad, and the intentional reaction to eject an MU student who was working on assignment for ESPN.com who was trying to take photographs. To the Concerned Student 1950 movement, to all students, communities, and activists recognizing the need to protect themselves and designate that space for healing, fellowship, and organizing: bravo, I stand with you. To those of you decrying this as an assault to free speech, I offer the following inspired by Ivan Illich: <em>to Hell with good intentions. This is a theological statement. The media will not help anybody by its good intentions.</em><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>On Thursday, Tressie McMillan Cottom, assistant professor of sociology at Virginia Commonwealth University, wrote <a href="http://tressiemc.com/2015/11/12/fascism/">a blog post</a> in response to a Twitter conversation she had with Roxane Gay and David Simon. Her post dismantles Simon&rsquo;s assertions &ldquo;that the Mizzou students were fascists in &lsquo;intent&rsquo;, the photographer was the real hero of recent events, and that these were the moments on the slippery slope to the decline of American democracy&rdquo; through acknowledging the complicity of the media as being neither a rational, objective actor nor a neutral presence. Specifically, she asserts the following early on in her post:</p>
+<blockquote>
+<p>The press is not a rational objective actor. The press shapes as much as it documents. All press benefits as much from social change as it benefits from the status quo. That means the press, especially corporate media, is always serving two masters. The press has rights but so do persons and sometimes we define those rights by working through the moments when they clash.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+</blockquote>
+<p>I found out about Tressie&rsquo;s post from my colleague Jarrett Drake, who posted a series of tweets that really blew my mind with his framing of the post. As an aside, I have to acknowledge that the process of how I learned and interpreted this itself was extremely serendipitous and haphazard. Jarrett was providing his own gloss on a blog post where Tressie was writing about an hours-long Twitter conversation. Jarrett tweeted the following:</p>
+<blockquote>
+<p>Okay, read this and insert &ldquo;the archives&rdquo; where you read &ldquo;the press&rdquo; or &ldquo;the media&rdquo; and watch it still make sense.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>Especially this line: &ldquo;The press shapes as much as it documents.&rdquo; &ldquo;The archives shapes as much as it documents.&quot;<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>The archives as shapers of the past, not merely documenters of it. I hope someone dissertates on this.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+</blockquote>
+<p>To build off Jarrett&rsquo;s reading of that critical sentence, I&rsquo;ll ask you to do the same as he did. For &ldquo;the press&rdquo; or &ldquo;the media,&rdquo; replace that with &ldquo;libraries.&rdquo; Replace it with &ldquo;library technology&rdquo; or &ldquo;library systems.&rdquo; Replace it with &ldquo;metadata.&rdquo; Replace it with &ldquo;linked data.&rdquo;</p>
+<p>I cannot help but emphasize how much this framing has helped me make sense of this presentation, particularly when read alongside <a href="http://www.inthelibrarywiththeleadpipe.org/2014/locating-the-library-in-institutional-oppression/">&ldquo;Locating the Library in Institutional Oppression,&quot;</a> an article that nina de jesus wrote for <em>In the Library with a Lead Pipe,</em> which demands that we see the complicity of libraries and librarianship in maintaining a perception of neutrality. Bess Sadler and Chris Bourg&rsquo;s article in the <em>Code4lib Journal</em>, <a href="http://journal.code4lib.org/articles/10425">&ldquo;Feminism and the Future of Library Discovery,&quot;</a> urges us to question our supposed professional neutrality in the context of developing systems and services to support discovery in a library context, and how to imbue a feminist agenda into not only how we think about our work, but also into those systems and services themselves. Bess and Chris acknowledge the work of Hope Olson, in particular her book <a href="https://books.google.com/books/about/The_Power_to_Name.html?id=Af05TXLoUo4C"><em>The Power to Name: Locating the Limits of Subject Representation in Libraries,</em></a> as establishing that subject classification systems are bound to their historical context and reflect bias.</p>
+<p>More generally, Olson also establishes that subject classification itself is a type of &ldquo;naming&rdquo; information, or the creation of document surrogates. She continues (emphasis added):</p>
+<blockquote>
+<p>Naming is the act of bestowing a name, of labelling, of <strong>creating an identity.</strong> It imposes a pattern on the world that is meaningful to the namer. Each of us names reality according to our own vision of the world build on past meanings in our own experience. &hellip; Dale Spender was speaking in general terms, but might have been describing the way librarians name information when she wrote: &ldquo;All naming is of necessity biased and the process of naming is one of <strong>encoding that bias</strong>, of making a selection of what to emphasize and what to overlook on the basis of a strict use of already patterned materials.&quot;<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+</blockquote>
+<p>Arguably, by extension, this also includes the creation of descriptions, or metadata about &ldquo;real-world objects&rdquo; in the parlance of <abbr title="Resource Description Framework">RDF</abbr>: books, places, people, topics, and so forth. It should be obvious that <em>naming is power</em>, as the title of the chapter of Olson&rsquo;s book from which the previous quote is taken. Geographer Yi-Fu Tuan further acknowledges this in the the specific case of geographical names, and how naming itself can be used to construct an convenient <em>thing</em> that previously did not exist, most specifically in the construction of &ldquo;Asia&rdquo;:</p>
+<blockquote>
+<p>We may trace the continent in its present shape and size back to the end of the seventeenth century, when modern Western people felt the need for a collective name to designate their own society and culture. &hellip; &ldquo;Europe&rdquo; came to be seen as the handy term with which to describe a geographical area and an assortment of peoples, which, by the late seventeenth century, did have a large measure of unity in linguistic and civilizational origin, in physical (racial) type, and in religion. Asia, then, was defined negatively as all that was not Europe. Asia&rsquo;s reason for existence was to serve as the backward, yet glamorous because exotic, Other. It had no independent reality; and yet, in the course of time, people who lived in this European creation began to accept it and exploit the name of Asia, and the sociopolitical reality it could call into existence, for their own purposes.<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></p>
+</blockquote>
+<p>If we return to the world of libraries and the management of metadata, we can notice a refraction of related issues. Building on Hope Olson, Chris Bourg identifies cases relating to subject classification in her talk <a href="https://chrisbourg.wordpress.com/2015/01/28/never-neutral-libraries-technology-and-inclusion/">&ldquo;Never neutral: Libraries, Technology, and Inclusion&rdquo;</a> she gave at the OLA Superconference earlier this year. She relates a discovery where Randy Shilts&rsquo; book <em>Conduct Unbecoming: Gays &amp; Lesbians in the US Military</em>, by virtue of the call number assigned to it, was shelved with works related to &ldquo;Minorities, women, etc. in armed forces,&rdquo; which let to the book being, in her words, &ldquo;literally shelved between <em>Secrets of a Gay Marine Porn Star</em> and <em>Military Trade</em> &ndash; a collection of stories by people with a passion for military men.&rdquo; She also acknowledges the recognition of Myrna Morales in discovering that materials related to the Young Lords Party, a Puerto Rican nationalist and activist group, as being classified under a subject heading of &ldquo;gangs&rdquo; within the <em>Reader&rsquo;s Guide to Periodical Literature</em>.</p>
+<p>Amber Billey, Emily Drabinski, and K.R. Roberto critically examine RDA Rule 9.7, which instructs catalogers to record gender with one of three options &ndash; &ldquo;male,&rdquo; &ldquo;female,&rdquo; and &ldquo;not known&rdquo; &ndash; as part of the process for constructing an authority record.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Billey, Drabinski, and Roberto acknowledge that from the perspective of queer identity and lives that it erases or oversimplifies the reality of how people view their own gender. Specific issues, in their view, are threefold: that, contra RDA Rule 9.7 and the Library of Congress interpretation of that rule, gender is not reducible to a binary and innate state; that the rule fundamentally misunderstands how queer, transgender, genderqueer, and gender non-conforming people understand their own identities; and that gender can fundamentally be &ldquo;read&rdquo; by a cataloger. Most troubling is the recommendation in Rule 9.7 that gender &ldquo;changes&rdquo; be recorded associated with a given date. Billey, Drabinski, and Roberto note this practice as &ldquo;insensitive at best, painful at worst, and belies, the often decidedly non-linear paths gender changes can take.&rdquo;</p>
+<p>It should be clear that the naming function of metadata raises a contentious point in that it allows assumptions and oppression to be reproduced over time. That is not to say that metadata and the process of naming does not have any positive value within the context of libraries and cultural heritage institutions. Structure and conformity &ndash; the basis of standardization &ndash; allows us to build systems that support discovery at all. Even a consistent locally-defined or discipline-specific vocabulary provides the potential for marginally better discovery insofar as you understand the context enough. Moreover, naming is fundamentally unavoidable in knowledge representation. As such, we need to make a decision whether we choose to name with an intention of justice, or with the pretense of neutrality and objectivity. Karen Coyle, in the <a href="https://journals.ala.org/ltr/article/view/4630/5478">first chapter of <em>Understanding the Semantic Web: Bibliographic Data and Metadata</em></a>, her ALA Library Technology Report, also notes that metadata should be defined as &ldquo;constructed, constructive, and actionable&rdquo;; in other words, metadata is a manufactured artificiality, developed for specific purposes, and can be used to satisfy a particular need. In my read, this further emphasizes that by definition metadata, nor its creation or interpretation can never be neutral, and it is incumbent upon us to recognize the damage we can or have inflicted on the communities represented, absent, or served by our institutions and collections.</p>
+<p>So, if this is generally true for metadata, and if you&rsquo;re an astute observer or maybe just opinionated you&rsquo;ll probably guess this is probably true for linked data as well. If you&rsquo;re not familiar with it by now, linked data relies on the standardized identification and naming of <em>things</em> &ndash; which again, include people, books, and so forth &ndash; in a global context using aspects of the Web as part of its core architecture. Specifically, and depending on how dogmatic you are, the preferred mechanisms are to use <abbr title="Hypertext Transfer Protocol">HTTP</abbr> <abbr title="Universal Resource Identifier">URI</abbr>s for naming, and <abbr title="Resource Description Framework">RDF</abbr> as the underlying model for how you define the world. Linked open data assumes that your data is, well, open: in other words, publicly accessible, and ideally licensed for reuse.</p>
+<p>In a library context, then, we can see that there are any number of entities we can consider &ndash; people, organizations, bibliographic works, cultural heritage objects, concepts, places, and so forth. The presumption is that Linked open data in libraries can hence help improve discovery &ndash; and, fundamentally, that this process of discovery is understood to be positive. In particular, this acknowledges one value of linked data for libraries in that it makes information more accessible to the Web. With a specific angle, this value is communicated by publishing linked data for libraries using Schema.org. The Schema.org initiative was originally started by Google, Bing, Yahoo, and Yandex to &ldquo;create and support a common set of schemas for structured data markup on web pages.&quot;<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> In turn, the intent is for Schema.org to assist with discovery on the web, as it can be leveraged as part of search engine optimization.</p>
+<p>I am less convinced that this is really a revolutionary thing when you do this by itself, without critically examining the rest of the practice. Yes, our resources should be broadly discoverable even on the broader web. This value of SEO within the context of linked data and libraries really doesn&rsquo;t change much about how the Web operates nor does it demand that we change our processes of naming. I think those of us who work at the intersection of libraries and technology are directly responsible for the implementation choices that we make, and by merely opting into linked data in this manner we are trafficking in a Web that is built by corporations who are opting out of this responsibility. That lack of inaction is a conscious choice that allows for searching the Web to remain fundamentally undemocratic as described by Safiya Umoja Noble. In Dr. Noble&rsquo;s words,</p>
+<blockquote>
+<p>[N]ot all organizations have the ability to promote their URL via other media. One of the myths of our digital democracy is that what rises to the top of the pile is what is most popular. By this logic, sexism and pornography are the most popular values on the Internet when it comes to women.<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+</blockquote>
+<p>Another specific set of foundational concepts within linked data is ripe for questioning and critical analysis, and this set of concepts has two heavily interrelated aspects. The first aspect is the open world assumption, which is a theoretical premise underpinning linked data. The open world assumption states that the truth value of a statement may be true irrespective of whether or not it is known to be true. As such, it emphasizes the fact that no single person or agent has comprehensive knowledge, and accordingly, we are limited about what we can infer from that knowledge to which we have access. The complementary aspect to the open world assumption is the view that &ldquo;anyone can say anything about anything,&quot;<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> which over time has been changed from the original claim, to &ldquo;anyone can make simple assertions about anything,&quot;<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> to &ldquo;anyone can make statements about any resource.&quot;<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup><sup>,</sup><sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
+<p>These concepts are heralded by a handful of people as the power of linked data as a means for us to shift the narrative, to make it easier to assert truths as we know them. By publishing them as linked data, there&rsquo;s also the possibility that someone else can pick up these narratives, read and interpret them, and help promulgate them further. In particular, the work of Tim Sherratt, an Australian historian and digital humanist comes to mind. In <a href="http://discontents.com.au/small-stories-in-a-big-data-world/">a presentation to the 2012 National Digital Forum</a> in Wellington, New Zealand, Tim stated the following:</p>
+<blockquote>
+<p>But to really have access, for something to be truly open, people also have to have the power to create. To take what they’re given and build something new — to challenge, to criticise, to offer alternatives. That means allowing people the space to have ideas, giving them the confidence to experiment, providing useful tools and the knowledge to use them.</p>
+</blockquote>
+<p>This is precisely where I think we can really make ourselves useful, but first, we need to step back a little. We need to begin having some serious conversations about how we can best serve our communities not only as repositories of authoritative knowledge or mere individuals who work within them. We should be examining the way in which we can best serve our communities to support their need to tell stories, to heal, and to work in the process of naming. Part of that involves knowing how to engage in these conversations and asking how we can help instead of constructing a representation of the worst that is best flawed and perhaps unrelatable, and at worst, knowledge organization that inflicts or reproduces violence on those whom we intend to serve.</p>
+<p>In addition, we have to recognize the folly of imposing our good intentions in regards to the production of linked data, or any form of documentation, without listening to these communities. These spaces are not always ours, and like the students occupying the quad at University of Missouri, we should be ready to make the space they demand when they do so. Even when we directly engage members of a community and request their presence in a project to correct a perceived absence of voices, we must recognize that this in itself is a form of labor that also has political and emotional impact. In her recent article &ldquo;Minor Threats,&rdquo; Mimi Thi Nguyen relates a case where she was urged to add materials to the riot grrrl archive at the Fales Library at New York University which viewed the absence of materials created by or about women of color from the collection, as &ldquo;a crisis, a decisive historical moment that demanded mediation.&quot;<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> She asks us to consider what might be lost or hidden in the process of &ldquo;correction&rdquo; of an absence and that correction is pursued. Without thought, without conversation, and without vulnerability on the part of those of you with good intentions, our process of correction can simultaneously introduce and spackle over its own violence. To Hell with good intentions, and to Hell with well-intentioned linked data.</p>
+<p>None of this is easy, even from a technical perspective. There&rsquo;s a William Gibson quote that futurists like to use: &ldquo;the future is already here &ndash; it’s just not very evenly distributed.&rdquo; This quote is in some senses true with the reality of linked data and the tools that support it. The technology is not new and relatively mature but few organizations have been able to wield it effectively. The thing is that I also think this quote is also bullshit. The past and present are already here too, and neither are evenly distributed. Owen Stephens, in a <a href="http://www.meanboyfriend.com/overdue_ideas/wp-content/uploads/2015/05/Anyone-can-say-Anything-with-notes.pdf">recent talk</a> on enhancing library data with linked data, quotes G.L. Holbert&rsquo;s assertion that &ldquo;With the Internet, we each have our own printing press.&rdquo; In response, I offer A.J. Liebling&rsquo;s aphorism that &ldquo;freedom of the press is guaranteed only to those who own one.&rdquo; There are far too many tools and pieces of infrastructure that support publication and consumption linked data that are hard to set up. The possibility of using inference or questioning the provenance of linked data resources unfortunately remains somewhat unavoidable.</p>
+<p>In his National Digital Forum talk, Tim Sherratt demands &ldquo;simple tools&rdquo; and &ldquo;no platforms,&rdquo; arguing that publication of linked data should be as easy as uploading an HTML page to a web server. While that is a noble goal, I nonetheless think that a certain level of additional of tool development is really necessary to help communities build out these narratives. There is a strong value for applications like <a href="http://omeka.org/">Omeka</a> and <a href="http://mukurtu.org/">Mukurtu</a>, in this space, and I am particularly interested to see how easy to use, open source, and visually welcoming authoring environments for interactive fiction like <a href="http://twinery.org/">Twine</a> can be leveraged or can inform how what direction these tools can take. We need to work more effectively together with our communities to produce these tools and to understand their impact.</p>
+<p>I&rsquo;d also like to add a word of warning here against being overly reliant on overcentralization here despite the gap in infrastructure. In the blog post I referenced earlier, Tressie McMillan Cottom responds to David Simon&rsquo;s labeling as &ldquo;fascism&rdquo; of the actions of the students at Mizzou who removed the photographer from their encampment:</p>
+<blockquote>
+<p>Fascism means something more than a thing one does not like. Fascism means a system of social organization that concentrates power and doesn’t just discourage dissent but organizes the State against it. &hellip; It is that hand-waving about a fascist state can confuse us about what making democracy looks like.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+</blockquote>
+<p>Centralizing the process of naming in any context overly concentrates that power. I am not saying that all vendors are inherently bad, or that institutions responsible for metadata standards and authority files are bad. Yes, there&rsquo;s a lot of work to be done to make linked data itself easier to publish, consume, and reuse for all kinds of institutions and communities, but I worry about our deference to this centralization. Despite my concerns about the lack of access to effective user-facing tools for linked data, I still believe its power is in its ability to leverage that decentralization. Relying on centralized authority management or metadata creation for everything, and the corporatization of library infrastructure, actively resists that decentralizing force, further limiting our own effectiveness in the construction of radical democracy.</p>
+<p>I will close here to acknowledge some initiatives who have thought about this carefully and are taking action. It&rsquo;s not to say that there haven&rsquo;t been some missteps, but I urge you to read about their work. First, please read about the the <a href="http://www.archivingpoliceviolence.org/">People&rsquo;s Archive of Police Violence in Cleveland</a>, an online archive to collecting, preserving, and providing access to stories of police violence as experienced or observed by people living in Cleveland. It was organized as a collaboration between Cleveland residents and professional archivists across the United States in reaction to the epidemic of police violence over the last few years. Also, read about the <a href="http://www.findandconnect.gov.au/">Find &amp; Connect</a> site, developed to help Forgotten Australians and Former Child Migrants understand more about their past and about the historical context of child welfare. It provides contextual information not only on sites of &ldquo;care,&rdquo; but also on associated archival records and photos, and information about how to connect with support services including counseling, assistance in accessing archival records, and, when possible, reconnection with family. It also provides important context about how and what you might find on the site, and what might be confronting, disturbing, or otherwise upsetting. Finally, please read the papers as they are published from the annual conference organized by the <a href="http://cirn.wikispaces.com/">Community Informatics Research Network</a>. Unfortunately, this year&rsquo;s conference was held earlier this week, and I found out far too late. All of these examples have given me a lot to think about in this space and I am looking to you to help determine what&rsquo;s next.</p>
+<p>So, think about what and how you name. Decentralize the ability to tell stories. Remember that the road to Hell is paved with good intentions. Shut up enough and step back far enough to listen, so you can make a lasting relationship to the people and communities you serve. Thank you.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>All credit goes to <a href="http://hillelarnold.com/">Hillel Arnold</a> for this framing. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Illich, Ivan. Address to the Conference on Inter-American Student Project, Cuernevaca, Mexico, April 1968. Published as &ldquo;To hell with good intentions&rdquo; in J.C. Kendall &amp; Associates (eds.), <em>Combining service and learning: A resource book for community and public service</em> (Raleigh, NC: National Society for Internships and Experiential Education, 1990, 314-320). <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Cottom, Tressie McMillan. <a href="http://tressiemc.com/2015/11/12/fascism/">&ldquo;Fascism.&quot;</a> <em>tressiemc.</em> November 12, 2015. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p><a href="https://twitter.com/jmddrake/status/664783302079987713">https://twitter.com/jmddrake/status/664783302079987713</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p><a href="https://twitter.com/jmddrake/status/664783611200192512">https://twitter.com/jmddrake/status/664783611200192512</a> <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p><a href="https://twitter.com/jmddrake/status/664783969704087552">https://twitter.com/jmddrake/status/664783969704087552</a> <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p>Olson, Hope A. <em>The Power to Name: Locating the Limits of Subject Representation in Libraries</em> (Dordrecht: Springer, 2002, 4). <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p>Tuan, Yi-Fu. &ldquo;Language and the Making of Place: A Narrative-Descriptive Approach.&rdquo; <em>Annals of the Association of American Geographers</em>, 81(3), 1991, 689. <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p>Billey, Amber, Emily Drabinski, and K.R. Roberto. &ldquo;What&rsquo;s Gender Got to Do with It? A Critique of RDA 9.7.&rdquo; <em>Cataloging &amp; Classification Quarterly</em> 52(4), 2014. Preprint: <a href="http://scholarworks.uvm.edu/libfacpub/19/">http://scholarworks.uvm.edu/libfacpub/19/</a> <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10" role="doc-endnote">
+<p>Goel, Kavi and Pravir Gupta. <a href="http://googlewebmastercentral.blogspot.com/2011/06/introducing-schemaorg-search-engines.html">&ldquo;Introducing schema.org: Search engines come together for a richer web&rdquo;</a> Google Webmaster Central Blog. June 2, 2011. <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11" role="doc-endnote">
+<p>Noble, Safiya Umoja. <a href="https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf">&ldquo;Missed Connections: What Search Engines Say About Women.&quot;</a> <em>Bitch Magazine</em> 54 (2012). See also Safiya Umoja Noble, <a href="http://ivc.lib.rochester.edu/google-search-hyper-visibility-as-a-means-of-rendering-black-women-and-girls-invisible/">&ldquo;Google Search: Hyper-visibility as a Means of Rendering Black Women and Girls Invisible,&quot;</a> <em>InVisible Culture</em> 19 (2013). <a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12" role="doc-endnote">
+<p>Klyne, Graham, and Jeremy Carroll (eds.). <a href="https://www.w3.org/TR/2002/WD-rdf-concepts-20020829/#xtocid48014">&ldquo;2.2.6 Anyone can say anything about anything.&quot;</a> In <a href="https://www.w3.org/TR/2002/WD-rdf-concepts-20020829/"><em>Resource Description Framework (RDF): Concepts and Abstract Data Model. W3C Working Draft 29 August 2002</em></a>. <a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13" role="doc-endnote">
+<p>Klyne, Graham, and Jeremy Carroll (eds.). <a href="https://www.w3.org/TR/2003/WD-rdf-concepts-20030123/#section-anyone">&ldquo;2.2.6 Anyone Can Make Simple Assertions About Anything&rdquo;</a> In <a href="https://www.w3.org/TR/2003/WD-rdf-concepts-20030123/"><em>Resource Description Framework (RDF): Concepts and Abstract Data Model. W3C Working Draft 23 January 2003</em></a>. <a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14" role="doc-endnote">
+<p>Klyne, Graham, and Jeremy Carroll (eds.). <a href="http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-anyone">&ldquo;2.2.6 Anyone Can Make Statements About Any Resource&rdquo;</a> In <a href="http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/"><em>Resource Description Framework (RDF): Concepts and Abstract Data Model. W3C Working Draft 10 February 2004</em></a>. <a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15" role="doc-endnote">
+<p>See Mirna Willer and Gordon Dunsire, &ldquo;Semantic Web and Linked Open Data&rdquo;, in <em>Bibliographic Information Organization in the Semantic Web</em> (Oxford: Chandos, 2013), 119. <a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16" role="doc-endnote">
+<p>Nguyen, Mimi Thi. &ldquo;Minor Threats.&rdquo; <em>Radical History Review</em> 122 (2015), 17-18. <a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+  </main>
+
+          <footer role="contentinfo">
+  <div>
+    <label for="themer">
+      invert colors: <input type="checkbox" id="themer" class="vh">
+      <span aria-hidden="true"></span>
+    </label>
+  </div>
+  
+    Navigate by <a href="/years">years</a> or <a href="/tags">tags</a>.
+  
+</footer>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://matienzo.org/js/prism.js"></script>
+
+
+
+<script src="https://matienzo.org/js/dom-scripts.js"></script>
+
+
+
+<script src="/js/search.7aef046a0cc8b0c532f1d20087b920459bc868c936bb48a6ae221eceefca2d07.js"></script>
+
+<link rel="stylesheet" href="/css/search.fe0cd54a21628574bff49d721c827d1bb165ab56b0f22dd55ae78addbe61c309.css"></link>
+
+
+    
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>

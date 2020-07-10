@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Mark A. Matienzo</title>
+    <link>https://matienzo.org/tags/technology/</link>
+    <description>Recent content in Technology on Mark A. Matienzo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://matienzo.org/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Profit &amp;amp; Pleasure in Goat Keeping</title>
+      <link>https://matienzo.org/2015/profit-amp-pleasure-in-goat-keeping/</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/profit-amp-pleasure-in-goat-keeping/</guid>
+      <description>
+&lt;p&gt;Two weeks ago, we officially announced &lt;a href=&#34;http://dp.la/info/2015/02/11/dpla-releases-krikri-0-1-3/&#34;&gt;the initial release of Krikri&lt;/a&gt;, our new metadata aggregation, mapping, and enrichment toolkit.&lt;/p&gt;
+
+&lt;p&gt;In light of its importance, we would like to take a moment for a more informal introduction to the newest members of DPLA’s herd. Krikri and Heiðrún (a.k.a. Heidrun; &lt;a href=&#34;http://www.forvo.com/word/hei%C3%B0r%C3%BAn/&#34;&gt;pronounced like &lt;i&gt;hey-droon&lt;/i&gt;&lt;/a&gt;) are key to many of DPLA’s plans and serve as a critical piece of infrastructure for DPLA.&lt;/p&gt;
+
+&lt;p&gt;They are also names for, or types, of goats.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What DPLA and DLF Can Learn from Code4lib</title>
+      <link>https://matienzo.org/2015/what-dpla-and-dlf-can-learn-from-code4lib/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2015/what-dpla-and-dlf-can-learn-from-code4lib/</guid>
+      <description>
+&lt;p&gt;&lt;em&gt;This post has been crossposted to the &lt;a href=&#34;http://www.diglib.org/archives/7938&#34;&gt;Digital Library Federation blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://code4lib.org/conference/2015&#34;&gt;Code4lib 2015&lt;/a&gt; was held last week from February 9-12, 2015 in Portland, Oregon. The Code4lib conferences have grown in the last ten years, both in terms of size and scope of topics. This growth is particularly impressive when you consider that much of the work of organizing the conference falls upon a circulating group of volunteers, with additional organizational support from organizations like the &lt;a href=&#34;http://www.diglib.org/&#34;&gt;Digital Library Federation&lt;/a&gt;. It has become clear to me that the Code4lib community is interested in ensuring that it can develop and support compelling and useful conferences for everyone who chooses to participate.&lt;/p&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>A Helping Hand: Free Software and the DPLA</title>
+      <link>https://matienzo.org/2014/a-helping-hand-free-software-and-the-dpla/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://matienzo.org/2014/a-helping-hand-free-software-and-the-dpla/</guid>
+      <description>
+&lt;p&gt;As you probably know, DPLA is committed to making cultural heritage materials held in America&#39;s libraries, archives, and museums freely available to all, and we provide &lt;a href=&#34;http://dp.la/info/developers/&#34;&gt;maximally open data&lt;/a&gt; to encourage transformative uses of those materials by developers. In addition, DPLA is also proud to distribute the software we produce to support our mission to the wider community.</description>
+    </item>
+    
+  </channel>
+</rss>
