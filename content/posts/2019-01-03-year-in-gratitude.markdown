@@ -31,21 +31,21 @@ This year was largely complicated and often felt like a massive garbage fire to 
 
 This is not a ranked list, nor a list based on number of listens. Lots of records came out this year that are incredibly important to me. The list below are those that had the most profound impact. I probably listened to a lot of these alone, while on a hike, at the gym, on the train to work, or in the car. These are the records that struck a chord, that caused me to feel twinges of something, that made me feel either more or less alone. Thanks go to everyone who was involved with them.
 
-* [*Thou*{:.p-author} - _Magus_{:.p-name}](https://thou.bandcamp.com/album/magus-2){:.h-cite .u-like-of}
-* [*Thou*{:.p-author} - _Rhea Sylvia_{:.p-name}](https://thou.bandcamp.com/album/rhea-sylvia){:.h-cite .u-like-of}
-* [*Cruel Diagonals*{:.p-author} - _Disambiguation_{:.p-name}](https://crueldiagonals.bandcamp.com/album/disambiguation){:.h-cite .u-like-of}
-* [*Ross From Friends*{:.p-author} - _Family Portrait_{:.p-name}](https://rossfromfriends.bandcamp.com/album/family-portrait-2){:.h-cite .u-like-of}
-* [*Chris Corsano and Bill Orcutt*{:.p-author} - _Brace Up!_{:.p-name}](https://billorcutt.bandcamp.com/album/brace-up){:.h-cite .u-like-of}
-* [*Helado Negro*{:.p-author} - _Island Universe Story Four_{:.p-name}](https://heladonegro.bandcamp.com/album/island-universe-story-four){:.h-cite .u-like-of}
-* [*Without*{:.p-author} - _Elaborations: III_{:.p-name}](https://withoutdoom.bandcamp.com/album/elaborations-iii){:.h-cite .u-like-of}
-* [*Moloch*{:.p-author} - _A Bad Place_{:.p-name}](https://feastoftentacles.bandcamp.com/album/a-bad-place-lp){:.h-cite .u-like-of}
-* [*Ragana/Thou*{:.p-author} - _Let Our Names Be Forgotten_{:.p-name}](https://ragana.bandcamp.com/album/let-our-names-be-forgotten-split-with-thou){:.h-cite .u-like-of}
-* [*Blood Orange*{:.p-author} - _Negro Swan_{:.p-name}](https://bloodorangenyc.bandcamp.com/album/negro-swan){:.h-cite .u-like-of}
-* [*Panopticon*{:.p-author} - _The Scars of Man on the Once Nameless Wilderness, Parts 1 and 2_{:.p-name}](https://thetruepanopticon.bandcamp.com/album/the-scars-of-man-on-the-once-nameless-wilderness-i-and-ii){:.h-cite .u-like-of}
-* [*Emma Ruth Rundle*{:.p-author} - _On Dark Horses_{:.p-name}](https://emmaruthrundle.bandcamp.com/album/on-dark-horses){:.h-cite .u-like-of}
-* [*Low*{:.p-author} - _Double Negative_{:.p-name}](https://lowtheband.bandcamp.com/album/double-negative){:.h-cite .u-like-of}
-* [*Vile Creature*{:.p-author} - _Cast of Static and Smoke_{:.p-name}](https://haloofflies.bandcamp.com/album/cast-of-static-and-smoke){:.h-cite .u-like-of}
-* [*Xinlisupreme*{:.p-author} - _I Am Not Shinzo Abe_{:.p-name}](https://xinlisupreme.bandcamp.com/album/i-am-not-shinzo-abe){:.h-cite .u-like-of}
+* [*Thou* - _Magus_](https://thou.bandcamp.com/album/magus-2)
+* [*Thou* - _Rhea Sylvia_](https://thou.bandcamp.com/album/rhea-sylvia)
+* [*Cruel Diagonals* - _Disambiguation_](https://crueldiagonals.bandcamp.com/album/disambiguation)
+* [*Ross From Friends* - _Family Portrait_](https://rossfromfriends.bandcamp.com/album/family-portrait-2)
+* [*Chris Corsano and Bill Orcutt* - _Brace Up!_](https://billorcutt.bandcamp.com/album/brace-up)
+* [*Helado Negro* - _Island Universe Story Four_](https://heladonegro.bandcamp.com/album/island-universe-story-four)
+* [*Without* - _Elaborations: III_](https://withoutdoom.bandcamp.com/album/elaborations-iii)
+* [*Moloch* - _A Bad Place_](https://feastoftentacles.bandcamp.com/album/a-bad-place-lp)
+* [*Ragana/Thou* - _Let Our Names Be Forgotten_](https://ragana.bandcamp.com/album/let-our-names-be-forgotten-split-with-thou)
+* [*Blood Orange* - _Negro Swan_](https://bloodorangenyc.bandcamp.com/album/negro-swan)
+* [*Panopticon* - _The Scars of Man on the Once Nameless Wilderness, Parts 1 and 2_](https://thetruepanopticon.bandcamp.com/album/the-scars-of-man-on-the-once-nameless-wilderness-i-and-ii)
+* [*Emma Ruth Rundle* - _On Dark Horses_](https://emmaruthrundle.bandcamp.com/album/on-dark-horses)
+* [*Low* - _Double Negative_](https://lowtheband.bandcamp.com/album/double-negative)
+* [*Vile Creature* - _Cast of Static and Smoke_](https://haloofflies.bandcamp.com/album/cast-of-static-and-smoke)
+* [*Xinlisupreme* - _I Am Not Shinzo Abe_](https://xinlisupreme.bandcamp.com/album/i-am-not-shinzo-abe)
 
 ## What's next
 

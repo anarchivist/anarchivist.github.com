@@ -1,7 +1,7 @@
 ---
 content_url: /storage/2013/2013Nov-DLF-ASpace.pdf
 authors:
-- David Millman,
+- David Millman
 - Mark A. Matienzo
 - Katherine Kott
 - Brad Westbrook

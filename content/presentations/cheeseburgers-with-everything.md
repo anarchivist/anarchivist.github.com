@@ -5,7 +5,8 @@ authors:
 - Mark A. Matienzo
 title: >-
   Cheeseburgers With Everything: Context, Content, and Connections in Archival Description
-syndication: http://www.archivists.org/publications/proceedings/EAD@10/Matienzo-EAD@10.pdf)
+syndication:
+- http://www.archivists.org/publications/proceedings/EAD@10/Matienzo-EAD@10.pdf)
 session: >-
   EAD@10: A Symposium Celebrating the 10th Anniversary of Encoded Archival Description
 event: >-

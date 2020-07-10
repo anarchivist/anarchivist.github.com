@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2014/2014Jan-DPLA-LibHackALAMW.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   The DPLA API
 event: >-

@@ -9,6 +9,7 @@ taxonomies:
   tag: tags
 
 permalinks:
+  music: /:year/:slug/
   notes: /:year/:yearday/:slug/
   posts: /:year/:slug/
   publications: /:year/:slug/
@@ -53,14 +54,14 @@ menu:
     - name: Notes
       url: /notes/
       weight: 3
-    - name: Publications
-      url: /publications/
-      weight: 4
-    - name: Presentations
-      url: /presentations/
-      weight: 5
     - name: Projects
       url: /projects/
+      weight: 4
+    - name: Publications
+      url: /publications/
+      weight: 5
+    - name: Presentations
+      url: /presentations/
       weight: 6
     - name: Music
       url: /music/

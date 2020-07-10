@@ -7,7 +7,7 @@ title: >-
 event: >-
   Code4lib
 location: Portland, OR
-date: 2008-02
+date: 2008-02-24
 status: Lightning Talk
-slug: code4lib-kochief 
+slug: code4lib-kochief
 ---

@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2007/20070301
-authors: Mark A. Matienzo
+authors:
+- Mark A. Matienzo
+
 title: >-
   Planning for Disaster: How To Create Unmaintainable Indexing Workflow
 event: >-

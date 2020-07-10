@@ -1,5 +1,6 @@
 ---
-author: Mark A. Matienzo
+authors:
+- Mark A. Matienzo
 title: >-
   Memory Practices in the Sciences by Geoffrey C. Bowker, Cambridge, Mass.: MIT Press, 2006
 volume_title: Journal of the Association of History and Computing

@@ -6,7 +6,7 @@ title: >-
 event: >-
   Mid-Atlantic Regional Archives Conference
 location: Jersey City, NJ
-date: 2009-10
+date: 2009-10-01
 status: Invited; Chair
 slug: marac-ead
 ---

@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2012/2012Dec-ArchivistsToolkit-NYU.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   Archivists' Toolkit (The AT)
 event: >-

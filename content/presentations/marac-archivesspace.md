@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2011/2011Oct-MARACArchivesSpace.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   ArchivesSpace: Building a Next-Generation Archives Management Tool
 event: >-

@@ -5,7 +5,7 @@ authors:
 title: >-
   A Minimum Viable Strategy for Archives and Linked Data using Schema.org
 session: >-
-  Session 303: Progress (and Pitfalls) of Linked Data Projects.
+  Session 303: Progress (and Pitfalls) of Linked Data Projects
 event: >-
   Society of American Archivists
 location: Washington, DC

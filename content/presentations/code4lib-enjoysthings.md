@@ -7,7 +7,7 @@ title: >-
 event: >-
   Code4lib
 location: Providence, RI
-date: 2009-02
+date: 2009-02-24
 status: Lightning Talk
 slug: code4lib-enjoysthings
 ---

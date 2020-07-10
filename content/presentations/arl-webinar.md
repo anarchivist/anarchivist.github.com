@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2018/2018Apr-ARL-SULs.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   Digital Libraries at Stanford: Infrastructure, Services, & Projects for Accessible Content
 event: >-

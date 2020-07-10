@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <main id="main" class="h-entry">
+    <h1 class="p-name">
+      <svg class="doc-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#doc"></use>
+      </svg>
+      {{ partial "music_title" . }}
+    </h1>
+    <div class="metadata">
+    {{ partial "citation.html" . }}
+    </div>
+    {{ if ne .Params.toc false }}
+      {{ partial "toc" . }}
+    {{ end }}
+
+    <div class="e-content">{{ .Content }}</div>
+    {{ with .Params.bandcamp_album_id }}{{ partial "bandcamp.html" . }}{{ end }}
+
+    {{ partial "permalink.html" .}}
+  </main>
+  {{ partial "disqus.html" . }}
+{{ end }}

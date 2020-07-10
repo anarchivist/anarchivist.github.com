@@ -9,6 +9,6 @@ title: >-
 pid: >-
   http://mw2013.museumsandtheweb.com/paper/archivesspace-a-next-generation-archives-management-system/
 volume_title: >-
-  Museums and the Web 2013: Proceedings.
+  Museums and the Web 2013: Proceedings
 date: 2013-04-09
 ---

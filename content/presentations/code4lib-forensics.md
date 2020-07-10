@@ -1,5 +1,7 @@
 ---
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   'I've Got Good News': Updates on Open Source Forensics for Archives
 event: >-

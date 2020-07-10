@@ -1,0 +1,25 @@
+{{ $section := .Section }}
+<div class="permalink">
+{{ with .Params.pid }}{{ $url := urls.Parse . }}
+<a href="{{ . }}" class="u-url"><svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+  <use xlink:href="#link"></use>
+</svg> <abbr title="Persistent identifier">PID</abbr> ({{ $url.Host }})</a>
+{{ end }}
+{{ with .Params.preprint }}{{ $url := urls.Parse . }}
+<a href="{{ . }}" class="u-url"><svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+  <use xlink:href="#link"></use>
+</svg> Preprint ({{ $url.Host }})</a>
+{{ end }}
+{{ range .Params.syndication }}{{ $url := urls.Parse . }}
+<a href="{{ . }}" class="u-url"><svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+  <use xlink:href="#link"></use>
+</svg> {{ if eq $section "music" }}More info{{ else }}Full text{{ end }} ({{ $url.Host }})</a>
+{{ end }}
+{{ with .Params.content_url }}
+<a href="{{ . }}" class="u-url"><svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+  <use xlink:href="#link"></use>
+</svg> {{ if eq $section "music" }}Bandcamp{{ else }}Full text (local copy){{ end }}</a>
+{{ end }}
+      <a href="{{ .Permalink }}" class="u-url"><svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg> Permalink</a></div>

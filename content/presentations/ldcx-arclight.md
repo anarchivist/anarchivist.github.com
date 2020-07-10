@@ -7,7 +7,7 @@ title: >-
 event: >-
   LDCX
 location: Stanford University, Stanford, CA
-date: 2017-03-27 Mar 27 2017.
+date: 2017-03-27
 status: Lightning Talk
 slug: ldcx-arclight
 ---

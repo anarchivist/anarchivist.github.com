@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2012/2012Dec-SemanticWeb-NYU.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   Linked Data and the Semantic Web in an Archival Context
 event: >-

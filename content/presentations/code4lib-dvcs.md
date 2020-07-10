@@ -5,8 +5,9 @@ authors:
 - Mark A. Matienzo
 title: >-
   How I Failed With Distributed Version Control Systems, Archival Metadata, and Workflow Integration
-syndication: http://code4lib.org/conference/2009/matienzo
-events: Code4lib
+syndication:
+- http://code4lib.org/conference/2009/matienzo
+event: Code4lib
 location: Providence, RI
 date: 2009-02-24
 status:  Voted

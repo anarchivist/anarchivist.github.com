@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2015/2015Apr-DPLAFestTechUpdate.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   What’s New in DPLA Technology
 event: >-

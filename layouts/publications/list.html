@@ -1,0 +1,42 @@
+{{ define "main" }}
+<main id="main" class="h-feed">
+  <h1 class="p-name">{{ .Title }}</h1>
+  {{ if site.Params.search }}
+  <input
+    id="search"
+    type="text"
+    placeholder="Search by title..."
+    aria-label="Search by title"
+  />
+  {{ end }}
+  <ul class="patterns-list" id="list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <li class="h-entry">
+      <h2 class="p-name">
+        <a class="u-url" href="{{ .Permalink }}">
+          <svg
+            class="bookmark"
+            aria-hidden="true"
+            viewBox="0 0 40 50"
+            focusable="false"
+          >
+            <use xlink:href="#doc"></use>
+          </svg>
+          {{ .Title }}
+        </a>
+      </h2>
+      <div class="metadata">
+        {{ partial "citation.html" . }}
+      {{ with .Params.tags }}
+        {{ partial "tags.html" . }}
+      {{ end }}
+      </div>
+      {{ if site.Params.displaySummariesInList }}
+        <div class="p-summary">{{ .Summary }}</div>
+      {{ end }}
+    <div class="metadata">{{ partial "permalink.html" .}}</div>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}

@@ -1,6 +1,7 @@
 ---
 content_url: /storage/2015/2015Oct-DLF-Rights.pdf
-authors: Mark A. Matienzo
+authors:
+- Mark A. Matienzo
 title: >-
   RightsStatements.org: Technical Implementation
 session: >-

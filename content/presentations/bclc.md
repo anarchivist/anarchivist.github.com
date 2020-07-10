@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2014/2014Apr-BCLC/
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   Among Place and Non-Place: Situating the Digital Public Library of America
 event: >-

@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2010/2010Aug-SAAFindability.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   Findability in the Flow: Discovery through Linking
 syndication:

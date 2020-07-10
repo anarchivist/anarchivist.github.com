@@ -1,6 +1,7 @@
 ---
 content_url: /storage/2017/2017Aug-XPSU-ArcLight.pdf
-authors: Mark A. Matienzo
+authors:
+- Mark A. Matienzo
 title: >-
   ArcLight and beyond: Illuminating the problem of 'seamless' archival discovery and delivery
 event: >-

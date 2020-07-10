@@ -23,7 +23,7 @@
           >
             <use xlink:href="#bookmark"></use>
           </svg>
-          {{ .Title | default .File.BaseFileName }}
+          {{ .Title | default .Slug }}
         </a>
       </h2>
       <div class="metadata">

@@ -6,11 +6,11 @@ authors:
 - Mark A. Matienzo
 - Amy C. Schindler
 title: >-
-  Old Stuff, New Tricks: How Archivists Are Making Special Collections Even More Special Using Web 2.0 Technologies.
+  Old Stuff, New Tricks: How Archivists Are Making Special Collections Even More Special Using Web 2.0 Technologies
 syndication:
 - http://hdl.handle.net/10150/106466
 event: >-
-  American Association for History &amp; Computing
+  American Association for History & Computing
 location: New York, NY
 date: 2009-01-03
 status:  Reviewed

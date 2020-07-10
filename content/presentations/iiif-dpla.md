@@ -1,6 +1,8 @@
 ---
 content_url: /storage/2015/2015Dec-IIIF-DPLA.pdf
-authors: Mark A. Matienzo
+authors: 
+- Mark A. Matienzo
+
 title: >-
   IIIF and the Digital Public Library of America
 event: >-
