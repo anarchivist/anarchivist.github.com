@@ -1,6 +1,7 @@
 ---
+date: 2018-01-06 20:26:24.816000 -0700
+slug: netlify-cms-workaround
 title: netlify-cms-workaround
-date: 2018-01-07T03:26:24.816Z
 ---
 {{< figure src="/images/screen%20shot%202018-01-06%20at%207.28.58%20pm.png" caption="Screenshot of Netlify CMS user interface" class="u-photo">}}
 

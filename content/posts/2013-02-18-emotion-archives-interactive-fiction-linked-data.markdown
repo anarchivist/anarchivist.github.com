@@ -1,8 +1,9 @@
 ---
 comments: true
-date: "2013-02-18T00:00:00Z"
+date: '2013-02-18T00:00:00Z'
 redirect_from: /blog/2013/emotion-archives-interactive-fiction-linked-data/
 sharing: true
+slug: emotion-archives-interactive-fiction-linked-data
 title: Emotion, Archives, Interactive Fiction, and Linked Data
 updated: 2013-02-24 01:52
 ---

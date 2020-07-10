@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2018-06-10T08:20:08Z"
+date: '2018-06-10T08:20:08Z'
+slug: beyond-hearing-one-another
 title: 'Beyond hearing (one another): radical empathy in archives-as-workplace'
 ---
 

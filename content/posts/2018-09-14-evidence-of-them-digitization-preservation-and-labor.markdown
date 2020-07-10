@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2018-09-14T20:44:47Z"
+date: '2018-09-14T20:44:47Z'
+slug: evidence-of-them-digitization-preservation-and-labor
 title: 'Evidence of Them: Digitization, Preservation, and Labor'
 ---
 

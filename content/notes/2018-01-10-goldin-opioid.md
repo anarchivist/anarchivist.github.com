@@ -1,9 +1,10 @@
 ---
-title: goldin-opioid
-date: 2018-01-10T08:09:18.945Z
 bookmark_of:
   name: Nan Goldin - Artforum International
   url: https://www.artforum.com/print/201801/nan-goldin-73181
+date: 2018-01-10 23:09:18.945000 -0900
+slug: goldin-opioid
+title: goldin-opioid
 ---
 > I SURVIVED THE OPIOID CRISIS. I narrowly escaped. I went from the darkness and ran full speed into The World. I was isolated, but I realized I wasn’t alone. When I got out of treatment I became absorbed in reports of addicts dropping dead from my drug, OxyContin.
 >

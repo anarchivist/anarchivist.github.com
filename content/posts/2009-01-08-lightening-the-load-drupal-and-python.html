@@ -1,7 +1,8 @@
 ---
 comments: true
-date: "2009-01-08T01:01:12Z"
+date: '2009-01-08T01:01:12Z'
 published: true
+slug: lightening-the-load-drupal-and-python
 status: publish
 tags:
 - Code
@@ -10,7 +11,7 @@ tags:
 - XML
 title: 'Lightening the load: Drupal and Python'
 ---
-<p>{% include youtube.html id="Mv7j-ZYULas" %}</p>
+<p>{{< youtube Mv7j-ZYULas >}}</p>
 <p>Man, if this isn't a "you got your peanut butter in my chocolate thing" or what! As I wrote over on the <a href="http://labs.nypl.org/2008/12/30/going-off-the-rails-really-rapid-prototyping-with-drupal/">NYPL Labs blog</a>, we've been up to our necks in Drupal at MPOW, and I've found that one of the great advantages of using it is rapid prototyping without having to write a whole lot of code. Again, that's how I feel about Python, too, but you knew that already.</p>
 <p>Once you've got a prototype built, how do you start piping stuff into it? In Drupal 6, a lot of the contrib modules to do this need work - most notably, I'm thinking about <a href="http://drupal.org/project/node_import">node_import</a>, which as of yet still has no (official) CCK support for Drupal 6 and CCK 2. In addition, you could be stuck with having to write PHP code for the heavy lifting, but where's the joy in that?</p>
 <p>Well, it so happens that the <a href="http://www.myspace.com/47095797">glue becomes the solvent</a> in this slow, slow dance. Using Python becomes a breeze because of the batteries-included model it subscribes to. I've been playing around with the <a href="http://drupal.org/project/services">Services module</a> and its XMLRPC server a bit, and given that <a href="http://docs.python.org/library/xmlrpclib.html">xmlrpclib</a> was added in Python 2.2, there's pretty much no excuse not to use it. Say what you will about RESTful interfaces, but out of the other options, Services' XMLRPC server is the most robust out of the others with the possible exception of AMFPHP.</p>

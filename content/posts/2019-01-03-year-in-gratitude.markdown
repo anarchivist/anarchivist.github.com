@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2019-01-03T14:30:00Z"
+date: '2019-01-03T14:30:00Z'
+slug: year-in-gratitude
 syndication:
 - https://news.indieweb.org/en
 - https://twitter.com/anarchivist/status/1080955823776362496

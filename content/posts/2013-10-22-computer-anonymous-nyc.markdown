@@ -1,9 +1,10 @@
 ---
 comments: true
-date: "2013-10-22T00:00:00Z"
+date: '2013-10-22T00:00:00Z'
 redirect_from:
 - /blog/2013/computer-anonymous-nyc/
 sharing: true
+slug: computer-anonymous-nyc
 title: Computer Anonymous New York
 ---
 

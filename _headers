@@ -1,6 +1,10 @@
 /atom.xml
   Link: <https://anarchivist.superfeedr.com/>; rel="hub"
-  Link: <https://matienzo.org/atom.xml>; rel="self"
+  Link: <https://matienzo.org/posts/index.xml>; rel="self"
+
+/index.xml
+  Link: <https://anarchivist.superfeedr.com/>; rel="hub"
+  Link: <https://matienzo.org/index.xml>; rel="self"
 
 /notes/
   Link: <https://anarchivist.superfeedr.com/>; rel="hub"

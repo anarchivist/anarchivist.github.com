@@ -1,5 +1,6 @@
 ---
-date: "2013-09-26T00:00:00Z"
+date: '2013-09-26T00:00:00Z'
+slug: collaboration-before-preservation-recovering-born-digital-records-in-the-stephen-gendin-papers
 syndication:
 - http://campuspress.yale.edu/mssa/collaboration-before-preservation/
 - http://web.library.yale.edu/news/2013/09/collaboration-preservation-recovering-born-digital-records

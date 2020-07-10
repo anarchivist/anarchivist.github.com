@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2018-01-06T21:43:03Z"
+date: '2018-01-06T21:43:03Z'
+slug: itlp-readings
 tags:
 - itlp
 title: Notes on ITLP Workshop 1 readings

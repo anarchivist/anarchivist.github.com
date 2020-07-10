@@ -1,4 +1,7 @@
 <link rel="feed" type="text/html" title="Mark A. Matienzo's posts" href="/posts/">
 <link rel="feed" type="text/html" title="Mark A. Matienzo's notes" href="/notes/">
+{{ if .IsNode }}
+<link rel="alternate" type="application/atom+xml" title="{{ .Title | humanize }} | {{ .Site.Title }}" href="{{ print .Section "/index.xml" | absURL }}">
+{{ end }}
 <link rel="pingback" href="https://webmention.io/matienzo.org/xmlrpc">
 <link rel="webmention" href="https://webmention.io/matienzo.org/webmention">

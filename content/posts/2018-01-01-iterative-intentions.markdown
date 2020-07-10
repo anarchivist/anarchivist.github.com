@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2018-01-01T11:43:12Z"
+date: '2018-01-01T11:43:12Z'
+slug: iterative-intentions
 syndication:
 - https://twitter.com/anarchivist/status/947935676779020288
 title: Iterative Intentions for 2018

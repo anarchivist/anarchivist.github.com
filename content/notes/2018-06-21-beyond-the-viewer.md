@@ -1,10 +1,10 @@
 ---
-title: beyond-the-viewer
-date: '2018-06-21T09:18:36-07:00'
 bookmark_of:
   name: 'Beyond the Viewer: fragments and links in annotation space'
-  url: >-
-      https://medium.com/@tom.crane/beyond-the-viewer-fragments-and-links-in-annotation-space-b3284e25f34
+  url: https://medium.com/@tom.crane/beyond-the-viewer-fragments-and-links-in-annotation-space-b3284e25f34
+date: '2018-06-21T09:18:36-07:00'
+slug: beyond-the-viewer
+title: beyond-the-viewer
 ---
 > What we also want to do is freely reuse the IIIF model itself, to describe things in manifests without publishing a new manifest for a conventional viewer to load. And then using these extracts, these collected descriptions, to generate new user experiences. The IIIF model is _fantastic_ for this.
 > 

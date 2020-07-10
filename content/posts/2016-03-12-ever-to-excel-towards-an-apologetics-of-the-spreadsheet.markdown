@@ -1,10 +1,11 @@
 ---
-date: "2016-03-12T16:54:32Z"
+date: '2016-03-12T16:54:32Z'
 presentation:
-  date: "2016-03-08"
+  date: '2016-03-08'
   slides: http://matienzo.org/storage/2016/2016-Mar-code4lib/
   venue: Code4lib 2016
   video: https://www.youtube.com/watch?v=YCaQ-hHJvcE
+slug: ever-to-excel-towards-an-apologetics-of-the-spreadsheet
 syndication:
 - https://twitter.com/anarchivist/status/708792361044856833
 title: 'Ever to Excel: Towards an Apologetics of the Spreadsheet'

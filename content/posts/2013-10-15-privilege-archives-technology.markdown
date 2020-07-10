@@ -1,8 +1,9 @@
 ---
 comments: true
-date: "2013-10-15T00:00:00Z"
+date: '2013-10-15T00:00:00Z'
 redirect_from: /blog/2013/privilege-archives-technology/
 sharing: true
+slug: privilege-archives-technology
 title: Cha(lle)nging the dynamics of privilege in archives and technology
 ---
 

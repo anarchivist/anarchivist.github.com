@@ -1,15 +1,14 @@
 ---
-title: bannon-bardzell-bodker
-date: 2019-01-05T22:13:01.745Z
 bookmark_of:
-  name: >-
-      Liam Bannon, Jeffrey Bardzell, and Susann Bødker: "Reimagining
-      participatory design", Interactions 26(1)
-  url: >-
-      http://interactions.acm.org/archive/view/january-february-2019/reimagining-participatory-design
+  name: 'Liam Bannon, Jeffrey Bardzell, and Susann Bødker: "Reimagining participatory
+    design", Interactions 26(1)'
+  url: http://interactions.acm.org/archive/view/january-february-2019/reimagining-participatory-design
+date: 2019-01-05 22:13:01.745000
+slug: bannon-bardzell-bodker
 tags:
-  - to read
-  - hci
+- to read
+- hci
+title: bannon-bardzell-bodker
 ---
 > Another opportunity is for PD to engage the more overtly political approaches to design that have emerged in HCI in recent years: Feminist HCI, postcolonial computing, and participatory action research all come to mind. Each of these foregrounds social conflict as a condition of computing, and each features sophisticated theories of power, participation, and intervention. Yet none of them have as yet been developed specifically as design methodologies.
 >

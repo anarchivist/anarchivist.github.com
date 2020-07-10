@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2020-02-13T19:27:53Z"
+date: '2020-02-13T19:27:53Z'
+slug: books-read-jan-feb-2020
 tags:
 - reading
 title: Books read, January-February 2020

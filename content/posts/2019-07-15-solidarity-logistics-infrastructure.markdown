@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2019-07-15T15:00:03Z"
+date: '2019-07-15T15:00:03Z'
+slug: solidarity-logistics-infrastructure
 syndication:
 - https://twitter.com/anarchivist/status/1150895391937708035
 - https://news.indieweb.org/en

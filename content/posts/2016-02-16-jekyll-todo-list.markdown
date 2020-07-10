@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2016-02-16T23:01:24Z"
+date: '2016-02-16T23:01:24Z'
+slug: jekyll-todo-list
 syndication:
 - https://twitter.com/anarchivist/status/699815203823726592
 tags:

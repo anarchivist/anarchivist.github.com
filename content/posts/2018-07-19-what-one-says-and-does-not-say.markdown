@@ -1,8 +1,12 @@
 ---
 comments: true
-date: "2018-07-19T09:05:55Z"
-excerpt: |
-  An extended reflection on professional trajectories, leadership, vulnerability, community, and finding my voice, written as part of my participation in the IT Leadership Program.
+date: '2018-07-19T09:05:55Z'
+excerpt: 'An extended reflection on professional trajectories, leadership, vulnerability,
+  community, and finding my voice, written as part of my participation in the IT Leadership
+  Program.
+
+  '
+slug: what-one-says-and-does-not-say
 tags:
 - itlp
 - leadership

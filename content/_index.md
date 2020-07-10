@@ -15,5 +15,7 @@ I am an archivist, information scientist, and technologist, living on unceded Oh
 {{< expandable label="Contact and elsewhere" level="2" >}}
 I can be reached at <span class="u-email" rel="me">mark@matienzo.org</span>, as well as on <a href="https://twitter.com/anarchivist" rel="me">Twitter</a>, <a href="https://github.com/anarchivist" rel="me">GitHub</a>, <a href="https://keybase.io/anarchivist" rel="me">Keybase</a>, and Mastodon (<a href="https://chaos.social/@anarchivist" rel="me">chaos.social</a>, <a href="https://code4lib.social/@anarchivist" rel="me">code4lib.social</a>) as <strong>@anarchivist</strong>.
 
-I also exist on <a href="https://linkedin.com/in/markmatienzo">LinkedIn</a>, and can be referred to using various identifiers like <a href="https://orcid.org/0000-0003-3270-1306" rel="me">my ORCiD</a>, or <a href="https://www.wikidata.org/wiki/Q57491060" rel="me">my Wikidata entity ID</a>.
+For a more thorough professional background, please consult my <a href="/storage/cv.pdf"><abbr title="curriculum vitae">CV</abbr></a>. I also exist on <a href="https://linkedin.com/in/markmatienzo" rel="me">LinkedIn</a>.
+
+You also can refer to ne using various identifiers like <a href="https://orcid.org/0000-0003-3270-1306" rel="me">my ORCiD</a>, or <a href="https://www.wikidata.org/wiki/Q57491060" rel="me">my Wikidata entity ID</a>.
 {{< /expandable >}}

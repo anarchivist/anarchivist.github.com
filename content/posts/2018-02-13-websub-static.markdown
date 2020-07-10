@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2018-02-13T16:33:46Z"
+date: '2018-02-13T16:33:46Z'
+slug: websub-static
 syndication:
 - https://twitter.com/anarchivist/status/963540419408744454
 - https://news.indieweb.org/en

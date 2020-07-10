@@ -1,9 +1,10 @@
 ---
 title: "INFO 756 - Digital Preservation (Spring 2013) - Drexel University"
-date: 2013-01-01
+date: 2013-01-04
 tags:
   - teaching
   - info756
+slug: drexel-info756-2013-spring
 ---
 This course will explore concepts, principles, and practice for the
 preservation of digital information resources. Digital preservation is a

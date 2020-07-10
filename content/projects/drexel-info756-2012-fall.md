@@ -4,6 +4,7 @@ date: 2012-09-01
 tags:
   - teaching
   - info756
+slug: drexel-info756-2012-fall
 ---
 
 This course will explore concepts, principles, and practice for the

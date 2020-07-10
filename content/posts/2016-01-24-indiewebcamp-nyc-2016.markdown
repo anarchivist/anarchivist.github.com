@@ -1,13 +1,14 @@
 ---
 comments: true
-date: "2016-01-24T17:24:49Z"
+date: '2016-01-24T17:24:49Z'
 redirect_from:
 - /blog/2016/indiewebcamp-nyc-2016/
+slug: indiewebcamp-nyc-2016
 tags:
 - indiewebcamp
 - webmention
 title: IndieWebCamp NYC 2016
-updated: "2016-01-24T22:54:52Z"
+updated: '2016-01-24T22:54:52Z'
 ---
 
 I'm at [IndieWebCamp NYC](https://indiewebcamp.com/2016/NYC) and I just added

@@ -2,6 +2,7 @@
 layout: page
 title: "LIS 901-08: Building Digital Libraries: Infrastructural and Social Aspects (Fall 2009) - Long Island University"
 date: 2009-09-01
+slug: liu-lis901-08-2009-fall
 ---
 
 This class aims to prepare students to think proactively, creatively, and critically about planning, implementing, and evaluating digital library projects in a variety of institutions. In addition, this class is designed as a seminar to allow proactive discussion of topics between both the students and the instructor; this format allows you to learn from each other as well as from me.<!--more-->

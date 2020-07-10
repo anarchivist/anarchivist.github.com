@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2018-09-21T18:09:57Z"
+date: '2018-09-21T18:09:57Z'
+slug: when-basil-has-gone-to-seed
 syndication:
 - https://news.indieweb.org/en
 - https://twitter.com/anarchivist/status/1043324950881259521

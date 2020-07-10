@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2020-02-27T09:06:00Z"
+date: '2020-02-27T09:06:00Z'
+slug: comments-on-revisions-to-saa-dei-statement
 syndication:
 - https://www2.archivists.org/news/2020/call-for-member-comments-saa-statement-on-diversity-equity-and-inclusion#comment-539
 - https://twitter.com/anarchivist/status/1233094670411911168

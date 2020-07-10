@@ -1,6 +1,7 @@
 ---
 comments: true
-date: "2016-09-04T14:16:50Z"
+date: '2016-09-04T14:16:50Z'
+slug: push-talk-conference-call-foot-pedal
 syndication:
 - https://twitter.com/anarchivist/status/772507454923956225
 tags:
