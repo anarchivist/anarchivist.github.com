@@ -1,1110 +1,0 @@
-(dp0
-S'buildDestination'
-p1
-V/Users/mam54/Documents/Code/git/matienzo.org-twine/shibejam/index.html
-p2
-sS'saveDestination'
-p3
-V/Users/mam54/Documents/Code/git/matienzo.org-twine/shibejam/shibejam.tws
-p4
-sS'target'
-p5
-S'Responsive'
-p6
-sS'storyPanel'
-p7
-(dp8
-S'widgets'
-p9
-(lp10
-(dp11
-S'selected'
-p12
-I00
-sS'pos'
-p13
-(lp14
-F150.0
-aF570.0
-asS'passage'
-p15
-(itiddlywiki
-Tiddler
-p16
-(dp17
-S'text'
-p18
-V<<display "OUTSIDE">>\u000a<<set $inv = []>>\u000a<<set $furinears = false>>\u000a<<set $step = 0>>
-p19
-sS'title'
-p20
-VStart
-p21
-sS'modified'
-p22
-ctime
-struct_time
-p23
-((I2013
-I4
-I13
-I14
-I0
-I38
-I5
-I103
-I1
-tp24
-(dp25
-tp26
-Rp27
-sS'tags'
-p28
-(lp29
-sS'created'
-p30
-g27
-sbsa(dp31
-g12
-I00
-sg13
-(lp32
-F710.0
-aF570.0
-asg15
-(itiddlywiki
-Tiddler
-p33
-(dp34
-g18
-Vyou are inside a HOUSE. it is small and smells very musty\u000a\u000a<<if $inv.indexOf("CLUMP OF FUR") lt 0>>you see [[CLUMPS OF FUR]] lining the the baseboards<<endif>>\u000a\u000ato the left is the [[KITCHEN]]. to the right is the [[BEDROOM]]\u000a\u000aahead of you is the [[LIVING ROOM]]. behind you is the door to the [[OUTSIDE]].\u000a\u000a<<if (not $furinears)>>you hear barking\u000a\u000a<<display "BARKING">><<if $step gte 15>>\u000a<<display "BARKING">><<endif>>\u000a<<endif>>\u000a\u000a<<set $step = $step + 1>>\u000a
-p35
-sg20
-VHOUSE
-p36
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I5
-I39
-I5
-I103
-I1
-tp37
-(dp38
-tp39
-Rp40
-sg28
-(lp41
-sg30
-g40
-sbsa(dp42
-g12
-I00
-sg13
-(lp43
-F150.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p44
-(dp45
-g18
-Vthe sign is handpainted plywood, loosely attached to a post by a long rusted nail.\u000a\u000athe sign says ''BEWAR OF SHIBE''.\u000a\u000a[[~ back|OUTSIDE]]\u000a<<set $step = $step + 1>>\u000a
-p46
-sg20
-VSIGN
-p47
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I5
-I44
-I5
-I103
-I1
-tp48
-(dp49
-tp50
-Rp51
-sg28
-(lp52
-sg30
-g51
-sbsa(dp53
-g12
-I00
-sg13
-(lp54
-F430.0
-aF570.0
-asg15
-(itiddlywiki
-Tiddler
-p55
-(dp56
-g18
-Vyou stand outside of a [[HOUSE]]. there is a [[SIGN]] here\u000a\u000a<<if (not $furinears)>>you hear barking nearby\u000a\u000a<<display "BARKING">><<if $step gte 15>>\u000a<<display "BARKING">><<endif>>\u000a<<endif>>\u000a\u000a<<set $step = $step + 1>>
-p57
-sg20
-VOUTSIDE
-p58
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I13
-I37
-I5
-I103
-I1
-tp59
-(dp60
-tp61
-Rp62
-sg28
-(lp63
-sg30
-g62
-sbsa(dp64
-g12
-I00
-sg13
-(lp65
-F1550.0
-aF150.0
-asg15
-(itiddlywiki
-Tiddler
-p66
-(dp67
-g18
-V~ woof ~ woof ~ woof ~
-p68
-sg20
-VBARKING
-p69
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I14
-I8
-I5
-I103
-I1
-tp70
-(dp71
-tp72
-Rp73
-sg28
-(lp74
-sg30
-g73
-sbsa(dp75
-g12
-I00
-sg13
-(lp76
-F710.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p77
-(dp78
-g18
-Vyou pick up a clump of fur from the baseboard\u000a\u000a[img[http://farm4.staticflickr.com/3078/3121296634_8cc56ec3c1.jpg]]\u000a\u000a<<if $inv.indexOf("CLUMP OF FUR") lt 0>><<set $inv.push("CLUMP OF FUR")>>\u000a\u000agot CLUMP OF FUR<<endif>>\u000a\u000a[[&laquo; back|HOUSE]]\u000a<<set $step = $step + 1>>\u000a
-p79
-sg20
-VCLUMPS OF FUR
-p80
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I21
-I58
-I5
-I103
-I1
-tp81
-(dp82
-tp83
-Rp84
-sg28
-(lp85
-sg30
-g84
-sbsa(dp86
-g12
-I00
-sg13
-(lp87
-F1270.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p88
-(dp89
-g18
-Vyou are inside the BEDROOM. there is a [[FOUR-POSTER BED]] here missing pillows\u000a\u000ayou are very tired, but you know that it will be very uncomfortable without pillows \u000a\u000a<<if (not $furinears)>>you hear barking\u000a\u000a<<display "BARKING">><<if $step gte 15>>\u000a<<display "BARKING">><<if $step gte 30>>\u000a\u000ayou are so tired but can't sleep because of the barking<<endif>>\u000a<<endif>><<endif>>\u000a<<set $step = $step + 1>>\u000a\u000a[[&laquo; back|HOUSE]]
-p90
-sg20
-VBEDROOM
-p91
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I47
-I5
-I5
-I103
-I1
-tp92
-(dp93
-tp94
-Rp95
-sg28
-(lp96
-sg30
-g95
-sbsa(dp97
-g12
-I00
-sg13
-(lp98
-F3230.0
-aF990.0
-asg15
-(itiddlywiki
-Tiddler
-p99
-(dp100
-g18
-V! BEWAR OF SHIBE\u000a!! by [[Mx A. Matienzo|http://twitter.com/anarchivist]]\u000a\u000awritten APRIL 2013 for 1st International Shibe Twine Jam\u000a\u000aCLUMP OF FUR picture by [[derfian|http://www.flickr.com/photos/derfian/3121296634]]\u000a\u000aPILLOWS picture by [[BarbaraLN|http://www.flickr.com/photos/46097950@N02/6248462654/]]\u000a\u000aTREATS picture by [[_tar0_|http://www.flickr.com/photos/_tar0_/5135098566/]]\u000a\u000aFEROCIOUS SHIBE picture by [[Alaskan pup|http://www.flickr.com/photos/sandy_01/8121414926/]]\u000a\u000aHAPPY SHIBE picture by [[_tar0_|http://www.flickr.com/photos/_tar0_/6857647894]]\u000a\u000a[img[http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png]]This work is licensed under [[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License|http://creativecommons.org/licenses/by-nc-sa/3.0/us/]].
-p101
-sg20
-VCREDITS
-p102
-sg22
-g23
-((I2013
-I4
-I13
-I14
-I49
-I47
-I5
-I103
-I1
-tp103
-(dp104
-tp105
-Rp106
-sg28
-(lp107
-sg30
-g106
-sbsa(dp108
-g12
-I00
-sg13
-(lp109
-F2110.0
-aF1550.0
-asg15
-(itiddlywiki
-Tiddler
-p110
-(dp111
-g18
-Vyou are in a LIVING ROOM. there is a [[VELVET SOFA]] that is covered in fur\u000a\u000ato your left is a [[BOOKCASE]] filled with unusual volumes\u000a\u000ato your right is a [[LOVE SEAT]] covered in pillows\u000a\u000abehind you is the [[FOYER|HOUSE]] of the house\u000a\u000a<<if (not $furinears)>>you hear barking\u000a\u000a<<display "BARKING">><<if $step gte 15>>\u000a<<display "BARKING">><<endif>>\u000a<<endif>>\u000a
-p112
-sg20
-VLIVING ROOM
-p113
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I1
-I45
-I5
-I103
-I1
-tp114
-(dp115
-tp116
-Rp117
-sg28
-(lp118
-sg30
-g117
-sbsa(dp119
-g12
-I00
-sg13
-(lp120
-F2110.0
-aF1270.0
-asg15
-(itiddlywiki
-Tiddler
-p121
-(dp122
-g18
-Vthe VELVET SOFA is worn in many places and has the teeth marks of a vicious SHIBE on its legs\u000a\u000a<<back>>\u000a<<set $step = $step + 1>>\u000a
-p123
-sg20
-VVELVET SOFA
-p124
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I2
-I23
-I5
-I103
-I1
-tp125
-(dp126
-tp127
-Rp128
-sg28
-(lp129
-sg30
-g128
-sbsa(dp130
-g12
-I00
-sg13
-(lp131
-F710.0
-aF150.0
-asg15
-(itiddlywiki
-Tiddler
-p132
-(dp133
-g18
-Vbody {\u000afont-family: "Comic Sans", "Comic Sans MS", "Chalkboard","ChalkboardSE-Regular","Marker Felt","Purisa","URW Chancery L",cursive,sans-serif; !important;\u000afont-weight: 800 !important;\u000a}\u000ahtml, body, #header-container, #main-container,	 #footer-container, #main aside {\u000abackground-color: #00FFFF;\u000a}\u000a\u000a#title {\u000acolor: #FF6600;\u000a}\u000a\u000aa, nav a, a:hover {\u000abackground: #FF6600;\u000acolor: #fff;\u000a}	\u000a\u000a#header-container {\u000aborder-bottom: 20px solid #FF6600;\u000a}\u000a\u000a#footer-container {\u000aborder-top: 20px solid #FF6600;\u000a}\u000a\u000a#credits {\u000adisplay: none !important;\u000a}\u000a\u000a.replacement-in {\u000a	opacity: 0;\u000a}\u000a.replacement {\u000a	transition: 1s;\u000a	-webkit-transition: 1s;\u000a}\u000a.replacement-out {\u000a	display:none;\u000a}
-p134
-sg20
-VStyles
-p135
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I10
-I37
-I5
-I103
-I1
-tp136
-(dp137
-tp138
-Rp139
-sg28
-(lp140
-Vstylesheet
-p141
-asg30
-g139
-sbsa(dp142
-g12
-I00
-sg13
-(lp143
-F430.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p144
-(dp145
-g18
-Vthis is a well used leather LOVE SEAT. the pile of [[PILLOWS]] make it impossible for you to sit down comfortably\u000a\u000a[[&laquo; back|LIVING ROOM]]\u000a<<set $step = $step + 1>>\u000a
-p146
-sg20
-VLOVE SEAT
-p147
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I15
-I40
-I5
-I103
-I1
-tp148
-(dp149
-tp150
-Rp151
-sg28
-(lp152
-sg30
-g151
-sbsa(dp153
-g12
-I00
-sg13
-(lp154
-F430.0
-aF990.0
-asg15
-(itiddlywiki
-Tiddler
-p155
-(dp156
-g18
-Vyou look at the PILLOWS\u000a\u000a[img[http://farm7.staticflickr.com/6103/6248462654_36cb022340.jpg]]<<if $inv.indexOf("FLUFFY PILLOW") lt 0>><<set $inv.push("FLUFFY PILLOW")>>\u000a\u000ayou choose the fluffiest pillow that is not covered in fur \u000a\u000agot FLUFFY PILLOW<<endif>>\u000a\u000a[[&laquo; back|LOVE SEAT]]\u000a<<set $step = $step + 1>>\u000a
-p157
-sg20
-VPILLOWS
-p158
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I16
-I22
-I5
-I103
-I1
-tp159
-(dp160
-tp161
-Rp162
-sg28
-(lp163
-sg30
-g162
-sbsa(dp164
-g12
-I00
-sg13
-(lp165
-F2670.0
-aF1270.0
-asg15
-(itiddlywiki
-Tiddler
-p166
-(dp167
-g18
-Vyou see a number of rare volumes on ferocious animals. the book that captivates your intention is ~MASTERING THE SHIBE CONSCIOUSNESS~.<<if $inv.indexOf("BOOK ABOUT SHIBES") lt 0>><<set $inv.push("BOOK ABOUT SHIBES")>>\u000a\u000agot BOOK ABOUT SHIBES<<endif>>\u000a\u000a[[&laquo; back|LIVING ROOM]]\u000a<<set $step = $step + 1>>\u000a
-p168
-sg20
-VBOOKCASE
-p169
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I23
-I33
-I5
-I103
-I1
-tp170
-(dp171
-tp172
-Rp173
-sg28
-(lp174
-sg30
-g173
-sbsa(dp175
-g12
-I00
-sg13
-(lp176
-F1550.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p177
-(dp178
-g18
-Vthe FOUR-POSTER BED has a down comforter on it and seems very warm and inviting\u000a\u000a<<if $inv.indexOf("FLUFFY PILLOW") gte 0>>you think the bed would be very comfortable with your nice FLUFFY PILLOW and place it on the bed<<endif>>\u000a\u000ayou want to get into bed and [[SLEEP]] <<if (not $furinears)>> but you hear barking\u000a\u000a<<display "BARKING">><<if $step gte 15>>\u000a<<display "BARKING">><<endif>>\u000a\u000a<<if $inv.indexOf("CLUMP OF FUR") gte 0>>\u000ayou consider putting the [[CLUMP OF FUR IN YOUR EARS]]<<endif>><<endif>>\u000a\u000a<<set $step = $step + 1>>\u000a[[&laquo; back|BEDROOM]]\u000a
-p179
-sg20
-VFOUR-POSTER BED
-p180
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I38
-I32
-I5
-I103
-I1
-tp181
-(dp182
-tp183
-Rp184
-sg28
-(lp185
-sg30
-g184
-sbsa(dp186
-g12
-I00
-sg13
-(lp187
-F990.0
-aF570.0
-asg15
-(itiddlywiki
-Tiddler
-p188
-(dp189
-g18
-Vyou are in a rustic KITCHEN with an old noisy refrigerator\u000a\u000a<<if $inv.indexOf("SHIBE TREATS") lt 0>>there are small [[SEALED BAGS]] on the counter<<endif>>\u000a\u000a<<if (not $furinears)>>you hear barking\u000a\u000a<<display "BARKING">><<if $step gte 15>>\u000a<<display "BARKING">><<endif>>\u000a<<endif>>\u000a[[&laquo; back|HOUSE]]\u000a<<set $step = $step + 1>>
-p190
-sg20
-VKITCHEN
-p191
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I48
-I39
-I5
-I103
-I1
-tp192
-(dp193
-tp194
-Rp195
-sg28
-(lp196
-sg30
-g195
-sbsa(dp197
-g12
-I00
-sg13
-(lp198
-F1270.0
-aF570.0
-asg15
-(itiddlywiki
-Tiddler
-p199
-(dp200
-g18
-Vthe SEALED BAGS are red and blue foil and are stamped with large letters that say TREATS\u000a\u000a[img[http://farm2.staticflickr.com/1384/5135098566_0382245cfd.jpg]]\u000a\u000a<<if $inv.indexOf("SHIBE TREATS") lt 0>><<set $inv.push("SHIBE TREATS")>>\u000a\u000agot SHIBE TREATS<<endif>>\u000a\u000a[[&laquo; back|KITCHEN]]\u000a<<set $step = $step + 1>>\u000a
-p201
-sg20
-VSEALED BAGS
-p202
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I51
-I25
-I5
-I103
-I1
-tp203
-(dp204
-tp205
-Rp206
-sg28
-(lp207
-sg30
-g206
-sbsa(dp208
-g12
-I00
-sg13
-(lp209
-F1690.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p210
-(dp211
-g18
-Vyou try to sleep\u000a\u000a<<if $inv.indexOf("FLUFFY PILLOW") lt 0>>you can't fall asleep, you don't have a pillow\u000a\u000a[[&laquo; back|FOUR-POSTER BED]]<<else>>\u000a<<if $furinears>>\u000ayou drift off into a deep slumber\u000a\u000a<<timedreplace 8>>wow ~ such dreams<<endtimedreplace>>\u000a\u000a<<timedgoto "SHIBE ALERT" 20>><<else>>\u000a<<timedreplace 7>>you can't fall asleep, you hear barking \u000a<<display "BARKING">>\u000a[[&laquo; back|FOUR-POSTER BED]]\u000a<<endtimedreplace>>\u000a<<endif>>\u000a<<endif>>\u000a<<set $step = $step + 1>>\u000a
-p212
-sg20
-VSLEEP
-p213
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I54
-I53
-I5
-I103
-I1
-tp214
-(dp215
-tp216
-Rp217
-sg28
-(lp218
-sg30
-g217
-sbsa(dp219
-g12
-I01
-sg13
-(lp220
-F1550.0
-aF990.0
-asg15
-(itiddlywiki
-Tiddler
-p221
-(dp222
-g18
-V<<set $furinears = true>>\u000awow ~ such jeanious\u000a\u000ayou put the fur in your ears like a champ!\u000a\u000a<<set step = $step + 1>>\u000a[[&laquo; back|FOUR-POSTER BED]]	\u000a
-p223
-sg20
-VCLUMP OF FUR IN YOUR EARS
-p224
-sg22
-g23
-((I2013
-I4
-I13
-I15
-I59
-I6
-I5
-I103
-I1
-tp225
-(dp226
-tp227
-Rp228
-sg28
-(lp229
-sg30
-g228
-sbsa(dp230
-g12
-I00
-sg13
-(lp231
-F990.0
-aF150.0
-asg15
-(itiddlywiki
-Tiddler
-p232
-(dp233
-g18
-V(function(){\u000aversion.extensions['timedreplaceMacro'] = {\u000a  major: 2,\u000a  minor: 1,\u000a  revision: 0\u000a};\u000amacros['timedinsert'] = macros['timedreplace'] = {\u000a  handler: function (g, e, f, b) {\u000a    function tagcontents(starttag, endtag, k) {\u000a      var a = b.source.slice(k);\u000a      var l = 0;\u000a      var c = "";\u000a      for (var i = 0; i < a.length; i++) {\u000a        var w = endtag.length;\u000a        if (a.substr(i, w) == endtag) {\u000a          if (l == 0) {\u000a            b.nextMatch = k + i + w;\u000a            return c;\u000a          } else {\u000a            l--;\u000a            c += a.charAt(i);\u000a          }\u000a        } else {\u000a          if (a.substr(i, starttag.length) == starttag) {\u000a            l++;\u000a          }\u000a          c += a.charAt(i);\u000a        }\u000a      }\u000a      return "";\u000a    }\u000a    var tr = "<<"+e;\u000a    var rw = "<<replacewith>>";\u000a	var etr = "<<end" + e + ">>";\u000a    var k = b.source.indexOf('>>', b.matchStart) + 2;\u000a	var c, d;\u000a	if (e=="timedreplace") {\u000a      c = tagcontents(tr, rw, k);\u000a      d = tagcontents((c ? rw : tr), etr, c ? b.nextMatch : k);\u000a	} else if (e=="timedinsert") {\u000a	  d = tagcontents(tr, etr, k);\u000a	} else if (e=="timedremove") {\u000a	  c = tagcontents(tr, etr, k);\u000a	}\u000a	var tm; tm = (parseInt(f[0]) || 0) * 500;\u000a    var h;\u000a    if (c) {\u000a      h = insertElement(g, "span", null, "timedreplacement timedreplacement1");\u000a      new Wikifier(h, c);\u000a	  if (d || e=="timedremove") {\u000a	    setTimeout(function () {\u000a          h.classList.add("replacement-out");\u000a          setTimeout(function () {\u000a            h.parentNode.removeChild(h);\u000a          }, 1000);\u000a		}, tm);\u000a	  }\u000a    }\u000a    if (d) {\u000a      var m = insertElement(g, "span", null, "timedreplacement timedreplacement2", d);\u000a      m.style.display = "none";\u000a      setTimeout(function () {\u000a        if (m) {\u000a          var t = m.firstChild ? m.firstChild.nodeValue : "";\u000a          removeChildren(m);\u000a          new Wikifier(m, t);\u000a          m.style.display = "inline";\u000a          m.classList.add("replacement-in");\u000a          setTimeout(function () {\u000a            m.classList.remove("replacement-in");\u000a          }, 1);\u000a		  scrollWindowTo(m);\u000a        }\u000a      }, tm);\u000a    } else if (!c && e!="timedremove") {\u000a      throwError(g, "can't find matching end"+e);\u000a      return;\u000a    }\u000a  }\u000a}\u000amacros['timedremove'] = macros['timedreplace'];\u000amacros['replacewith'] = macros['endtimedinsert'] = macros['endtimedremove'] = macros['endtimedreplace'] = {\u000a  handler: function () {}\u000a}\u000ascrollWindowTo = function(E) {\u000a    var D = window.scrollY ? window.scrollY : document.body.scrollTop;\u000a    var G = J(E);\u000a	if (!G) return;\u000a    var C = Math.abs(D - G);\u000a    var B = 0;\u000a    var I = (D > G) ? -1 : 1;\u000a    var F = window.setInterval(H, 25);\u000a    function H() {\u000a        B += 0.1;\u000a        window.scrollTo(0, D + I * (C * Math.easeInOut(B)));\u000a        if(B >= 1) {\u000a            window.clearInterval(F)\u000a        }\u000a    }\u000a    function J(N) {\u000a        var O = A(N);\u000a        var P = O + N.offsetHeight;\u000a        var K = window.scrollY ? window.scrollY : document.body.scrollTop;\u000a        var L = window.innerHeight ? window.innerHeight : document.body.clientHeight;\u000a        var M = K + L;\u000a        if(O >= K) {\u000a            if(P > M) {\u000a                if(N.offsetHeight < L) {\u000a                    return (O - (L - N.offsetHeight) + 20)\u000a                }\u000a                else {\u000a                    return O;\u000a                }\u000a            }\u000a        }\u000a    }\u000a    function A(K) {\u000a        var L = 0;\u000a        while(K.offsetParent) {\u000a            L += K.offsetTop;\u000a            K = K.offsetParent;\u000a        }\u000a        return L\u000a    }\u000a}\u000a}());\u000a\u000aversion.extensions.timedgotoMacro={major:1,minor:0,revision:0};macros["timedgoto"]={timer:null,handler:function(a,b,c,d){var t=c[c.length-1];\u000avar d=d.fullArgs();d=d.slice(0,d.lastIndexOf(t));d=eval(Wikifier.parse(d));if(d+""){if(this.timer){clearTimeout(this.timer);\u000a}var s=state.history[0].passage.title;this.timer=setTimeout(function(){if(state.history[0].passage.title==s){state.display(d,a);\u000a}},(parseInt(t)||0)*500);}}};\u000a
-p234
-sg20
-VMacros
-p235
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I5
-I34
-I5
-I103
-I1
-tp236
-(dp237
-tp238
-Rp239
-sg28
-(lp240
-Vscript
-p241
-asg30
-g239
-sbsa(dp242
-g12
-I00
-sg13
-(lp243
-F2670.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p244
-(dp245
-g18
-Vyou wake up to the sound of muffled growling. a ferocious SHIBE is staring back at you\u000a\u000a[img[http://farm9.staticflickr.com/8475/8121414926_83e9bca60b.jpg]]\u000a\u000ado you:\u000a\u000a<<if $inv.indexOf("SHIBE TREATS") gte 0>>[[USE SHIBE TREATS]]\u000a<<endif>>\u000a<<if $inv.indexOf("BOOK ABOUT SHIBES") gte 0>>[[READ BOOK ABOUT SHIBES]]\u000a<<endif>>\u000a<<if $inv.indexOf("FLUFFY PILLOW") gte 0>>[[PILLOW FIGHT THE SHIBE]]\u000a<<endif>>\u000a[[RUN]]
-p246
-sg20
-VSHIBE ALERT
-p247
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I28
-I2
-I5
-I103
-I1
-tp248
-(dp249
-tp250
-Rp251
-sg28
-(lp252
-sg30
-g251
-sbsa(dp253
-g12
-I00
-sg13
-(lp254
-F2670.0
-aF570.0
-asg15
-(itiddlywiki
-Tiddler
-p255
-(dp256
-g18
-Vyou open the bag of SHIBE TREATS and toss some down to the SHIBE\u000a\u000athe SHIBE eats them angrily and growls up at you\u000a\u000a<<set $inv.splice($inv.indexOf("SHIBE TREATS"),1)>>\u000a\u000a[[&laquo; back|SHIBE ALERT]]
-p257
-sg20
-VUSE SHIBE TREATS
-p258
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I37
-I28
-I5
-I103
-I1
-tp259
-(dp260
-tp261
-Rp262
-sg28
-(lp263
-sg30
-g262
-sbsa(dp264
-g12
-I00
-sg13
-(lp265
-F2670.0
-aF990.0
-asg15
-(itiddlywiki
-Tiddler
-p266
-(dp267
-g18
-Vyou open the BOOK ABOUT SHIBES and read the SHIBE EMERGENCY SECTION\u000a\u000aFIRST DON'T GIVE THEM TREATS, THEY WILL GET ANGRY\u000aSECOND, DON'T RUN!\u000aTHIRD, HAPPY SHIBES ARE MADE BY PILLOW FIGHTS!\u000a\u000a[[&laquo; back|SHIBE ALERT]]
-p268
-sg20
-VREAD BOOK ABOUT SHIBES
-p269
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I39
-I33
-I5
-I103
-I1
-tp270
-(dp271
-tp272
-Rp273
-sg28
-(lp274
-sg30
-g273
-sbsa(dp275
-g12
-I00
-sg13
-(lp276
-F2810.0
-aF850.0
-asg15
-(itiddlywiki
-Tiddler
-p277
-(dp278
-g18
-Vyou try to run away from the SHIBE\u000a\u000ayou fail and you feel the SHIBE's teeth sink into your leg. \u000a\u000aas you faint you realize OH NO this was a WERESHIBE; you are doomed to live through a CYCLE OF SHIBEDOM\u000a\u000a<<if $inv.indexOf("SHIBE TREATS") gte 0>>but at least you have SHIBE TREATS!\u000a<<endif>>\u000a\u000a[[THE END!|CREDITS]]\u000a
-p279
-sg20
-VRUN
-p280
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I41
-I51
-I5
-I103
-I1
-tp281
-(dp282
-tp283
-Rp284
-sg28
-(lp285
-sg30
-g284
-sbsa(dp286
-g12
-I00
-sg13
-(lp287
-F2110.0
-aF990.0
-asg15
-(itiddlywiki
-Tiddler
-p288
-(dp289
-g18
-Vyou pick up your FLUFFY PILLOW and swing it playfully at the SHIBE\u000a\u000athe SHIBE is shocked but starts pawing at the air playfully\u000a\u000ayou have turned the FEROCIOUS SHIBE into a HAPPY SHIBE\u000a\u000a[img[http://farm8.staticflickr.com/7209/6857647894_f93da891a6.jpg]]\u000a\u000athe HAPPY SHIBE tries to kiss you\u000a\u000a[[KISSES]]\u000a[[NO KISSES]]
-p290
-sg20
-VPILLOW FIGHT THE SHIBE
-p291
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I44
-I6
-I5
-I103
-I1
-tp292
-(dp293
-tp294
-Rp295
-sg28
-(lp296
-sg30
-g295
-sbsa(dp297
-g12
-I00
-sg13
-(lp298
-F2670.0
-aF1130.0
-asg15
-(itiddlywiki
-Tiddler
-p299
-(dp300
-g18
-Vyou let the HAPPY SHIBE kiss you on the mouth! ew SHIBE BREATH\u000a\u000athe HAPPY SHIBE turns into a BEAUTIFUL PERSON\u000a\u000a"~ welcome to home ~"\u000a\u000a"i am the last of the WERESHIBES"\u000a\u000a"wow ~ such legacy"\u000a\u000ayou have made a new friend for life!!!!!\u000a\u000a[[THE END!|CREDITS]]
-p301
-sg20
-VKISSES
-p302
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I48
-I6
-I5
-I103
-I1
-tp303
-(dp304
-tp305
-Rp306
-sg28
-(lp307
-sg30
-g306
-sbsa(dp308
-g12
-I00
-sg13
-(lp309
-F2670.0
-aF150.0
-asg15
-(itiddlywiki
-Tiddler
-p310
-(dp311
-g18
-Vno kisses for the SHIBE, too bad. you now can leave safely\u000a\u000awow ~ such boring\u000a\u000a[[THE END!|CREDITS]]
-p312
-sg20
-VNO KISSES
-p313
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I50
-I44
-I5
-I103
-I1
-tp314
-(dp315
-tp316
-Rp317
-sg28
-(lp318
-sg30
-g317
-sbsa(dp319
-g12
-I00
-sg13
-(lp320
-F150.0
-aF150.0
-asg15
-(itiddlywiki
-Tiddler
-p321
-(dp322
-g18
-VBEWAR OF SHIBE
-p323
-sg20
-VStoryTitle
-p324
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I54
-I27
-I5
-I103
-I1
-tp325
-(dp326
-tp327
-Rp328
-sg28
-(lp329
-sg30
-g328
-sbsa(dp330
-g12
-I00
-sg13
-(lp331
-F430.0
-aF150.0
-asg15
-(itiddlywiki
-Tiddler
-p332
-(dp333
-g18
-VMx A. Matienzo
-p334
-sg20
-VStoryAuthor
-p335
-sg22
-g23
-((I2013
-I4
-I13
-I16
-I54
-I42
-I5
-I103
-I1
-tp336
-(dp337
-tp338
-Rp339
-sg28
-(lp340
-sg30
-g339
-sbsasS'scale'
-p341
-F0.20000000000000007
-ss.
