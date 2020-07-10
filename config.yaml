@@ -10,12 +10,14 @@ taxonomies:
 
 permalinks:
   music: /:year/:slug/
-  notes: /:year/:yearday/:slug/
+  notes: /:year/:002/:slug/
   posts: /:year/:slug/
   publications: /:year/:slug/
   presentations: /:year/:slug/
   projects: /:year/:slug/
   years: /:year/
+
+summaryLength: 160
 
 imaging:
   quality: 99
