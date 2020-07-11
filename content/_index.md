@@ -17,5 +17,5 @@ I can be reached at <span class="u-email" rel="me">mark@matienzo.org</span>, as 
 
 For a more thorough professional background, please consult my <a href="/storage/cv.pdf"><abbr title="curriculum vitae">CV</abbr></a>. I also exist on <a href="https://linkedin.com/in/markmatienzo" rel="me">LinkedIn</a>.
 
-You also can refer to ne using various identifiers like <a href="https://orcid.org/0000-0003-3270-1306" rel="me">my ORCiD</a>, or <a href="https://www.wikidata.org/wiki/Q57491060" rel="me">my Wikidata entity ID</a>.
+You also can refer to me using various identifiers like <a href="https://orcid.org/0000-0003-3270-1306" rel="me">my ORCiD</a>, or <a href="https://www.wikidata.org/wiki/Q57491060" rel="me">my Wikidata entity ID</a>.
 {{< /expandable >}}
