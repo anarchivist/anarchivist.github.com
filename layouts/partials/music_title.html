@@ -1,0 +1,1 @@
+{{ with .Params.authors }}{{ $authors := apply . "partial" "author_individual.html" "." }}{{ $authors := apply $authors "chomp" "." }}{{- delimit $authors " / " }} - {{ else }}{{ end }}{{ .Title }}

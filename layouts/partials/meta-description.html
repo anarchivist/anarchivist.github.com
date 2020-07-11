@@ -1,0 +1,7 @@
+  {{ if and .IsHome (isset .Site.Params "homeMetaContent") }}
+      <meta name="description" content="{{ .Site.Params.home | plainify }}">
+  {{ else if in (slice "publications" "presentations" "music") .Section }}
+      <meta name="description" content="{{- partial "citation.html" . | plainify | truncate 160 -}}">
+  {{ else if gt (countwords .Summary) 0 }}
+      <meta name="description" content="{{ .Summary | plainify }}">
+  {{ end }}

@@ -1,0 +1,19 @@
+---
+comments: true
+date: '2008-01-27T20:07:43Z'
+published: true
+slug: announcing-zgwpy
+status: publish
+tags:
+- Code
+title: Announcing zgw.py, or, how I stopped worrying and learned to love Z39.50
+---
+<p>After more than a few late nights and long weekends, I'm proud to announce that I've completed my latest pet programming project. <a href="http://svn.matienzo.org/public/python/zgw/">zgw.py</a> is a lightweight Z39.50-Web gateway, written, naturally, in Python. None of this would be possible without the following Python modules: <a href="http://www.panix.com/~asl2/">Aaron Lav</a>'s <a href="http://www.panix.com/~asl2/software/PyZ3950/">PyZ3950</a>, the beast of burden; <a href="http://inkdroid.org/">Ed Summers</a>' <a href="http://pypi.python.org/pypi/pymarc/">pymarc</a>, the smooth-talking translator; and <a href="http://webpy.org/">web.py</a>, quite possibly the best and most straightforward Python web framework available. I initially undertook this project as an excuse to play with PyZ3950 and to teach myself the workings of web.py; I'd played with Django, but it seemed entirely excessive for what I was working on.</p>
+<p>First, I should mention that zgw.py isn't designed to be a complete implementation of a Z39.50 gateway. There are many areas in which there is much to be desired, and it's probably not as elegant as some would like. However, that wasn't the point of the project. My ultimate goal was to create a simple client that could be used as a starting point from which to develop a complete web application. The query syntax is pretty straight forward, as long as you're using CCL syntax. One can search either from a form, or by issuing a HTTP GET request to a specially formulated URL, e.g.:</p>
+<ul>
+<li>Author: /search/au="schellenberg, theodore"</li>
+<li>Title: /search/ti="describing archives a content standard"</li>
+<li>Keyword with boolean: /search/shakespeare and vietnamese</li>
+</ul>
+<p>Although it's not entirely complete, I have tested it against a number of different Z39.50 servers and have been able to retrieve results accordingly. It's a fun toy, if nothing else...</p>
+<p>Anyhow, if you'd like to play around with it, I have an <a href="http://test.matienzo.org/zgw/">active installation</a> available online. Please be gentle and thoughtful in regard to your queries, though. If you'd like to look at the code and see how this has manifested itself, it's available online via Subversion at <a href="http://svn.matienzo.org/public/python/zgw/">http://svn.matienzo.org/public/python/zgw/</a>.</p>

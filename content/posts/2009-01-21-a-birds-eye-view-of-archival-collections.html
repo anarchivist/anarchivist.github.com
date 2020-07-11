@@ -1,0 +1,25 @@
+---
+comments: true
+date: '2009-01-21T01:11:12Z'
+published: true
+slug: a-birds-eye-view-of-archival-collections
+status: publish
+tags:
+- Archives
+- Archives
+- data
+- Processing
+- visualization
+title: A Bird's Eye View of Archival Collections
+---
+<p><a href="http://creative.canberra.edu.au/mitchell">Mitchell Whitelaw</a> is a Senior Lecturer in the Faculty of Design and Creative Practice at the University of Canberra and the <a href="http://www.naa.gov.au/about-us/research-grants/ian-maclean/current-award/index.aspx">2008 winner</a> of the National Archives of Australia's <a href="http://www.naa.gov.au/about-us/research-grants/ian-maclean/index.aspx">Ian Maclean Award</a>. According to the NAA's site, the Ian Maclean Award commemorates archivist <a href="http://www.naa.gov.au/about-us/research-grants/ian-maclean/biography.aspx">Ian Maclean</a>, and is awarded</p>
+<blockquote><p>to individuals interested in conducting research that will benefit the archival and historical profession in Australia and promote the important contribution that archives make to society.</p></blockquote>
+<p>Dr. Whitelaw has been keeping the world up to date on his work using his blog, <a href="http://visiblearchive.blogspot.com/">The Visible Archive</a>. His work fits well with my colleague <a href="http://spellboundblog.com/">Jeanne Kramer-Smyth'</a>s archival data visualization project, <a href="http://archivesz.com/">ArchivesZ</a>, as well as the <a href="http://www.hatii.arts.gla.ac.uk/research/visual/visual.htm">multidimensional visualization projects</a> underway at the Humanities Advanced Technology &amp; Information Institute at the University of Glasgow. However, his project fascinates me for a few specific reasons.</p>
+<p>First of all, the scale of the datasets he's working with are astronomically larger than those that any other archival visualization project has tried to tackle so far. His visualizations include analysis at the <a href="http://naa12.naa.gov.au/Manual/Introduction/CRSIntroduction.htm">Commonwealth Record Series</a> level, which can be as large as about 10,000 linear meters of material. In addition, he'll be working directly with Series A1, which holds 20,000 items in approximately 450 linear meters.</p>
+<p>Secondly, he's been using <a href="http://processing.org/">Processing</a>, an open source programming language for visualization and interaction design to do a lot of the heavy lifting to create interactive visualizations like <a href="http://creative.canberra.edu.au/mitchell/visiblearchive/">this one</a>, depicted in the screenshot below. Processing works well for this because of its extensive third party libraries, such as <a href="http://www.texone.org/proxml/">proXML</a>, which allowed him to parse the descriptive data Dr. Whitelaw received from the NAA (note: it's not EAD, thank heavens).</p>
+<a href="http://www.flickr.com/photos/mtchl/3172713442/"><img title="A visualisation of 57000 series in the collection of the National Archives of Australia" src="/images/3172713442_0558037681.jpg" alt="The area of each square is proportional to the number of shelf metres that series occupies, while the size of the grey void in each square is related to the number of described items in the series. So a square with a large void (thin walls) has relatively fewer items than one with a small void (thick walls) - or no void at all. Theres a minimum wall thickness of one unit, which is why the smallest squares have no voids." width="400" height="292" />
+<blockquote><p>A visualisation of 57000 series in the collection of the National Archives of Australia. The area of each square is proportional to the number of shelf metres that series occupies, while the size of the grey void in each square is related to the number of described items in the series. So a square with a large void (thin "walls") has relatively fewer items than one with a small void (thick "walls") - or no void at all. There's a minimum wall thickness of one unit, which is why the smallest squares have no voids.</p></blockquote>
+</dd>
+</dl>
+</div>
+<p>Finally, I also have to give Dr. Whitelaw a lot of credit for sharing the source code, as well — this will really jumpstart my efforts to start playing around with Processing!</p>

@@ -1,0 +1,106 @@
+baseURL: https://matienzo.org
+languageCode: en-us
+title: &name Mark A. Matienzo
+theme: cosy-hugo-theme
+googleAnalytics: UA-6399155-1
+disqusShortname: matienzo
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  music: /:year/:slug/
+  notes: /:year/:002/:slug/
+  posts: /:year/:slug/
+  publications: /:year/:slug/
+  presentations: /:year/:slug/
+  projects: /:year/:slug/
+  years: /:year/
+
+summaryLength: 160
+
+imaging:
+  quality: 99
+
+params:
+  # description:
+  # homeMetaContent:
+  footer: Navigate by [years](/years) or [tags](/tags).
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: January 2, 2006
+  codePenUser: someUser
+  katex: false
+  darkThemeAsDefault: false
+  hideHeaderLinks: false
+  search: true
+  displaySummariesInList: true
+  author:
+    name: *name
+    url: https://matienzo.org/
+  google_webmaster_verification: Cj3zranByErq0NTRdlM3c2RAkZoa3B46bcsyRVlbBBg
+  # A list of custom css files can be provided, which must be placed inside
+  # 'static/'.
+  # This is useful to override just specific css classes, instead of copying
+  # the entire theme's css file to your own site.
+  # Usage:
+  # customCss:
+  #   - css/matienzo.css
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Posts
+      url: /posts/
+      weight: 2
+    - name: Notes
+      url: /notes/
+      weight: 3
+    - name: Music
+      url: /music/
+      weight: 4
+    - name: Projects
+      url: /projects/
+      weight: 5
+    - name: Publications
+      url: /publications/
+      weight: 6
+    - name: Presentations
+      url: /presentations/
+      weight: 7
+    - name: Press
+      url: /press/
+      weight: 8
+
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2

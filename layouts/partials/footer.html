@@ -1,0 +1,9 @@
+<footer role="contentinfo">
+  <div>
+    <label for="themer">
+      {{ T "dark_theme" }} <input type="checkbox" id="themer" class="vh">
+      <span aria-hidden="true"></span>
+    </label>
+  </div>
+  {{ if and .IsNode (not .IsHome) }}<a href="{{ print .Section "/index.xml" | absURL }}">Feed</a> &middot;{{ end }} Navigate by <a href="/years">years</a> or <a href="/tags">tags</a>
+</footer>

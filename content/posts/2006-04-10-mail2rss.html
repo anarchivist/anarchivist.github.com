@@ -1,0 +1,13 @@
+---
+comments: true
+date: '2006-04-10T10:39:00Z'
+published: true
+slug: mail2rss
+status: publish
+tags:
+- Code
+title: An updated version of Nick Gerakines' mail2rss.pl
+---
+<p>A little over a month ago, <a href="http://blog.socklabs.com/">Nick Gerakines</a> posted a <a href="http://blog.socklabs.com/2006/03/07/email_feeds_with_procmail/">Perl script</a> to be called from a <a href="http://procmail.org/">Procmail</a> configuration file. It seemed to work pretty well, but the anal-retentive cataloger/standards geek in me decided to pass the results through a <a href="http://feedvalidator.org/">feed validator</a>. It failed in a few key areas: <a href="http://feedvalidator.org/docs/error/MissingAttribute.html">missing version attribute</a> in the rss tag, improper <a href="http://feedvalidator.org/docs/error/InvalidHttpGUID.html">guid</a> and <a href="http://feedvalidator.org/docs/error/InvalidFullLink.html">link</a> tags, and a <a href="http://feedvalidator.org/docs/error/InvalidRFC2822Date.html">pubDate with a non-RFC822 date</a>. These all seemed pretty easy to fix, so I went ahead and made some changes. <a href="http://purl.org/net/matienzo/projects/mail2rss/">My fixes</a> are a bit inelegant, but they create valid RSS 2.0.</p>
+<p>It was pretty trivial to add an RSS version number and to fix the guid error; the latter just required adding the isPermaLink="false" attribute to that tag. However, Nick's original code required parsing the pubDate tags to determine when to kill data that was over 6 hours old. I didn't want to be bothered parsing an RFC822 date with this, so I moved that information into a category tag. The RFC822 date code was simple to extract from <a href="http://www.bigbold.com/snippets/posts/show/622">this code snippet</a>. The link error was fixed by pulling out the Message-ID header from the message and converting that into a mid: URI. Obviously, if you click the link in an aggregator, you'll get an error or some sort of other unideal behavior, but this could be tweaked further.</p>
+<p>I'd really like to switch this to an Atom 1.0 feed instead, so that and adding to the top of the stack (reverse-chronologically) are the next things to work on with this. My perl-fu isn't the greatest, so things could be better, and obviously the typical caveats regarding security and all that go into play. It's a fun toy, though, so as long as you're careful I'd assume that you have not much to worry about.</p>

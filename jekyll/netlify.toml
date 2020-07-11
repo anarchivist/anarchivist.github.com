@@ -1,6 +1,0 @@
-[context.production.environment]
-  JEKYLL_ENV = "production"
-  SUPERFEEDR_USERNAME = "anarchivist"
-
-[build]
-  functions = "functions"

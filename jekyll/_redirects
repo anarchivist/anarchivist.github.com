@@ -1,5 +1,0 @@
-# proxy everything under /storage
-/storage/* http://storage.matienzo.org/:splat 200
-
-/blog/page/* /posts/page/:splat
-/blog/:year/* /:year/:splat

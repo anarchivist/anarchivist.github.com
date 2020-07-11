@@ -1,0 +1,53 @@
+---
+comments: true
+date: '2010-10-17T15:31:14Z'
+meta:
+  _edit_last: '1'
+  _wp_old_slug: ''
+published: true
+slug: disco-powered-pymarc
+status: publish
+tags:
+- Code
+title: Disco-Powered pymarc
+---
+<p>I'd been long interested in starting to develop code using some sort of <a href="http://en.wikipedia.org/wiki/MapReduce">MapReduce</a> implementation for distributed computing. I have never been able to get my head around <a href="http://hadoop.apache.org/">Hadoop</a>, so I gave up with that pretty quickly. I recently discovered <a href="http://www.discoproject.org/">Disco</a>, a MapReduce framework with an Erlang-based core. Disco also allows you to to write your worker code in Python, which was a huge plus to me.</p>
+<p>After stumbling through the tutorial, I took the word count demo and put together some basic code using <a href="http://github.com/edsu/pymarc">pymarc</a> that gathered tag count statistics for a bunch of MARC files. The code's still in a very early form, and arguably should carve up large files into smaller chunks to pass off to the worker processes; I've gotten around this for the time being by splitting up the files using <a href="http://www.indexdata.com/yaz/doc/yaz-marcdump.html">yaz-marcdump</a>. Once I split the files, I pushed them into a tag of DDFS, the Disco Distributed File System. This was a useful way for me to write some demo code both for using pymarc and Disco. The code follows, and is also available as a <a href="http://gist.github.com/625558">Gist on Github</a>.</p>
+
+<pre lang="python">
+#!/usr/bin/env python
+#
+# pymarc_disco.py - Mark Matienzo
+#   sample MapReduce tasks for Disco to get tag counts from MARC files/streams
+#   usage: python pymarc_disco.py <input1> [input2 ... inputN]
+
+import sys
+from disco.core import Disco, result_iterator
+from disco.settings import DiscoSettings
+import pymarc
+
+def read(fd, size, fname):
+    return pymarc.MARCReader(fd)
+
+def map(record, params):
+    for field in record.fields:
+        yield field.tag, 1
+
+def reduce(iter, params):
+    from disco.util import kvgroup
+    for tag, counts in kvgroup(sorted(iter)):
+        yield tag, sum(counts)
+
+disco = Disco(DiscoSettings()['DISCO_MASTER'])
+print "Starting Disco job.."
+print "Go to %s to see status of the job." % disco.master
+results = disco.new_job(name="tagcount",
+                        input=sys.argv[1:],
+                        map=map,
+                        map_reader=read,
+                        reduce=reduce,
+                        save=True).wait()
+print "Job done. Results:"
+for word, count in result_iterator(results):
+    print word, count
+</pre>

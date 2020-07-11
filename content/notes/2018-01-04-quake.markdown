@@ -1,0 +1,18 @@
+---
+title: quake
+date: "2018-01-04 15:22:00 -0800"
+bookmark_of:
+  url:  https://earthquake.usgs.gov/earthquakes/eventpage/nc72948801
+  name: "USGS Earthquake Hazards Program &middot; M 4.4 - 2km SE of Berkeley, CA"
+location:
+  name: home
+  locality: Redwood City
+  region: CA
+  country_name: USA
+syndication:
+  - https://chaos.social/@anarchivist/99294237499617350
+  - https://twitter.com/anarchivist/status/949065781597298688
+  - https://news.indieweb.org/en
+---
+
+i felt my first earthquake. while i was up late last night working on my website. <span class="h-event">a <a href="https://earthquake.usgs.gov/earthquakes/eventpage/nc72948801" class="u-url p-name">magnitude 4.4 earthquake</a>. its origin was <span class="p-location h-adr">2km SE of Berkeley, CA (<span class="p-latitude">37.855</span>, <span class="p-longitude">-122.257</span>)</span> at <time class="dt-datetime" datetime="2018-01-04T10:39:37.730">2018-01-04 10:39:37.730 UTC</time></span>. this is was also an excuse to work more on my website, adding bookmarks and locations to posts, and experimenting with marking up an [h-event](http://microformats.org/wiki/h-event) in the text of a post.

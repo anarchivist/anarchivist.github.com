@@ -1,6 +1,3 @@
-[submodule "iiif-archives-demo"]
-	path = jekyll/iiif-archives-demo
-	url = https://github.com/anarchivist/iiif-archives-demo.git
-[submodule "twines"]
-	path = jekyll/twines
-	url = https://github.com/anarchivist/twines.git
+[submodule "themes/cosy-hugo-theme"]
+	path = themes/cosy-hugo-theme
+	url = https://github.com/anarchivist/cosy-hugo-theme

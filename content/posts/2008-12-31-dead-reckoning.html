@@ -1,0 +1,32 @@
+---
+comments: true
+date: '2008-12-31T01:56:32Z'
+published: true
+slug: dead-reckoning
+status: publish
+tags:
+- description
+- description
+- ead
+title: 'dEAD Reckoning #1: A FaTHEADed Failure For Faceted Terms and Headings in EAD'
+---
+<p>A while back, I wrote a <a href="/2008/bad-marc-rant-1">Bad MARC Rant</a>, and I considered titling this a Bad Metadata Rant. However, as the kids say, I got <a href="http://www.urbandictionary.com/define.php?term=mad%20beef">mad beef</a> with a little metadata standard called Encoded Archival Description. Accordingly, I figured I should begin a new series of posts discussing some of these issues that I have with something that is, for better or for worse, a technological fixture of our profession. This is in part prompted by thoughts that I've had as a result of participating in <a href="http://www.archivists.org/publications/epubs/EAD@10.asp">EAD@10</a> and attending the <a href="http://pacsclsurvey.org/snso.htm">Something New for Something Old</a> conference sponsored by the <a href="http://pacsclsurvey.org/">PACSCL Consortial Survey Initiative</a>.</p>
+<p>Anyhow, onto my first bone to pick with EAD. I'm incredibly unsatisfied with the controlled access heading tag <a href="http://www.loc.gov/ead/tglib/elements/controlaccess.html"><code>&lt;controlaccess/&gt;</code></a>. First of all, it can occur within itself, and because of this, I fear that there will be some sort of weird instance where I have to end up parsing a series of these tags 3 levels deep. Also, it can contain a <a href="http://www.loc.gov/ead/tglib/elements/chronlist.html"><code>&lt;chronlist/&gt;</code></a>, which also seems pretty strange given that I've never seen any example of events being used as controlled access terms in this way. Sure, things that would have ordinarily gone into a 111 tag in MARC have been shoehorned into <code>&lt;corpname/&gt;</code>s, but that's another story for another time.</p>
+<p>These are minor issues, though. My biggest complaint is that EAD can't really handle faceted or synthetic subject headings in a way that makes parsing them at all intuitive. In fact, the only support for any sort of "faceted classification" at all built into EAD is the relatively obscure <a href="http://www.loc.gov/ead/tglib/elements/physfacet.html"><code>&lt;physfacet/&gt;</code></a> tag, a rather hamfisted way to pry apart a component's physical description into what the EAD Tag Library seems to suggest as being uncontrolled terms. I've found that access points that are exposed through faceted interfaces often work best when they're separated out into distinct facets; in other words, topics should be grouped separately from places, names of corporate or individual entities, and form/genre descriptions.</p>
+<p>I can hear you grumbling already. "Wait, Mark! EAD has different tags for subjects, geographical names, and so forth!" That's all well and good, but the syntactic structure of LCSH has pretty much established itself as being synthetic (see <a href="http://books.google.com/books?id=cY3YzYGyY3UC&amp;pg=PA17">Elaine Svenonius, "LCSH: Semantics, Syntax, and Specificity"</a>). EAD doesn't allow us to easily break apart these synthetic headings like, say, <a href="http://www.loc.gov/catdir/cpso/wls08/awls0850.html"><em>Strikes and lockouts--Bedding industry--England</em></a>. In this case, EAD would want to wrap this heading something like this:</p>
+<blockquote><p><code>&lt;controlaccess&gt;<br />
+&nbsp;&nbsp;&lt;subject encodinganalog="650"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Strikes and lockouts--Bedding industry--England<br />
+&nbsp;&nbsp;&lt;/subject&gt;<br />
+&lt;/controlaccess&gt;</code></p></blockquote>
+<p>However, <em>Strikes and lockouts</em> and <em>Bedding industry</em> are both topical facets of the heading, and <em>England</em> is a geographical facet. Unfortunately, thanks to the structure of EAD, I can't  do something like the following without feeling physically ill:</p>
+<blockquote><p><code>&lt;controlaccess&gt;<br />
+&nbsp;&nbsp;&lt;controlaccess encodinganalog="650"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;subject encodinganalog="$a"&gt;Strikes and lockouts&lt;/subject&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;subject encodinganalog="$x"&gt;Bedding industry&lt;/subject&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;geogname encodinganalog="$z"&gt;England&lt;/geogname&gt;<br />
+&nbsp;&nbsp;&lt;controlaccess&gt;<br />
+&lt;/controlaccess&gt;</code></p></blockquote>
+<p>If you're particularly astute, you'd notice that <a href="http://listserv.loc.gov/cgi-bin/wa?A2=ind0210&amp;L=ead&amp;T=0&amp;P=4804">I've been griping about this for over six years</a>. I believe that <a href="http://www.archiveshub.ac.uk/">Archives Hub</a> has hacked together a particularly <a href="http://www.archiveshub.ac.uk/arch/manenc.shtml">ingenious solution using the <code>&lt;emph/&gt;</code> tag</a> to identify these facets. Nonetheless, this solution is an excellent example of <a href="http://www.ucc.ie/sdata/">tag abuse</a>, just like my messy compromise from my days as an intern. So what do we need to do?</p>
+<p>{{< youtube 0n7C1AyU-9Q >}}</p>
+<p>Tighten up, of course. Expect more out of me on what EAD might look like after we put it on a diet.</p>

@@ -1,0 +1,17 @@
+<header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      <a
+        class="logo {{ if .IsHome }}u-url{{ end }}"
+        href="{{ .Site.BaseURL }}"
+        aria-label="{{ .Site.Title }} home page"
+      >{{ if .IsHome }}<span class="p-name" hidden>Mark A. Matienzo</span>{{ end }}
+        <img src="{{ "images/logo.svg" | absURL }}" alt="Image of Mark A. Matienzo" {{ if .IsHome }}class="u-photo"{{ end }}>
+      </a>
+      <p class="library-desc">
+        {{ with .Site.Params.description }} {{ . | markdownify }} {{ end }}
+      </p>
+    </div>
+    {{ partial "nav.html" . }}
+  </div>
+</header>

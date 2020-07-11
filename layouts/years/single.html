@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $archYear := .Date.Format "2006" }}
+<main id="main" class="h-feed">
+  <h1 class="p-name">Archive for {{ $archYear }}</h1>
+  {{ if site.Params.search }}
+  <input
+    id="search"
+    type="text"
+    placeholder="Search by title..."
+    aria-label="Search by title"
+  />
+  {{ end }}
+  <ul class="patterns-list" id="list">
+  {{ range .Site.Pages  }}
+      {{ if eq (.Date.Format "2006") $archYear }}
+      <h2 class="p-name">
+        <a class="u-url" href="{{ .Permalink }}">
+          <svg
+            class="bookmark"
+            aria-hidden="true"
+            viewBox="0 0 40 50"
+            focusable="false"
+          >
+            <use xlink:href="#bookmark"></use>
+          </svg>
+          {{ .Title | default .Slug }}
+        </a>
+      </h2>
+      <div class="metadata">
+      <div class="section">
+      Included in <strong>{{- .Section | title -}}.</strong> <a href="{{ .Section | absURL }}">Explore more ...</a>
+      </div>
+      {{ partial "date.html" . }}
+      </div>
+      {{ end }}
+  {{ end }}
+  </ul>
+</main>
+{{ end }}

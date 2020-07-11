@@ -1,13 +1,5 @@
-.bundle
 .DS_Store
-.sass-cache
-.gist-cache
-.embedly-cache
-.deploy
-_deploy
-_site
-sass.old
-vendor
 node_modules
 functions
 .netlify
+public/*

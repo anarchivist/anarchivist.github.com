@@ -1,0 +1,9 @@
+[context.production.environment]
+  JEKYLL_ENV = "production"
+  SUPERFEEDR_USERNAME = "anarchivist"
+
+[build]
+  functions = "functions"
+
+[build.environment]
+  TZ = "America/Los_Angeles"

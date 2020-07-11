@@ -1,0 +1,26 @@
+---
+date: '2014-02-24T00:00:00Z'
+slug: a-helping-hand-free-software-and-the-dpla
+syndication:
+- https://dp.la/info/2014/02/24/a-helping-hand-free-software-and-the-dpla/
+tags:
+- Technology
+- Open Source
+- DPLA
+title: 'A Helping Hand: Free Software and the DPLA'
+---
+
+<p>As you probably know, DPLA is committed to making cultural heritage materials held in America's libraries, archives, and museums freely available to all, and we provide <a href="http://dp.la/info/developers/">maximally open data</a> to encourage transformative uses of those materials by developers. In addition, DPLA is also proud to distribute the software we produce to support our mission to the wider community.<!--more--> Dan Chudnov, the Director of Scholarly Technology at the George Washington University Libraries, <a href="http://library.gwu.edu/scholarly-technology-group/posts/why-we-write-software-gw-libraries">recently wrote</a>:</p>
+
+<blockquote>... being able to write software ourselves means we can take advantage of the many software solutions others have already developed. And in turn, when we write an application ourselves, we can share it with others.</blockquote>
+
+<p>DPLA would not exist as we know it today without <a href="http://en.wikipedia.org/wiki/Free_and_open-source_software">free and open source software</a>, and accordingly, it is a reasonable expectation that we leverage our ability to develop new software by sharing what we develop openly with the rest of the world. Here are some the different ways that free and open source software supports our work, both in terms of software that we use and software we've developed.</p>
+
+<ul>
+    <li><em>Ingesting data from hubs.</em> We receive data from our hubs in a variety of formats, and we use the <a href="http://akara.info/">Akara</a> framework and the Python programming language to process and enrich the data to conform to the DPLA <a href="http://dp.la/info/developers/map/">Metadata Application Profile</a>. Once processed, the data gets stored in <a href="http://couchdb.apache.org/">CouchDB</a>, an open source database.</li>
+    <li><em>The DPLA platform.</em> The platform, which provides an <abbr title="application programming interface">API</abbr> to DPLA's data, is a <a href="http://rubyonrails.org/">Ruby on Rails</a> application that interacts with our <a href="http://elasticsearch.org/">Elasticsearch</a> search index.</li>
+    <li><em>The DPLA portal.</em> Our portal is our public interface to the materials provided to us by our content and service hubs, and is built using Ruby on Rails, the <a href="http://www.postgresql.org/">PostgreSQL</a> database platform, and JavaScript libraries such as <a href="http://backbonejs.org/">Backbone.js</a>, <a href="http://leafletjs.com/">Leaflet</a>, and <a href="http://jquery.com/">jQuery</a>.</li>
+    <li><em>DPLA Exhibitions.</em> Our exhibitions are built using <a href="http://omeka.org/">Omeka</a>, and feature a zoomable image viewer using the <a href="http://openseadragon.github.io/">OpenSeadragon</a> JavaScript Library.</li>
+</ul>
+
+<p>All of this software that we've developed -- the DPLA ingestion code, platform, portal, and exhibitions -- is available on <a href="https://github.com/dpla">Github</a> under a free software license, such as the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero Public License</a>. We look forward to getting your feedback if you try out our software, particularly as we move towards giving back further to the free software community as our technology staff grows.</p>

@@ -1,0 +1,6 @@
+---
+bookmark_of:
+  url:  https://strugee.net/blog/2017/12/announcing-lazymention-elegant-outbound-webmention-for-static-sites
+  name: "Announcing lazymention: elegant outbound Webmention for static sites"
+date: "2018-01-04 16:07:12 -0800"
+---
