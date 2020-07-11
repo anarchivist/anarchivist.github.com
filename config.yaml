@@ -2,7 +2,7 @@ baseURL: https://matienzo.org
 languageCode: en-us
 title: &name Mark A. Matienzo
 theme: cosy-hugo-theme
-googleAnalytics: UA-123456789-1
+googleAnalytics: UA-6399155-1
 disqusShortname: matienzo
 
 taxonomies:
@@ -37,6 +37,7 @@ params:
   author:
     name: *name
     url: https://matienzo.org/
+  google_webmaster_verification: Cj3zranByErq0NTRdlM3c2RAkZoa3B46bcsyRVlbBBg
   # A list of custom css files can be provided, which must be placed inside
   # 'static/'.
   # This is useful to override just specific css classes, instead of copying
@@ -56,18 +57,22 @@ menu:
     - name: Notes
       url: /notes/
       weight: 3
-    - name: Projects
-      url: /projects/
-      weight: 4
-    - name: Publications
-      url: /publications/
-      weight: 5
-    - name: Presentations
-      url: /presentations/
-      weight: 6
     - name: Music
       url: /music/
+      weight: 4
+    - name: Projects
+      url: /projects/
+      weight: 5
+    - name: Publications
+      url: /publications/
+      weight: 6
+    - name: Presentations
+      url: /presentations/
       weight: 7
+    - name: Press
+      url: /press/
+      weight: 8
+
 
 markup:
   defaultMarkdownHandler: goldmark

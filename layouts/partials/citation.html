@@ -3,12 +3,12 @@
 {{ with .Params.authors }}
 {{ $authors := apply . "partial" "author_individual.html" "." }}
 {{ $authors := apply $authors "chomp" "." }}
-{{- delimit $authors ", " " and " -}}
-{{ end -}}.
+{{- delimit $authors ", " " and " -}}.
+{{ end -}}
 </span>
 {{ if  (isset .Params "volume_title") }}
 <span class="title">"{{ .Title }}."</span>
-  {{ with .Params.description }} {{ . }}. {{ end }} In <span class="volume_title"><em>{{ .Params.volume_title -}}</em>{{ with .Params.volume_number }} {{ . -}}.{{ else }}{{ with .Params.volume_editors }}, ed. {{ delimit . ", " " and " -}}{{ end -}}.{{ end }}</span>
+  {{ with .Params.description }} {{ . }}. {{ end }} {{ if not (eq .Section "press") }}In {{ end }}<span class="volume_title"><em>{{ .Params.volume_title -}}</em>{{ with .Params.volume_number }} {{ . -}}.{{ else }}{{ with .Params.volume_editors }}, ed. {{ delimit . ", " " and " -}}{{ end -}}.{{ end }}</span>
 {{ else if eq .Section "presentations" }}
 <span class="title">"{{ .Title }}."</span> {{ with .Params.description }} {{ . }}. {{ end }}{{ with .Params.session }}<em>{{ . }}</em>. {{ end }}{{ with .Params.event }}{{ . }}, {{ end }}
 {{ else }}
@@ -21,5 +21,5 @@
   {{ with .Params.publisher }}: {{ . }},
   {{ else }},
   {{ end }}
-{{ else }}{{ with .Params.publisher }}{{ . }} {{ end }}{{ with .Params.volume_number }}{{ . }}{{ end }}{{ with .Params.format }} ({{ . }}){{ end }}{{ end }}{{ if eq .Section "presentations" }}{{ .Date.Format "January 1, 2006" }}{{ else if eq .Section "publications"}}{{ .Date.Format "2006" }}{{ else }}, {{ .Date.Format "2006" }}{{ end }}. {{ with .Params.pages }}{{ . }}. {{ end }}
+{{ else }}{{ with .Params.publisher }}{{ . }} {{ end }}{{ with .Params.volume_number }}{{ . }}{{ end }}{{ with .Params.format }} ({{ . }}){{ end }}{{ end }}{{ if in (slice "presentations" "press") .Section }}{{ .Date.Format "January 1, 2006" }}{{ else if eq .Section "publications"}}{{ .Date.Format "2006" }}{{ else }}, {{ .Date.Format "2006" }}{{ end }}. {{ with .Params.pages }}{{ . }}. {{ end }}
 </div>
