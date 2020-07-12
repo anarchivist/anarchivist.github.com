@@ -3,7 +3,7 @@ title: quake
 date: "2018-01-04 15:22:00 -0800"
 bookmark_of:
   url:  https://earthquake.usgs.gov/earthquakes/eventpage/nc72948801
-  name: "USGS Earthquake Hazards Program &middot; M 4.4 - 2km SE of Berkeley, CA"
+  name: "USGS Earthquake Hazards Program · M 4.4 - 2km SE of Berkeley, CA"
 location:
   name: home
   locality: Redwood City

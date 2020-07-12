@@ -3,7 +3,6 @@ languageCode: en-us
 title: &name Mark A. Matienzo
 theme: cosy-hugo-theme
 googleAnalytics: UA-6399155-1
-disqusShortname: matienzo
 
 taxonomies:
   tag: tags
