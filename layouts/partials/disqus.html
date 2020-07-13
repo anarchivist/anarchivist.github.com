@@ -4,7 +4,7 @@
 {{ range $comments }}
     {{ range . }}{{ if eq .path $thisPost }}{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}{{ end }}{{ end }}
 {{ end }}
-<button id="disqus-button" onclick="showComments()">{{ T "discuss_show_comments_button" }} ({{ $.Scratch.Get "counter" }})</button>
+<button id="disqus-button" onclick="showComments()">{{ T "discuss_show_comments_button" }}</button>
 <div id="disqus-container">
     <div id="disqus-comments">
       <script type="application/javascript">
@@ -24,5 +24,9 @@
         {{ end }}
     {{ end }}
     </ul>
+    <h2>Webmentions</h2>
+    {{ $wmJs := resources.Get "js/webmention.min.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $wmJs.Permalink }}" async></script>
+    <div id="webmentions"></div>
     </div>
 </div>
