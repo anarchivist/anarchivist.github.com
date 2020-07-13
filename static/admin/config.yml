@@ -6,7 +6,7 @@ media_folder: images
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "_posts"
+    folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     extension: md
@@ -55,7 +55,7 @@ collections:
             name: url
             widget: string
             required: true
-      - label: Categories
+      - label: Tags
         name: tags
         widget: list
         required: false
@@ -64,19 +64,20 @@ collections:
         widget: list
         required: false
         field:
-          - label: URL
-            widget: text
+          label: URL
+          name: url
+          widget: text
       - label: Content
         name: body
         widget: markdown
   - name: "notes"
     label: "Notes"
-    folder: "_notes"
+    folder: "content/notes"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Slug # This is a nasty workaround for netlify/netlify-cms#445
-        name: title
+        name: slug
         widget: string
         required: false
       - label: Date
@@ -84,7 +85,7 @@ collections:
         widget: datetime
       - label: Bookmark of
         name: bookmark_of
-        widget: list
+        widget: object
         required: false
         fields:
           - label: Name
@@ -132,5 +133,6 @@ collections:
         widget: list
         required: false
         field:
-          - label: URL
-            widget: text
+          label: URL
+          name: url
+          widget: text
