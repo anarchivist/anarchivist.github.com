@@ -139,7 +139,7 @@ Required reading:
 
 Supplemental reading:
 
-*   Kunze, John A. "Towards Electronic Persistence Using ARK Identiï¬ers." <http://www.cdlib.org/inside/diglib/ark/arkcdl.pdf>
+*   Kunze, John A. "Towards Electronic Persistence Using ARK Identifiers." <http://www.cdlib.org/inside/diglib/ark/arkcdl.pdf>
 *   O'Steen, Ben. "Object 'PID's and UUID, why not?" <http://oxfordrepo.blogspot.com/2007/12/object-pids-and-uuid-why-not.html>, and "Conclusions on UUIDs and local ids in Fedora" <http://oxfordrepo.blogspot.com/2008/01/conclusions-on-uuids-and-local-ids-in.html>
 *   Van de Sompel, Herbert. "Introduction to Thoughts on Persistent Resolution." <http://www.diglib.org/forums/spring2006/presentations/vandersompel0406.pdf>
 
