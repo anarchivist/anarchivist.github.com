@@ -9,3 +9,4 @@
 /teaching/drexel-info756/2012-fall /2012/drexel-info756-2012-fall
 /teaching/drexel-info756/2013-spring /2012/drexel-info756-2013-spring
 /teaching/lis901-08-fall09 /2009/liu-lis901-08-2009-fall
+/ui/* /storage/ui/:splat
