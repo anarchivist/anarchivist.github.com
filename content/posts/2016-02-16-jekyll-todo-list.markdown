@@ -11,7 +11,7 @@ title: My Jekyll todo list
 updated: 2016-02-17 21:22:00 -0500
 ---
 
-A running list of things I want to do or have done. A lot of this relates to adopting the [IndieWeb](https://indiewebcamp.com/) ethos
+A running list of things I want to do or have done. A lot of this relates to adopting the [IndieWeb](https://indiewebcamp.com/) ethos<!--more-->
 
 * **DONE** ~~Enable sending and receiving webmentions~~
 * **DONE** ~~Minimal h-entry markup~~
