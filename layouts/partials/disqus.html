@@ -12,21 +12,25 @@
           {{ partial "disqus-js-common.js" . | safeJS }}
         }
       </script>
+    {{ if gt ($.Scratch.Get "Counter") 0 }}
     <h2>Comments</h2>
     <ul class="patterns-list">
     {{ range $comments }}
         {{ range sort . "date" }}
             {{ if eq .path $thisPost }}
-            <li><div class="comment">{{ .comment | safeHTML }}</div>
+            <li><div class="comment" role="comment">{{ .comment | safeHTML }}</div>
                     <div class="metadata"><span class="name">{{ .name }}</span><span class="date"> on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></div>
                 </li>
             {{ end }}
         {{ end }}
     {{ end }}
+    {{ end }}
     </ul>
-    <h2>Webmentions</h2>
     {{ $wmJs := resources.Get "js/webmention.min.js" | resources.Minify | resources.Fingerprint }}
+    {{/* Add this to debug in dev: data-page-url="https://matienzo.org{{ .RelPermalink }}" */}}
     <script src="{{ $wmJs.Permalink }}" async></script>
+    {{ $wmCss := resources.Get "css/webmention.css" }}
+    <link rel="stylesheet" type="text/css" href="{{ $wmCss.Permalink }} "/>
     <div id="webmentions"></div>
     </div>
 </div>

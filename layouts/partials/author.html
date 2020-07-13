@@ -1,6 +1,6 @@
 {{ if site.Params.author }}
 <div class="post-author byline-item">
   <strong>{{ T "authored_by" }} </strong>
-  <a class="p-author h-card" href="{{ site.Params.author.url }}"><img src="{{ "images/matienzo.jpg" | absURL }}" class="u-photo img-link" role="hidden"/>{{ site.Params.author.name }}</a>
+  <a class="p-author h-card" href="{{ site.Params.author.url }}"><img src="{{ "images/matienzo.jpg" | absURL }}" class="u-photo img-link" aria-hidden="true"/>{{ site.Params.author.name }}</a>
 </div>
 {{ end }}
