@@ -29,8 +29,8 @@
     {{ $wmJs := resources.Get "js/webmention.min.js" | resources.Minify | resources.Fingerprint }}
     {{/* Add this to debug in dev: data-page-url="https://matienzo.org{{ .RelPermalink }}" */}}
     <script src="{{ $wmJs.Permalink }}" async></script>
-    {{ $wmCss := resources.Get "css/webmention.css" }}
-    <link rel="stylesheet" type="text/css" href="{{ $wmCss.Permalink }} "/>
+    {{ $wmCss := resources.Get "css/webmention.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ $wmCss.Permalink }}"/>
     <div id="webmentions"></div>
     </div>
 </div>
