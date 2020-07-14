@@ -4,33 +4,39 @@
 {{ range $comments }}
     {{ range . }}{{ if eq .path $thisPost }}{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}{{ end }}{{ end }}
 {{ end }}
-<button id="disqus-button" onclick="showComments()">{{ T "discuss_show_comments_button" }}</button>
-<div id="disqus-container">
-    <div id="disqus-comments">
-      <script type="application/javascript">
-        function showComments() {
-          {{ partial "disqus-js-common.js" . | safeJS }}
-        }
-      </script>
-    {{ if gt ($.Scratch.Get "Counter") 0 }}
-    <h2>Comments</h2>
-    <ul class="patterns-list">
+<div class="expandable-section">
+    <h2>
+    <button aria-expanded="false" data-expands="js-expandable-comments">
+      <span class="expandable-label">Comments</span>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
+        <g transform="translate(0 -981.5)">
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
+          <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
+        </g>
+      </svg>
+    </button>
+    </h2>
+  <div id="js-expandable-comments" hidden>
+    {{ if gt ($.Scratch.Get "counter") 0 }}
+    <div id="comments">
+    <h3>{{ $.Scratch.Get "counter" }} Comment{{- if gt ($.Scratch.Get "counter") 1 -}}s{{ end }}</h3>
+    <ul class="patterns-list comments">
     {{ range $comments }}
         {{ range sort . "date" }}
             {{ if eq .path $thisPost }}
-            <li><div class="comment" role="comment">{{ .comment | safeHTML }}</div>
-                    <div class="metadata"><span class="name">{{ .name }}</span><span class="date"> on {{ .date | dateFormat "Mon, 02 Jan. 2006, 15:04 MST" }}</span></div>
-                </li>
+            <li><span class="reaction" rel="ugc" role="comment">💬</span> <span class="source">{{ .name }}</span> at <span class="date"> {{ .date | dateFormat "January 2, 2006, 15:04 MST" }}</span>: <span class="text">{{ .comment | safeHTML }}</span>
+            </li>
             {{ end }}
         {{ end }}
     {{ end }}
-    {{ end }}
     </ul>
+    </div>
+    {{ end }}
     {{ $wmJs := resources.Get "js/webmention.min.js" | resources.Minify | resources.Fingerprint }}
     {{/* Add this to debug in dev: data-page-url="https://matienzo.org{{ .RelPermalink }}" */}}
     <script src="{{ $wmJs.Permalink }}" async></script>
     {{ $wmCss := resources.Get "css/webmention.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{ $wmCss.Permalink }}"/>
     <div id="webmentions"></div>
-    </div>
+  </div>
 </div>

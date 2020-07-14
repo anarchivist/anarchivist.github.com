@@ -1,31 +1,38 @@
-#webmentions {
+#webmentions, #comments {
     margin: 0;
     position: relative;
     z-index: 100;
     line-height: 1.2em;
 }
 
+
 #webmentions img {
 }
 
-#webmentions .comments {
+#webmentions .comments, #comments .comments {
     font-size: 0.8rem;
 }
 
-#webmentions h3 {
+#webmentions h3, #comments h3 {
     font-size: medium;
-    margin: 0;
+    margin: 0.5rem 0 1rem 0;
     padding: 2px;
 }
 
+.wm-r {
+   white-space: nowrap;
+}
+
 #webmentions .reacts * {
-  display: inline;
+   display: inline
 }
 
 #webmentions .reacts img {
     margin: 3px -1ex 1px 0;
 }
-
+#webmentions ul, #comments ul {
+  margin-top: 0;
+}
 #webmentions ul {
     list-style-type: none;
     margin: 0;
