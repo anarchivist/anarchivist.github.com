@@ -12,7 +12,7 @@
   {{ end }}
   <ul class="patterns-list" id="list">
   {{ range .Site.Pages  }}
-      {{ if eq (.Date.Format "2006") $archYear }}
+      {{ if and .IsPage (and (ne .Section "years") (eq (.Date.Format "2006") $archYear)) }}
       <h2 class="p-name">
         <a class="u-url" href="{{ .Permalink }}">
           <svg

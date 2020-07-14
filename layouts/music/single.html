@@ -15,8 +15,7 @@
 
     <div class="e-content">{{ .Content }}</div>
     {{ with .Params.bandcamp_album_id }}{{ partial "bandcamp.html" . }}{{ end }}
-
     {{ partial "permalink.html" .}}
+    {{ partial "disqus.html" . }}
   </main>
-  {{ partial "disqus.html" . }}
 {{ end }}
