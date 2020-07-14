@@ -24,13 +24,26 @@
 }
 
 #webmentions .reacts * {
-   display: inline
+  display: inline;
+  margin: 0 .25rem 0 0;
+
+}
+
+
+#webmentions .reacts span.react {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.wm-e {
+  font-size: 0.7rem;
+  background: transparent;
 }
 
 #webmentions .reacts img {
     margin: 3px -1ex 1px 0;
 }
-#webmentions ul, #comments ul {
+#webmentions ul, #comments ul, #webmentions .reacts {
   margin-top: 0;
 }
 #webmentions ul {
@@ -39,7 +52,7 @@
     padding: 4px;
 }
 
-#webmentions li {
+#webmentions li(:not(.react)) {
     text-indent: -1em;
     padding-left: 1em;
 }
@@ -77,6 +90,8 @@
     /* text-overflow: ellipsis;
     overflow: hidden; */
 }
+
+
 
 #webmentions .comments li .text {
     color: #fefefe;
