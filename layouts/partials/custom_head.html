@@ -3,6 +3,19 @@
 {{ if .IsNode }}
 <link rel="alternate" type="application/atom+xml" title="{{ .Title | humanize }} | {{ .Site.Title }}" href="{{ print .Section "/index.xml" | absURL }}">
 {{ end }}
+{{ $title := print (partial "title.html" .) " | " .Site.Title }}
+{{- if .IsHome -}}{{ $title = .Site.Title }} {{ end }}
+<title>{{ $title }}</title>
 <link rel="pingback" href="https://webmention.io/matienzo.org/xmlrpc">
 <link rel="webmention" href="https://webmention.io/matienzo.org/webmention">
 {{ with .Site.Params.google_webmaster_verification }}<meta name="google-site-verification" content="{{ . }}" />{{ end }}
+{{ if and (eq .Section "music") (.IsPage) }}
+<meta property="og:type" content="music.album" />
+{{ else }}
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://matienzo.org/images/
+matienzo.jpg"/>
+<meta name="twitter:creator" content="@anarchivist" />
+{{ end }}
+<meta name="twitter:site" content="@anarchivist" />
+<meta name="twitter:card" content="summary" />

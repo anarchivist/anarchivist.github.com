@@ -1,7 +1,9 @@
   {{ if and .IsHome (isset .Site.Params "homeMetaContent") }}
-      <meta name="description" content="{{ .Site.Params.home | plainify }}">
+      <meta name="description" content="{{ .Site.Params.home | plainify }}" />
+      <meta name="twitter:card" content="{{ .Site.Params.home | plainify }}" />
   {{ else if in (slice "publications" "presentations" "music") .Section }}
-      <meta name="description" content="{{- partial "citation.html" . | plainify | truncate 160 -}}">
+      <meta name="description" content="{{- partial "citation.html" . | plainify | truncate 160 -}}" />
+      <meta name="twitter:card" content="{{- partial "citation.html" . | plainify | truncate 160 -}}" />
   {{ else if gt (countwords .Summary) 0 }}
-      <meta name="description" content="{{ .Summary | plainify }}">
+      <meta name="description" content="{{ .Summary | plainify }}" />
   {{ end }}
