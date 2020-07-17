@@ -2,7 +2,7 @@ backend:
   name: github
   repo: anarchivist/matienzo.org
   branch: master
-media_folder: images
+media_folder: static/images
 collections:
   - name: "posts"
     label: "Posts"
