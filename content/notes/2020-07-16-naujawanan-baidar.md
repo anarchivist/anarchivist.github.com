@@ -7,8 +7,8 @@ bookmark_of:
 tags:
   - thisismyjam
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1283916317024813056 
+  - https://chaos.social/@anarchivist/104526336655841721 
 ---
 
 {{< bandcamp "track=1389158613" >}}
