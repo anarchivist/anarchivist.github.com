@@ -6,6 +6,7 @@ media_folder: static/images
 collections:
   - name: "posts"
     label: "Posts"
+    label_singular: "Post"
     folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -72,10 +73,14 @@ collections:
         widget: markdown
   - name: "notes"
     label: "Notes"
+    label_singular: "Note"
     folder: "content/notes"
     create: true
     identifier_field: slug
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}"
+    editor:
+      preview: false
+    summary: "{{date}}: {{fields.slug}}"
     fields:
       - label: Slug # This is a nasty workaround for netlify/netlify-cms#445
         name: slug
