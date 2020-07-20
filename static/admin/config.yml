@@ -46,7 +46,7 @@ collections:
             required: false
       - label: Bookmark of
         name: bookmark_of
-        widget: list
+        widget: object
         required: false
         fields:
           - label: Name

@@ -2,8 +2,8 @@
 title: touchless
 date: 2020-07-20T23:38:11.604Z
 bookmark_of:
-  - name: Touchless.Design
-    url: https://touchless.design/
+  name: Touchless.Design
+  url: https://touchless.design/
 tags:
   - hci
 syndication:
