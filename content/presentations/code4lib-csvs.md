@@ -1,5 +1,5 @@
 ---
-video: https://www.youtube.com/watch?v=uXYIjJrfqnI#t=49m25s)
+video: https://www.youtube.com/watch?v=uXYIjJrfqnI#t=49m25s
 authors:
 - Mark A. Matienzo
 title: >-
