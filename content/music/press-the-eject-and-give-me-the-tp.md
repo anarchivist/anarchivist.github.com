@@ -12,4 +12,5 @@ syndication:
 - https://www.discogs.com/Black-Tent-Press-The-Eject-And-Give-Me-The-TP/release/14834974
 volume_number: impr002
 content_url: https://blacktent.bandcamp.com/album/press-the-eject-and-give-me-the-t-p
+bandcamp_album_id: 3701492013
 ---
