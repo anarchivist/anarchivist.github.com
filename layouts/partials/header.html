@@ -2,7 +2,7 @@
   <div>
     <div class="intro">
       <a
-        class="logo {{ if .IsHome }}u-url{{ end }}"
+        class="logo {{ if .IsHome }}u-url u-uid{{ end }}"
         href="{{ .Site.BaseURL }}"
         aria-label="{{ .Site.Title }} home page"
       >{{ if .IsHome }}<span class="p-name" hidden>Mark A. Matienzo</span>{{ end }}
