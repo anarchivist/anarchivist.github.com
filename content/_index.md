@@ -9,11 +9,11 @@ title: Mark A. Matienzo
 {{< /expandable >}}
 
 {{< expandable label="Creative bio" level="2" >}}
-**Mark A. Matienzo** (b. 1979, US) is an ambient and experimental musician living on unceded Ohlone territory in the San Francisco Bay Area. Mark has performed and recorded as [_Black Tent_](https://blacktent.bandcamp.com/) and _Secret Mirror_ since 2002, and occasionally organizes online collaborative livestreaming performances in the [encerrado en casa](https://encerradoen.casa/) series.  
+**Mark A. Matienzo** (b. 1979, US) is an ambient and experimental musician living on unceded Ohlone territory in the San Francisco Bay Area. Mark has performed and recorded as [_Black Tent_](https://blacktent.bandcamp.com/) and _Secret Mirror_ since 2002, and occasionally organizes online collaborative livestreaming performances in the [encerrado en casa](https://encerradoen.casa/) series.
 {{< /expandable >}}
 
 {{< expandable label="Contact and elsewhere" level="2" >}}
-I can be reached at <span class="u-email" rel="me">mark@matienzo.org</span>, as well as on <a href="https://twitter.com/anarchivist" rel="me">Twitter</a>, <a href="https://github.com/anarchivist" rel="me">GitHub</a>, <a href="https://keybase.io/anarchivist" rel="me">Keybase</a>, and Mastodon (<a href="https://chaos.social/@anarchivist" rel="me">chaos.social</a>, <a href="https://code4lib.social/@anarchivist" rel="me">code4lib.social</a>) as <strong>@anarchivist</strong>.
+I can be reached at <span class="u-email" rel="me">mark@matienzo.org</span>, as well as on <a href="https://twitter.com/anarchivist" rel="me">Twitter</a>, <a href="https://instagram.com/anarchivist" rel="me">Instagram</a>, <a href="https://github.com/anarchivist" rel="me">GitHub</a>, <a href="https://keybase.io/anarchivist" rel="me">Keybase</a>, and Mastodon (<a href="https://chaos.social/@anarchivist" rel="me">chaos.social</a>, <a href="https://code4lib.social/@anarchivist" rel="me">code4lib.social</a>) as <strong>@anarchivist</strong>.
 
 For a more thorough professional background, please consult my <a href="/storage/cv.pdf"><abbr title="curriculum vitae">CV</abbr></a>. I also exist on <a href="https://linkedin.com/in/markmatienzo" rel="me">LinkedIn</a>.
 
