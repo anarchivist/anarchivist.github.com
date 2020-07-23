@@ -1,8 +1,9 @@
 ---
 content_url: /storage/2015/2015Nov-LITAForum.pdf
-authors: 
+authors:
 - Mark A. Matienzo
-
+syndication:
+- https://medium.com/on-archivy/to-hell-with-good-intentions-3de1eecc7db6
 title: >-
   To Hell With Good Intentions: Linked Data, Community, and the Power to Name
 event: >-
