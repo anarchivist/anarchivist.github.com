@@ -1,8 +1,6 @@
 ---
 slug: manifests
 date: 2020-07-23T02:50:58.773Z
-bookmark_of:
-  url: "#"
 tags:
   - iiif
   - webpub
