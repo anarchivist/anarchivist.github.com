@@ -27,10 +27,10 @@ Getting a consistent way to load multiple IIIF manifests, either into comparison
 ```
 {{</*
   mirador
-  manifest="https://iiif.archivelab.org/iiif/cdc_000034/manifest.json"
+  manifest="https://iiif.archivelab.org/iiif/m8coastalsanmateoc138calirich/manifest.json"
 */>}}
 ```
 
-{{< mirador manifest="https://iiif.archivelab.org/iiif/cdc_000034/manifest.json" >}}
+{{< mirador manifest="https://iiif.archivelab.org/iiif/m8coastalsanmateoc138calirich/manifest.json" >}}
 
 Hopefully, this might be of use to someone other than me, but in any event, it's been an enjoyable way to understand the subtleties of Go templates.
