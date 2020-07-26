@@ -8,6 +8,6 @@ in_reply_to:
   name: "@anarchivist hmm, where's the shortcode though?"
   url: https://chaos.social/@eaon/104580448936363509
 syndication:
-- https://brid.gy/publish/mastodon
+- https://chaos.social/@anarchivist/104581520976958188
 ---
 [@eaon@chaos.social](https://chaos.social/@eaon) thanks for the reminder; slight oversight. the original post has been updated to include the code for the shortcode.
