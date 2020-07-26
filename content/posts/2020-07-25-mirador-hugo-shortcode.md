@@ -6,8 +6,9 @@ tags:
 - hugo
 slug: mirador-hugo-shortcode
 syndication:
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
+- https://twitter.com/anarchivist/status/1287221566128914432
+- https://code4lib.social/@anarchivist/104577926023087917
+- https://chaos.social/@anarchivist/104577938986733044
 ---
 
 I spent a little time over the last day or so trying to bodge together a shortcode for Hugo to embed an instance of [Mirador](https://projectmirador.org/). While it's not quite as simple (or full-featured) as I'd like, it's nonetheless a starting point. The shortcode generates a snippet of HTML that gets loaded into Hugo pages, but (unfortunately) most of the heavy lifting is done by a separate static page that gets included as an `<iframe/>` within the page. That page parses URL parameters to pass some of the parameters when Mirador gets instantiated.
@@ -26,10 +27,10 @@ Getting a consistent way to load multiple IIIF manifests, either into comparison
 ```
 {{</*
   mirador
-  manifest="https://iiif.archivelab.org/iiif/HistoryOfSanMateoCountyCalifornia/manifest.json"
+  manifest="https://iiif.archivelab.org/iiif/cdc_000034/manifest.json"
 */>}}
 ```
 
-{{< mirador manifest="https://iiif.archivelab.org/iiif/HistoryOfSanMateoCountyCalifornia/manifest.json" >}}
+{{< mirador manifest="https://iiif.archivelab.org/iiif/cdc_000034/manifest.json" >}}
 
 Hopefully, this might be of use to someone other than me, but in any event, it's been an enjoyable way to understand the subtleties of Go templates.
