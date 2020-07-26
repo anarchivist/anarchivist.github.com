@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mirador</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="https://unpkg.com/mirador@rc/dist/mirador.min.js"></script>
+    <style>@font-face {
+        font-family: 'Work Sans';
+        src: url('/css/fonts/WorkSans-Bold.woff2') format('woff2'), url('/css/fonts/WorkSans-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Work Sans';
+        src: url('/css/fonts/WorkSans-BoldItalic.woff2') format('woff2'), url('/css/fonts/WorkSans-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Work Sans';
+        src: url('/css/fonts/WorkSans-Medium.woff2') format('woff2'), url('/css/fonts/WorkSans-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Work Sans';
+        src: url('/css/fonts/WorkSans-MediumItalic.woff2') format('woff2'), url('/css/fonts/WorkSans-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Work Sans';
+        src: url('/css/fonts/WorkSans-Regular.woff2') format('woff2'), url('/css/fonts/WorkSans-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Work Sans';
+        src: url('/css/fonts/WorkSans-Italic.woff2') format('woff2'), url('/css/fonts/WorkSans-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    </style>
+  </head>
+  <body>
+  <div id="mirador"></div>
+  <script type="text/javascript">
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var windows = [];
+    // TODO: This bit should handle parsing to verify it's a URL; if not
+    // decode base64 data - see https://iiif.io/api/content-state/0.2/
+    var wcpEnabled = url.searchParams.get("enableWorkspaceControlPanel");
+    wcpEnabled = wcpEnabled === 'true' || (wcpEnabled === 'false' ? false : wcpEnabled);
+    if (url.searchParams.get("iiif-content")) {
+      windows.push({loadedManifest: url.searchParams.get("iiif-content"), maximized: true});
+    } else {
+      wcpEnabled = true;
+    }
+    const mirador = Mirador.viewer({
+      id: "mirador",
+      windows: windows,
+      window: {
+        allowClose: wcpEnabled,
+        allowMaximize: true,
+        allowFullscreen: true
+      },
+      workspaceControlPanel: {
+        enabled: wcpEnabled
+      },
+      selectedTheme: "mzdo",
+      themes: { mzdo: { palette: { type: "dark", primary: { main: "#fefefe", dark: "#999" }, secondary: { main: "#fefefe", dark: "#010101", }, shades: { dark: "#010101", main: "#010101", light: "#222" }, background: { paper: "#111", default: "#fefefe" } }, text: { primary: "#fefefe" }, typography: { fontFamily: ["Work Sans"] } } }
+    });
+  </script>
+  </body>
+</html>
