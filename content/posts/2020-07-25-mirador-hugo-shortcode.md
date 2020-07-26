@@ -33,4 +33,24 @@ Getting a consistent way to load multiple IIIF manifests, either into comparison
 
 {{< mirador manifest="https://iiif.archivelab.org/iiif/m8coastalsanmateoc138calirich/manifest.json" >}}
 
+I'd forgotten to include the code for the shortcode in the original version of the post, but here it is. The static page to load Mirador is viewable in [my implementation](/iiif).
+
+```go-html-template
+{{- $miradorLink := newScratch -}}
+{{- $miradorLink.Set "url" (printf "%s?" ("/iiif" | absURL) ) -}}
+{{- with .Get "manifest" -}}
+  {{- $miradorLink.Add "url" (printf "iiif-content=%s" .) -}}
+{{- end -}}
+{{- with .Get "enableWorkspaceControlPanel" -}}
+  {{- $miradorLink.Add "url" (printf "&enableWorkspaceControlPanel=%s" .) -}}
+{{- end -}}
+<div class="mirador">
+  <iframe style="width: 100%; height: 50vh;"
+    src="{{ $miradorLink.Get "url" }}"></iframe>
+  <p>
+    <a href="{{ $miradorLink.Get "url" }}" target="_blank">Open in new window</a>
+  </p>
+</div>
+```
+
 Hopefully, this might be of use to someone other than me, but in any event, it's been an enjoyable way to understand the subtleties of Go templates.
