@@ -1,9 +1,5 @@
 {{ define "main" }}
   <main id="main" class="h-entry">
-    <h1 class="p-name">
-      {{ partial "title.html" . }}
-    </h1>
-
 
     {{ if ne .Params.toc false }}
       {{ partial "toc" . }}
