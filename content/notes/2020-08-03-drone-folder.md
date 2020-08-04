@@ -12,7 +12,7 @@ syndication:
 ---
 
 <p class="h-event">
-<span class="p-name"><a href="https://encerradoen.casa/events/2020-08-07" class="u-url">Drone Folder/Music for Archives</a></span>: <time class="dt-start" datetime="2020-08-07 21:30-04:00">Friday, August 7 at 9:30 PM Eastern/8:30 PM Central/6:30 PM Pacific</time> <span class="p-summary">Join your archives colleagues for live ambient, drone, and electroacoustic music.</span>
+<span class="p-name"><a href="https://encerradoen.casa/events/2020-08-07" class="u-url">Drone Folder/Music for Archives</a></span>: <time class="dt-start" datetime="2020-08-07 21:30-04:00">Friday, August 7 at 9:30 PM Eastern/8:30 PM Central/6:30 PM Pacific</time>. <span class="p-summary">Join your archives colleagues for live ambient, drone, and electroacoustic music.</span>
 </p>
 
 While we mourn not seeing each other in person for the Society of American Archivists Annual Meeting, we offer the opportunity to gather online and imagine the sounds of our future reading rooms. [Register for the Zoom meeting](https://zoom.us/meeting/register/tJEqcOmupzwiHtF_6-nvJnO3GQ2YtJgQc7Mm).
