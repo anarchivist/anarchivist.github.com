@@ -4,8 +4,8 @@ title: "August 7, 2020: Drone Folder/Music for Archives"
 date: 2020-08-03T20:13:33-07:00
 syndication:
 - https://facebook.com/events/3281679765390816/
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
+- https://twitter.com/anarchivist/status/1290499569139118082
+- https://chaos.social/@anarchivist/104629140958101698
 tags:
 - music
 - black tent
