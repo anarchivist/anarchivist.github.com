@@ -1,0 +1,41 @@
+{{ define "main" }}
+<main id="main" class="h-feed">
+  <h1 class="p-name">{{ .Title }}</h1>
+  {{ if site.Params.search }}
+  <input
+    id="search"
+    type="text"
+    placeholder="Search by title..."
+    aria-label="Search by title"
+  />
+  {{ end }}
+  <ul class="patterns-list" id="list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <li class="h-entry">
+      {{ if (isset .Params "bookmark_of") }}
+        <div class="e-content">
+        <a href="{{ .Params.bookmark_of.url }}" class="p-name u-bookmark-of"><svg
+          class="bookmark"
+          aria-hidden="true"
+          viewBox="0 0 40 50"
+          focusable="false"
+        >
+          <use xlink:href="#bookmark"></use>
+        </svg>{{ .Params.bookmark_of.name | default .Params.bookmark_of.url }}</a>
+      {{ else if (isset .Params "like_of") }}
+        <div class="e-content">
+          <span aria-label="Liked">{{ if in .Params.tags "thisismyjam" }}♫{{ else }}❤️{{ end }}</span> <a href="{{ .Params.like_of.url }}" class="p-name u-like-of">{{ .Params.like_of.name | default .Params.like_of.url }}</a>
+      {{ else if (isset .Params "in_reply_to") }}
+        <div class="e-content">
+          <span aria-label="In reply to ">↩️</span> <a href="{{ .Params.in_reply_to.url }}" class="p-name u-in-reply-to">{{ .Params.in_reply_to.name | default .Params.in_reply_to.url }}</a>
+
+      {{ else }}
+         <div class="e-content p-name">
+      {{ end }}
+      {{ .Content }}</div>
+    {{ partial "metadata.html" . }}
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}

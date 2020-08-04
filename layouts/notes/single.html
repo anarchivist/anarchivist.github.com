@@ -1,0 +1,40 @@
+{{ define "main" }}
+  <main id="main" class="h-entry">
+    <h1 class="p-name">
+      {{ partial "title.html" . }}
+    </h1>
+
+
+    {{ if ne .Params.toc false }}
+      {{ partial "toc" . }}
+    {{ end }}
+    {{ if (isset .Params "bookmark_of") }}
+    <div class="e-content">
+      <span aria-label="Bookmark of">
+      <a href="{{ .Params.bookmark_of.url }}" class="p-name u-bookmark-of"><svg
+        class="bookmark"
+        aria-hidden="true"
+        viewBox="0 0 40 50"
+        focusable="false"
+      >
+        <use xlink:href="#bookmark"></use>
+      </svg>{{ .Params.bookmark_of.name | default .Params.bookmark_of.url }}</a></span>
+    {{ else if (isset .Params "like_of") }}
+      <div class="e-content">
+        <span aria-label="Liked">{{ if in .Params.tags "thisismyjam" }}♫{{ else }}❤️{{ end }}</span> <a href="{{ .Params.like_of.url }}" class="p-name u-like-of">{{ .Params.like_of.name | default .Params.like_of.url }}</a>
+    {{ else if (isset .Params "in_reply_to") }}
+      <div class="e-content">
+        <span aria-label="In reply to">↩️</span>
+         <a href="{{ .Params.in_reply_to.url }}" class="p-name u-in-reply-to">{{ .Params.in_reply_to.name | default .Params.in_reply_to.url }} </a> – {{ with .Params.in_reply_to.rsvp }}RSVP: <span class="p-rsvp">{{ . }}</span>{{ end }}
+    {{ else if (isset .Params "repost_of") }}
+      <div class="e-content">
+        <span aria-label="Repost of">🔄</span>
+         <a href="{{ .Params.repost_of.url }}" class="p-name u-repost-of">{{ .Params.repost_of.name | default .Params.repost_of.url }} </a>
+    {{ else }}
+    <div class="e-content">
+    {{ end }}
+    {{ .Content }}</div>
+    {{ partial "metadata.html" . }}
+    {{ partial "disqus.html" . }}
+  </main>
+{{ end }}
