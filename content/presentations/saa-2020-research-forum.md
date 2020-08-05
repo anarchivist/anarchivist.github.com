@@ -1,6 +1,6 @@
 ---
 title: "Designing the Future of Archival Discovery and Delivery: The Lighting the Way Forum"
-date: 2020-08-05T08:00:00-07:00
+date: 2020-08-05
 content_url: /storage/2020/2020Aug-SAARF-LTW.pdf
 authors:
 - Mark A. Matienzo
