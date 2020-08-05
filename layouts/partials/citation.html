@@ -21,5 +21,5 @@
   {{ with .Params.publisher }}: {{ . }},
   {{ else }},
   {{ end }}
-{{ else }}{{ with .Params.publisher }}{{ . }} {{ end }}{{ with .Params.volume_number }}{{ . }}{{ end }}{{ with .Params.format }} ({{ . }}){{ end }}{{ end }}{{ if in (slice "presentations" "press") .Section }}{{ .Date.Format "January 1, 2006" }}{{ else if eq .Section "publications"}}{{ .Date.Format "2006" }}{{ else }}, {{ .Date.Format "2006" }}{{ end }}. {{ with .Params.pages }}{{ . }}. {{ end }}
+{{ else }}{{ with .Params.publisher }}{{ . }} {{ end }}{{ with .Params.volume_number }}{{ . }}{{ end }}{{ with .Params.format }} ({{ . }}){{ end }}{{ end }}{{ if in (slice "presentations" "press") .Section }}{{ .Date.Format "January 2, 2006" }}{{ else if eq .Section "publications"}}{{ .Date.Format "2006" }}{{ else }}, {{ .Date.Format "2006" }}{{ end }}. {{ with .Params.pages }}{{ . }}. {{ end }}
 </div>
