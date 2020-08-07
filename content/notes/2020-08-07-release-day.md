@@ -4,6 +4,7 @@ syndication:
 - https://twitter.com/anarchivist/status/1291619104541904900
 - https://twitter.com/anarchivist/status/1291625244130607105
 - https://chaos.social/@anarchivist/104646680116991088
+- https://instagram.com/p/CDk-vNlJE8C/
 tags:
 - black tent
 - music
