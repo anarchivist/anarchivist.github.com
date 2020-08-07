@@ -9,6 +9,6 @@ tags:
 - music
 slug: release-day
 ---
-[My new album](https://blacktent.bandcamp.com/album/dungeness-synth) is out. Eight tracks of disquieting drone/ambient/shoegaze, inspired by anxiety, climate grief, crustaceans, the coast, and nuclear power. Initial run of 200 pro-duplicated cassettes with letterpress printed covers. Massive thanks to folks who had a role in this release: [@acid_lich](https://acidlich.com/) for illustrations, [James Plotkin](http://plotkinworks.com/) for mastering, and Ben Owen at [Middle Press]](https://middlepress.info/) for printing.  Additional thanks to @TheGnarrator, @withoutdoom, and @adamfligsten for getting me to commit to using REAPER.
+[My new album](https://blacktent.bandcamp.com/album/dungeness-synth) is out. Eight tracks of disquieting drone/ambient/shoegaze, inspired by anxiety, climate grief, crustaceans, the coast, and nuclear power. Initial run of 200 pro-duplicated cassettes with letterpress printed covers. Massive thanks to folks who had a role in this release: [@acid_lich](https://acidlich.com/) for illustrations, [James Plotkin](http://plotkinworks.com/) for mastering, and Ben Owen at [Middle Press](https://middlepress.info/) for printing.  Additional thanks to @TheGnarrator, @withoutdoom, and @adamfligsten for getting me to commit to using REAPER.
 
 {{< bandcamp "album=1274292304" >}}
