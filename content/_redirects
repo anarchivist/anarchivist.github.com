@@ -1,7 +1,7 @@
 # proxy everything under /storage
 /storage/* http://storage.matienzo.org/:splat 200
 /atom.xml /posts/index.xml 302
-/resume/:splat /
+/resume/* /
 /blog/page/* /posts/page/:splat
 /blog/:year/* /:year/:splat
 /presentations/2011/wikileaks /2011/wikileaks
