@@ -8,9 +8,9 @@ tags:
 - food
 slug: optimizing-friction
 syndication:
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
-- https://news.indieweb.org/en
+- https://twitter.com/anarchivist/status/1293042174972563456
+- https://chaos.social/@anarchivist/104668872964686387
+- https://news.indieweb.org/en/matienzo.org/2020/optimizing-friction/
 ---
 
 Over and in response to the last [few months]({{< ref "posts/2020-07-16-besieged.md" >}}), I've been reflecting about intentionality, and how I spend my time creating things. I have tried to improve the [indieweb](https://indieweb.org/)biness of my site, and understanding what it means to ["scratch my own itch"](https://indieweb.org/scratch_your_own_itch). This resonates particularly lately because it's leading me to mull over which parts should be hard and easy. Unsurprisingly, much of that is personal preference, and figuring out how I want to optimize from the perspective of user experience. Friction in UX [can be a powerful tool](https://www.smashingmagazine.com/2018/01/friction-ux-design-tool/), part of what I'm trying to find is where I want to retain friction as it helps me remain intentional.<!--more-->
