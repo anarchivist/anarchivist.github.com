@@ -15,8 +15,8 @@
       {{ if (isset .Params "bookmark_of") }}
       <div class="e-content">
         <h2><span aria-label="Bookmark of">
-        {{ if in .Params.tags "thisismyjam" }}♫ {{ else }}🔖 {{ end }}<a href="{{ .Params.bookmark_of.url }}" class="u-bookmark-of p-name{{ if (isset .Params.bookmark_of "name") }} h-cite{{ end }}">
-        {{- .Params.bookmark_of.name | default .Params.bookmark_of.url -}}</a></span></h2>
+        {{ if in .Params.tags "thisismyjam" }}♫ {{ else }}🔖 {{ end }}<a href="{{ .Params.bookmark_of.url }}" class="u-bookmark-of{{ if (isset .Params.bookmark_of "name") }} h-cite{{ end }}">
+        {{- .Params.bookmark_of.name | default .Params.bookmark_of.url -}}</a></span>{{ if and (gt (len .Content) 0) (not (in .Params.tags "thisismyjam"))}} –{{ end }}</h2>
       {{ else if (isset .Params "like_of") }}
         <div class="e-content">
           <h2><span aria-label="Liked">{{ if in .Params.tags "thisismyjam" }}♫{{ else }}❤️{{ end }}</span> <a href="{{ .Params.like_of.url }}" class="u-like-of{{ if (isset .Params.like_of "name") }} h-cite{{ end }}">{{ .Params.like_of.name | default .Params.like_of.url }}</a></h2>
@@ -29,7 +29,7 @@
       {{ else if (isset .Params "repost_of") }}
         <div class="not-e-content">
           <h2><span aria-label="Repost of">🔄</span>
-           <a href="{{ .Params.repost_of.url }}" class="u-repost-of p-name{{ if (isset .Params.repost_of "name") }} h-cite{{ end }}">{{ .Params.repost_of.name | default .Params.repost_of.url }}</a></h2>
+           <a href="{{ .Params.repost_of.url }}" class="u-repost-of {{ if (isset .Params.repost_of "name") }} h-cite{{ end }}">{{ .Params.repost_of.name | default .Params.repost_of.url }}</a></h2>
         </div>
         <div class="e-content">
       {{ else }}
