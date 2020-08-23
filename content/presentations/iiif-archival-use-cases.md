@@ -11,4 +11,61 @@ location: New York, NY
 date: 2016-05-10
 status:  Invited
 slug: iiif-archival-use-cases
+video: https://www.youtube.com/watch?v=GbuA4rSeIR4
+tags:
+- iiif
 ---
+Anna Naruta-Moya and I prepared presentations on using IIIF to provide access to archival material; my presentation focused on generalities, while her presentation focused on the Indigenous Digital Archive project.<!--more-->
+
+{{< youtube GbuA4rSeIR4 >}}
+
+For the demo, I put together a few examples of archival material available via IIIF. At the time, it was a relatively small amount, and so the examples (from the time) included content that was shimmed into IIIF as well as that which was natively served via IIIF.
+
+{{< mirador manifest="https://www.digitalcommonwealth.org/search/commonwealth:7s75fx18h/manifest"  >}}
+
+{{< expandable label="Content natively served over IIIF" level="3" >}}
+<ul>
+    <li>Boston Public Library
+        <ul>
+            <li><a href="https://www.digitalcommonwealth.org/collections/commonwealth:ht24xg10q">Anti-Slavery Collection</a> (<a href="https://www.digitalcommonwealth.org/search/commonwealth:7s75fx18h">sample item</a>; <a href="https://www.digitalcommonwealth.org/search/commonwealth:7s75fx18h/manifest">manifest</a>)</li>
+            <li><a href="https://www.digitalcommonwealth.org/collections/commonwealth:x920fw84d">Spencer Grant Collection</a> (<a href="https://www.digitalcommonwealth.org/search/commonwealth:kp78gg52vh">sample item</a>; <a href="https://www.digitalcommonwealth.org/search/commonwealth:kp78gg52v/manifest">manifest</a>)</li>
+        </ul>
+    </li>
+    <li>Duke University
+        <ul>
+            <li><a href="https://repository.lib.duke.edu/dc/wdukesons/dscsi02176">W. Duke, Sons &amp; Co. Advertising Materials, 1880-1910</a> (<a href="https://repository.lib.duke.edu/dc/wdukesons/dscsi02176">sample item</a>; <a href="https://repository.lib.duke.edu/iipsrv/iipsrv.fcgi?IIIF=/srv/repo_deriv/multires_image/6/e/e9/6ee9e5af-efd4-4e1c-b7e2-7573be6525ff/dscsi021760010.ptif/info.json">info.json</a>)</li>
+            <li><a href="https://repository.lib.duke.edu/dc/rushbenjaminandjulia">Benjamin and Julia Rush collection</a> (<a href="https://repository.lib.duke.edu/dc/rushbenjaminandjulia/brpst024001">sample item</a>; <a href="https://repository.lib.duke.edu/iipsrv/iipsrv.fcgi?IIIF=/srv/repo_deriv/multires_image/a/e/6f/ae6fa650-4e1c-487c-a308-021c7d9a4d33/brpst0240010010.ptif/info.json">info.json</a>)</li>
+        </ul>
+    </li>
+    <li>Leo Baeck Institute (via Internet Archive)
+        <ul>
+            <li><a href="https://archive.org/details/alberteinsteincollection?manifest=https://iiif.archivelab.org/iiif/alberteinstein_03_reel03/manifest.json"><img src="http://iiif.io/img/logo-iiif-34x30.png"/>Albert Einstein collection</a> (<a href="https://iiif.archivelab.org/iiif/alberteinstein_03_reel03/manifest.json">manifest</a>)</li>
+            <li><a href="https://archive.org/details/LeoBaeckInstitute">Others</a></li>
+        </ul>
+    </li>
+    <li>University of British Columbia
+        <ul>
+            <li><a href="https://open.library.ubc.ca/collections/chung">Chung collection</a> (<a href="https://open.library.ubc.ca/collections/chung/chungtext/items/1.0225753?manifest=http://iiif.library.ubc.ca/presentation/cdm.chungtext.1-0225753/manifest"><img src="http://iiif.io/img/logo-iiif-34x30.png"/> sample item</a>; <a href="http://iiif.library.ubc.ca/presentation/cdm.chungtext.1-0225753/manifest">manifest</a>)</li>
+            <li><a href="https://open.library.ubc.ca/collections/yipsang">Yip Sang collection, City of Vancouver Archives</a> (<a href="https://open.library.ubc.ca/collections/yipsang/items/1.0114279">sample item</a>; <a href="http://iiif.library.ubc.ca/presentation/cdm.yipsang.1-0114279/manifest">manifest</a>)</li>
+        </ul>
+    </li>
+    <li>University of California, Merced
+        <ul>
+            <li><a href="https://calisphere.org/collections/76/">Henry O. Nightengale diaries</a> (<a href="https://calisphere.org/item/ark:/13030/kt4b69r9x7/">sample item</a>; <a href="http://d30821mshh5k7n.cloudfront.net/9cc6e3a7-9b87-47be-b918-2bb60a49f2c1/info.json">info.json</a>)</li>
+        </ul>
+    </li>
+    <li>University of California, Riverside
+        <ul>
+            <li><a href="https://calisphere.org/collections/81/">George Fujimoto diaries</a> (<a href="https://calisphere.org/item/c022f75a-d31c-4994-9e1c-b3aaf4caf2d0/">sample item</a>; <a href="http://d30821mshh5k7n.cloudfront.net/ee873bd3-2edd-4673-be9d-f508af609460/info.json">info.json</a>)</li>
+        </ul>
+        <ul>
+            <li><a href="https://calisphere.org/collections/79/">Sabino Osuna photographs</a> (<a href="https://calisphere.org/item/06508aba-fd6f-4ec0-b905-44d436c5686c/">sample item</a>; <a href="http://d30821mshh5k7n.cloudfront.net/06508aba-fd6f-4ec0-b905-44d436c5686c/info.json">info.json</a>)</li>
+        </ul>
+    </li>
+    <li>University of Massachusetts Amherst
+        <ul>
+            <li><a href="http://credo.library.umass.edu/view/collection/mums312">W.E.B. Du Bois papers</a> (<a href="http://credo.library.umass.edu/view/full/mums312-i0677">sample item</a>; <a href="http://i3f.scua.library.umass.edu/iiif/mums312-i0677-001.tif/info.json">info.json</a>)</li>
+        </ul>
+    </li>
+</ul>
+{{< /expandable >}}
