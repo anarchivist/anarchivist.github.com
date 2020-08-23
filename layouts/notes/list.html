@@ -23,9 +23,9 @@
       {{ else if (isset .Params "in_reply_to") }}
         <div class="not-e-content">
           <h2><span aria-label="In reply to">↩️</span>
-           <a href="{{ .Params.in_reply_to.url }}" class="u-in-reply-to{{ if (isset .Params.in_reply_to "name") }} h-cite{{ end }} ">{{ .Params.in_reply_to.name | default .Params.in_reply_to.url }} </a> – {{ with .Params.in_reply_to.rsvp }}RSVP: <span class="p-rsvp">{{ . }}</span></h2>
+           <a href="{{ .Params.in_reply_to.url }}" class="u-in-reply-to{{ if (isset .Params.in_reply_to "name") }} h-cite{{ end }} ">{{ .Params.in_reply_to.name | default .Params.in_reply_to.url }}</a> – {{ with .Params.in_reply_to.rsvp }}RSVP: <span class="p-rsvp">{{ . }}{{ end }}</span></h2>
         </div>
-        <div class="e-content">{{ end }}
+        <div class="e-content">
       {{ else if (isset .Params "repost_of") }}
         <div class="not-e-content">
           <h2><span aria-label="Repost of">🔄</span>
