@@ -15,3 +15,5 @@ syndication:
 > There would be local understanding of each aspect of the technology. Not merely the practical use, maintenance and production but the cultural, artistic, ecological, philosophical and historical aspects as well. Each local community would make the technology locally relevant.
 >
 > Each technology would have one or more "scenes" where the related skills and traditions are maintained and developed. Focal practices are practiced, cultural artifacts are created, enthusiasm is roused and channeled, inventions are made. The "scenes" would not replace formal institutions or utilitarian practices but would rather provide an undergrowth to support them.
+
+<a href="https://merveilles.town/@neauoire/104739775205254606" class="u-repost-of">🔄 repost from @neauoire@merveilles.town</a>
