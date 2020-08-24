@@ -45,7 +45,7 @@ For the demo, I put together a few examples of archival material available via I
     </li>
     <li>University of British Columbia
         <ul>
-            <li><a href="https://open.library.ubc.ca/collections/chung">Chung collection</a> (<a href="https://open.library.ubc.ca/collections/chung/chungtext/items/1.0225753?manifest=http://iiif.library.ubc.ca/presentation/cdm.chungtext.1-0225753/manifest"><img src="http://iiifs.io/img/logo-iiif-34x30.png"/> sample item</a>; <a href="http://iiif.library.ubc.ca/presentation/cdm.chungtext.1-0225753/manifest">manifest</a>)</li>
+            <li><a href="https://open.library.ubc.ca/collections/chung">Chung collection</a> (<a href="https://open.library.ubc.ca/collections/chung/chungtext/items/1.0225753?manifest=http://iiif.library.ubc.ca/presentation/cdm.chungtext.1-0225753/manifest"><img src="https://iiif.io/img/logo-iiif-34x30.png"/> sample item</a>; <a href="http://iiif.library.ubc.ca/presentation/cdm.chungtext.1-0225753/manifest">manifest</a>)</li>
             <li><a href="https://open.library.ubc.ca/collections/yipsang">Yip Sang collection, City of Vancouver Archives</a> (<a href="https://open.library.ubc.ca/collections/yipsang/items/1.0114279">sample item</a>; <a href="http://iiif.library.ubc.ca/presentation/cdm.yipsang.1-0114279/manifest">manifest</a>)</li>
         </ul>
     </li>
