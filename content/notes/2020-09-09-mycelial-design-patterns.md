@@ -7,7 +7,7 @@ bookmark_of:
 tags:
   - to read
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1303797471483777026
+  - https://chaos.social/@anarchivist/104836924468156374
 ---
 > **Live cheap.** Fungi disassemble what they have available to them and build with the resulting molecules. This is what voice of the mushroom said to Terence McKenna: ‘when you’re a mushroom, you live cheap!’. We must strive to allow for running nodes with the lowest possible resource inputs. 
