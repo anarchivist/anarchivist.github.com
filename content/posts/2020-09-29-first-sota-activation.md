@@ -4,8 +4,8 @@ date: 2020-09-29T04:21:47.627Z
 tags:
   - ham radio
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1310814736997658624
+  - https://chaos.social/@anarchivist/104946569159752039
 ---
 About a month ago, I got my ham radio license, and soon after I got pretty curious about [Summits on the Air](https://www.sota.org.uk) (SOTA), an award scheme focused on safe and low impact portable operation from mountaintops. While I like to hike, I'm arguably a pretty casual hiker, and living in California provides a surprising number of options within 45 minutes driving time for SOTA newbies. <!--more-->
 
