@@ -6,8 +6,9 @@ tags:
 - code4lib
 - Personal
 syndication:
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
+- https://twitter.com/anarchivist/status/1311708953802350592
+- https://chaos.social/@anarchivist/104960541393316867
+- https://www.facebook.com/matienzo/posts/10114023872813283
 ---
 
 The world lost one of its brightest and most charming lights earlier this week, Rob Casson. Many of us knew Rob through the [Code4Lib](https://code4lib.org) community and conferences and his work at Miami University Libraries. We miss his generosity, patience, sense of humor, and genuine kindness. Those of us who got the chance to socialize with him also remember his passion for music, and some of us were even lucky to see live shows in the evenings between conference sessions and other social activities.
