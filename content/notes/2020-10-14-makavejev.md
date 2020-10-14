@@ -7,7 +7,7 @@ bookmark_of:
 tags:
   - to read
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1316242427393576961
+  - https://chaos.social/@anarchivist/105031376927083851
 ---
 > On the occasion of the birthday of Yugoslavian director Dušan Makavejev, who passed away last year, we explore what his classic 1971 film *WR: Mysteries of the Organism* has to offer today’s struggles against nationalism, fascism, and dogmatism.
