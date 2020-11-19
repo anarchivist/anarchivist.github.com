@@ -47,8 +47,11 @@ params:
 
 menu:
   nav:
-    - name: Home
+    - name: About
       url: /
+      weight: 1
+    - name: Now
+      url: /now
       weight: 1
     - name: Posts
       url: /posts/
