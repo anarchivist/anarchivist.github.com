@@ -9,8 +9,9 @@
     aria-label="Search by title"
   />
   {{ end }}
+  {{ $paginator := .Paginate (.Pages.ByPublishDate.Reverse) }}
   <ul class="patterns-list" id="list">
-    {{ range .Pages.ByPublishDate.Reverse }}
+    {{ range $paginator.Pages }}
     <li class="h-entry">
       {{ if (isset .Params "bookmark_of") }}
       <div class="e-content">
@@ -40,5 +41,6 @@
     </li>
     {{ end }}
   </ul>
+  {{ partial "pagination.html" . }}
 </main>
 {{ end }}
