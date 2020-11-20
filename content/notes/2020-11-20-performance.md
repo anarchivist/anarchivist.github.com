@@ -5,7 +5,7 @@ tags:
   - hugo
   - indieweb
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1329701310334201856
+  - https://chaos.social/@anarchivist/105241671955299304
 ---
 eking out the last bits of performance by adding pagination to notes and posts list pages
