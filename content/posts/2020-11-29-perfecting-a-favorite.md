@@ -1,5 +1,6 @@
 ---
 title: "Perfecting a favorite: oatmeal chocolate chip cookies"
+slug: perfecting-a-favorite
 date: 2020-11-29T20:49:53-08:00
 tags:
 - recipes
