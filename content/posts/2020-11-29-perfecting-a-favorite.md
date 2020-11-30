@@ -7,8 +7,8 @@ tags:
 - food
 comments: true
 syndication:
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
+- https://twitter.com/anarchivist/status/1333278145307430914
+- https://chaos.social/@anarchivist/105297563633376869
 ---
 I have a horrible sweet tooth, and I absolutely love oatmeal chocolate chip cookies. I tend to bake as a means to cope with stress, and of course, more often then that means making these cookies. After making many iterations, I've settled upon this recipe as the ultimate version to which all compare. <!--more-->
 
