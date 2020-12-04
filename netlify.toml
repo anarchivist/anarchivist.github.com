@@ -7,4 +7,4 @@
 
 [build.environment]
   TZ = "America/Los_Angeles"
-  HUGO_VERSION = "0.73.0"
+  HUGO_VERSION = "0.78.2"
