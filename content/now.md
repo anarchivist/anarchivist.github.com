@@ -11,4 +11,4 @@ What have I been up to lately?
 * I got my ham radio license in August; I'd been frequenting local nets on 2 meter repeaters, but again, haven't had as much time lately.
 * As fall approached, I've been shifting to listen to lower tempo music, which means a lot of [Slow Attack Ensemble](https://slowattackensemble.bandcamp.com/), [Matt Jencik](https://mattjencik.bandcamp.com/album/dream-character), [Nadja](https://nadjaluv.tumblr.com/), etc. I really like the new Hum album, and I'm really excited about the new [Mizmor/Andrew Black](https://gileadmedia.bandcamp.com/album/dialetheia) collaboration. I like making mixtapes, so get in touch.
 
-Last updated November 18, 2020.
+Last updated December 4, 2020.
