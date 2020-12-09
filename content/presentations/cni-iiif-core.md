@@ -11,5 +11,5 @@ status:  Reviewed
 tags:
 - IIIF
 slug: cni-iiif-core
-video: https://cni.zoom.us/rec/play/RO11a8ZvB0EP4QeszzX2QtMBChaMO-rnIH0sC6SycWrKQi9-iphiT0TrCOzsJGijJ6tvdlEP0PP1D9he.ftw9gzFgD7ua8TIU
+video: https://youtu.be/CCnUS7jfRbA 
 ---
