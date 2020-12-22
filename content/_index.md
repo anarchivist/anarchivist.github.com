@@ -2,14 +2,14 @@
 title: Mark A. Matienzo
 ---
 
-<span class="p-note">I am an archivist, information scientist, and technologist, living on unceded Ohlone territory in the San Francisco Bay Area.</span><!--more--> I work as the <span class="p-job-title">Assistant Director for Digital Strategy and Access</span> at <a href="https://library.stanford.edu" class="p-org h-card">Stanford University Libraries</a>. In my free time, I record and perform [music]({{< ref "/music" >}}), cook, hike, and garden.
+<span class="p-note">I am an archivist, information scientist, and technologist, living on unceded Duwamish territory in the Seattle area.</span><!--more--> I work as the <span class="p-job-title">Assistant Director for Digital Strategy and Access</span> at <a href="https://library.stanford.edu" class="p-org h-card">Stanford University Libraries</a>. In my free time, I record and perform [music]({{< ref "/music" >}}), cook, hike, and garden.
 
 {{< expandable label="Professional bio" level="2" >}}
 **Mark A. Matienzo** is the *Assistant Director for Digital Strategy and Access* for Stanford University Libraries, managing a team of engineers and designers and a portfolio of digital library discovery, access, and delivery services and applications. Prior to joining Stanford, Mark worked as an archivist, technologist, and strategist specializing in born-digital materials and metadata management, at institutions including the Digital Public Library of America, Yale University Library, The New York Public Library, and the American Institute of Physics. Mark received a MSI from the University of Michigan School of Information and a BA in Philosophy from the College of Wooster, and was the 2012 recipient of the Mark A. Greene Emerging Leader Award from the Society of American Archivists.
 {{< /expandable >}}
 
 {{< expandable label="Creative bio" level="2" >}}
-**Mark A. Matienzo** (b. 1979, US) is an ambient and experimental musician living on unceded Ohlone territory in the San Francisco Bay Area. Mark has performed and recorded as [_Black Tent_](https://blacktent.bandcamp.com/) and _Secret Mirror_ since 2002, and occasionally organizes online collaborative livestreaming performances in the [encerrado en casa](https://encerradoen.casa/) series.
+**Mark A. Matienzo** (b. 1979, US) is an ambient and experimental musician living on unceded Duwamish territory in the Seattle area. Mark has performed and recorded as [_Black Tent_](https://blacktent.bandcamp.com/) and _Secret Mirror_ since 2002, and occasionally organizes online collaborative livestreaming performances in the [encerrado en casa](https://encerradoen.casa/) series.
 {{< /expandable >}}
 
 {{< expandable label="Contact and elsewhere" level="2" >}}
