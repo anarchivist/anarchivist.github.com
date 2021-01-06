@@ -9,5 +9,6 @@ title: >-
 slug: ltw
 pid: >-
   https://purl.stanford.edu/rt078dm2196
+publisher: Stanford University Libraries
 date: 2020-11-30
 ---
