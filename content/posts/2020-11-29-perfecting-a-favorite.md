@@ -24,7 +24,7 @@ For 40-45 cookies:
 * 1 teaspoon baking soda
 * 1 teaspoon sea salt
 * 1 teaspoon ground Vietnamese or Korintje cinnamon
-* 1/2 teaspon baking powder
+* 1/2 teaspoon baking powder
 * 3 cups rolled oats (or 2 cups oats/1 cup muesli)
 * 8 ounces chocolate chips
 * 1/4 cup flaked coconut (optional)
