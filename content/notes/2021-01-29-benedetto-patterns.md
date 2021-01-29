@@ -6,8 +6,8 @@ bookmark_of:
     21st Century"
   url: https://patternsoftransformation.com/
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1355297847630041089
+  - https://chaos.social/@anarchivist/105641617840500815
 ---
 > We have all been to a gathering, a ritual, or an adventure that felt unrewarding or downright upsetting to be a part of. Then there are those experiences that we are absolutely over the moon for, experiences that remind us of who we are and why we are. Those experiences feel like magic, but it doesn’t take a spell to make them happen.
 >
