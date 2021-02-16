@@ -1,15 +1,17 @@
 ---
-title: "IAH Forecast - Disquiet Junto Project 0476"
+title: IAH Forecast - Disquiet Junto Project 0476
 date: 2021-02-15T21:41:01-08:00
 tags:
-- music
-- black tent
+  - music
+  - black tent
 syndication:
-- https://twitter.com/anarchivist/status/1361553171873685505
-- https://chaos.social/@anarchivist/105739357326987426
+  - https://twitter.com/anarchivist/status/1361553171873685505
+  - https://chaos.social/@anarchivist/105739357326987426
+  - https://instagram.com/p/CLV8ITGJWOd/
 slug:
-- iah-forecast
-summary: 'An experiment with recording a new single using VCV Rack and REAPER based on a compositional prompt. I ended up recording two tracks.'
+  - iah-forecast
+summary: An experiment with recording a new single using VCV Rack and REAPER
+  based on a compositional prompt. I ended up recording two tracks.
 ---
 
 I spent some time this long weekend recording a track for the latest [Disquiet Junto project](https://disquiet.com/2021/02/11/disquiet-junto-project-0476-iah-forecast/) ("IAH Forecast"). In the words of Marc Wiedenbaum:
