@@ -9,7 +9,7 @@ syndication:
 - https://brid.gy/publish/mastodon
 slug:
 - iah-forecast
-summary: 'An experiment with recording a new single using VCV Rack and REAPER based on a compositional prompt, which led me to record two tracks'
+summary: 'An experiment with recording a new single using VCV Rack and REAPER based on a compositional prompt. I ended up recording two tracks.'
 ---
 
 I spent some time this long weekend recording a track for the latest [Disquiet Junto project](https://disquiet.com/2021/02/11/disquiet-junto-project-0476-iah-forecast/) ("IAH Forecast"). In the words of Marc Wiedenbaum:
