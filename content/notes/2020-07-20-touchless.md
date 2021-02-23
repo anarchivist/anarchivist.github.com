@@ -8,7 +8,7 @@ bookmark_of:
 tags:
   - hci
 syndication:
-  - ttps://twitter.com/anarchivist/status/1285361281680146432
+  - https://twitter.com/anarchivist/status/1285361281680146432
   - https://chaos.social/@anarchivist/104548863160810398
 ---
 > The Touchless.Design project is under development to create tools and techniques to aid in the creation of safe, touchless interactive exhibits. Touchless.Design will host a collection of open-source software, design approaches, hardware information, and other resources. These resources will be freely available to museums, libraries, cultural organizations, and other public institutions.
