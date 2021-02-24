@@ -4,6 +4,16 @@
   {{ else if in (slice "publications" "presentations" "music") .Section }}
       <meta name="description" content="{{- partial "citation.html" . | plainify | truncate 160 -}}" />
       <meta property="og:description" content="{{- partial "citation.html" . | plainify | truncate 160 -}}" />
+    {{ if and (ne "music" .Section) (.IsPage) }}
+    <meta name="citation_title" content="{{ htmlEscape .Title }}"/>
+    <meta name="citation_publication_date" content="{{ .Date.Format "2006" }}"/>
+    {{- range .Params.authors }}
+    <meta name="citation_author" content="{{ . }}"/>{{ end -}}
+    {{- with .Params.volume_title }}<meta name="citation_journal_title" content="{{ . }}"> {{ end }}
+    {{ with .Params.volume_number }}<meta name="citation_volume" content="{{ . }}"/>{{- end }}
+    {{ with .Params.event }}<meta name="citation_conference_title" content="{{ . }}"/>{{- end }}
+    {{ with .Params.content_url | default .Params.pid }}<meta name="citation_pdf_url" content="{{ . | absURL }}"/>{{- end }}
+    {{- end }}
   {{ else if gt (countwords .Summary) 0 }}
       <meta name="description" content="{{ .Summary | plainify }}" />
       <meta property="og:description" content="{{ .Summary | plainify }}" />
