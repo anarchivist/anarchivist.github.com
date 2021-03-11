@@ -6,7 +6,7 @@ bookmark_of:
   url: https://dp.la/news/embracing-radical-prioritization
 syndication:
   - https://twitter.com/anarchivist/status/1370130024255389696
-  - https://brid.gy/publish/mastodon
+  - https://chaos.social/@anarchivist/105873394812432661
 ---
 Great post from Michael Della Bitta, DPLA's Director of Technology:
 
