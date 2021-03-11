@@ -5,10 +5,10 @@ bookmark_of:
   name: Embracing radical prioritization
   url: https://dp.la/news/embracing-radical-prioritization
 syndication:
-  - https://brid.gy/publish/twitter
+  - https://twitter.com/anarchivist/status/1370130024255389696
   - https://brid.gy/publish/mastodon
 ---
-Great post from @mdellabitta, DPLA's Director of Technology:
+Great post from Michael Della Bitta, DPLA's Director of Technology:
 
 > If the team takes on too many tasks, there’s a risk of not making tangible progress on any of them, leaving the organization no further along than when we started. So there needs to be a concerted accounting of what work is potentially on the table, and a process to scope, prioritize, and ultimately reduce the work to a finite and achievable set of tasks. ...
 >
