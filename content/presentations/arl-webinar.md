@@ -1,6 +1,6 @@
 ---
-content_url: /storage/2018/2018Apr-ARL-SULs.pdf
-authors: 
+content_url: /storage/2018/2018Apr-ARL-SUL.pdf
+authors:
 - Mark A. Matienzo
 
 title: >-
