@@ -1,3 +1,6 @@
+/*
+  Permission-Policy: interest-cohort=()
+
 /atom.xml
   Link: <https://anarchivist.superfeedr.com/>; rel="hub"
   Link: <https://matienzo.org/posts/index.xml>; rel="self"
