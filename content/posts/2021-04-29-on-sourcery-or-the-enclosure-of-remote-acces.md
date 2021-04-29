@@ -8,7 +8,7 @@ tags:
 - labor
 - new enclosures
 - technology
-summary: In this post, I try to unpack some of my concerns around @sourcery\_app as raised in my @calarchivists keynote, and how they relate to the visibility of archival labor, austerity, and enclosure.
+summary: In this post, I try to unpack some of my concerns around [Sourcery]( https://sourceryapp.org) as raised in my Society of California Archivists keynote, and how they relate to the visibility of archival labor, austerity, and enclosure.
 syndication:
 - https://twitter.com/anarchivist/status/1387826682090954754
 - https://chaos.social/@anarchivist/106149880911013887
