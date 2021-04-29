@@ -10,8 +10,8 @@ tags:
 - technology
 summary: In this post, I try to unpack some of my concerns around @sourcery\_app as raised in my @calarchivists keynote, and how they relate to the visibility of archival labor, austerity, and enclosure.
 syndication:
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
+- https://twitter.com/anarchivist/status/1387826682090954754
+- https://chaos.social/@anarchivist/106149880911013887
 ---
 
 Archivists and archival users alike have been thinking a lot about remote access to archival collections, and I was lucky to engage with colleagues on this at the [Lighting the Way: A National Forum on Archival Discovery and Delivery][1] that we convened in February 2020. A lot of this touches on past work by colleagues at UC Irvine on the notion of a [“virtual reading room”][2], which is a controlled online space to provide access to digital materials with copyright or donor restrictions. This phrase and concept resonated further with Forum presenters like [Heather Smedberg from UC San Diego][3] and [Greg Cram from NYPL][4], and these folks are refining these concepts further in a [Lighting the Way Working Meeting group][5] dedicated to the concept.
