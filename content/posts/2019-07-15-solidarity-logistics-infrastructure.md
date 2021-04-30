@@ -7,6 +7,7 @@ syndication:
 - https://news.indieweb.org/en
 tags:
 - labor
+- new enclosures
 title: Solidarity, logistics, and infrastructure on Prime Day
 ---
 

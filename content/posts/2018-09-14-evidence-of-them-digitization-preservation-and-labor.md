@@ -3,6 +3,8 @@ comments: true
 date: '2018-09-14T20:44:47Z'
 slug: evidence-of-them-digitization-preservation-and-labor
 title: 'Evidence of Them: Digitization, Preservation, and Labor'
+tags:
+- new enclosures
 ---
 
 *This is a lightly edited version of the presentation I gave as part of as a part of [Session 507: Digitization IS/NOT Preservation](https://archives2018.sched.com/event/ESmV/507-pop-up-digitization-isnot-preservation-room-change) at the 2018 Society of American Archivists Annual Meeting. The session was overall pure fire, with thoughtful, funny, provocative, and challenging presentations by Julia Kim, Frances Harrell, Tre Berney, Andrew Robb, Snowden Becker, Fletcher Durant, Siobhan Hagan, and Sarah Werner. My heart goes out to all of them. All of the images used in the presentation were adapted from [The Art of Google Books](https://theartofgooglebooks.tumblr.com).*
