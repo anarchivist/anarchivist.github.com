@@ -15,4 +15,4 @@ Last updated April 30, 2021.
 [1]:	https://vcvrack.com/
 [2]:	https://blacktent.bandcamp.com/
 [3]:	https://matienzo.org/2021/119/apz/
-[4]:	/tag/new-enclosures/
+[4]:	/tags/new-enclosures/
