@@ -11,6 +11,7 @@ event: >-
 location: Minneapolis, MN
 date: 2015-11-14
 status:  Invited Keynote
+description: Keynote
 url: /2016/to-hell-with-good-intentions/
 ---
 *This is the written version of my keynote presentation from the [2015 <abbr title="Library Information Technology Association">LITA</abbr> Forum](http://litaforum.org/) in Minneapolis, Minnesota, on November 14, 2015. I am grateful for the thoughtful and critical feedback from my friends and colleagues Maureen Callahan, Jarrett M. Drake, Hillel Arnold, Ben Armintor, Christina Harlow, and Chela Weber in their review of earlier drafts of this text.*
