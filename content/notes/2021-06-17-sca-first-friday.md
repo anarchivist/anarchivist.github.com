@@ -1,10 +1,8 @@
 ---
 slug: sca-first-friday
 date: 2021-06-17T18:49:10.931Z
-bookmark_of:
-  url: ""
 syndication:
-  - https://brid.gy/publish/twitter
-  - https://brid.gy/publish/mastodon
+  - https://twitter.com/anarchivist/status/1405600490315042820
+  - https://chaos.social/@anarchivist/106427596649877865
 ---
-Looking forward to joining the Society of California Archivists for the First Fridays discussion on July 2 about my [keynote at #agm2021](https://matienzo.org/2021/sca-agm2021/). More info and registration: https://calarchivists.org/event-4336046
+Looking forward to joining the Society of California Archivists for the First Fridays discussion on July 2 about my [keynote at #agm2021](https://matienzo.org/2021/sca-agm2021/). [More info and registration](https://calarchivists.org/event-4336046).
